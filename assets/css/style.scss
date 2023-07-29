@@ -27,10 +27,6 @@ body {
   background-color: #f2f2f2;
 }
 
-main {
-  overflow: hidden;
-}
-
 section {
   position: relative;
   padding-top: 2rem;
@@ -87,6 +83,9 @@ li {
 }
 
 .tab-navigation {
+  position: sticky;
+  top: 0;
+  z-index: 10;
   padding: 16px 0px;
   background-color: $color_primary1;
   margin-bottom: 3rem;
