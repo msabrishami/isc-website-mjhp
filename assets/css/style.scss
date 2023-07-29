@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+$color_primary: #000000;
+$color_secondary1: #eeff30;
+$color_secondary2: #f0f0f0;
+
+$font-family_1: "Poppins", sans-serif;
+$font-family_2: "recoleta", sans-serif;
+$font-family_3: "Poppins", sans-serif;
+
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+--------------------------------------------------------------*/
+body {
+  font-family: $font-family_1;
+  color: $color_primary;
+  font-variant-ligatures: no-common-ligatures;
+  background-color: $color_secondary2;
+}
+
+main {
+  overflow: hidden;
+}
+
+section {
+  position: relative;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+a {
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+h1 {
+  font-family: $font-family_1;
+}
+
+h2 {
+  font-family: $font-family_1;
+}
+
+h3 {
+  font-family: $font-family_1;
+}
+
+h4 {
+  font-family: $font-family_1;
+}
+
+h5 {
+  font-family: $font-family_1;
+}
+
+h6 {
+  font-family: $font-family_1;
+}
+
+/*--------------------------------------------------------------
+--------------------------------------------------------------*/
+
+@media screen and (max-width: 768px) {
+
+}
+
+@media (max-width: 991px) {
+}
+
+@media (min-width: 991px) {
+}
+
+@media (min-width: 992px) {
+
+}
+
+@media (max-width: 992px) {
+}
