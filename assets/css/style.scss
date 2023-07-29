@@ -89,6 +89,7 @@ li {
 .tab-navigation {
   padding: 16px 0px;
   background-color: $color_primary1;
+  margin-bottom: 3rem;
   .container {
     justify-content: center;
   }
@@ -133,7 +134,7 @@ li {
     grid-template-rows: repeat(3, 1fr);
     grid-column-gap: 0px;
     grid-row-gap: 0px;
-    margin-bottom: 5rem;
+    margin-bottom: 2rem;
 
     .outline {
       display: flex;
