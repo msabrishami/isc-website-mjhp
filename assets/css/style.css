@@ -75,6 +75,17 @@ li {
   padding: 16px 0px;
   background-color: #1a5460;
   margin-bottom: 3rem;
+  transition: all 0.25s ease-in-out;
+  transform-origin: top center;
+}
+.tab-navigation.fix-style {
+  padding: 8px 0;
+}
+.tab-navigation.fix-style .nav .nav-link {
+  font-size: 16px;
+}
+.tab-navigation.fix-style .nav .nav-link.active {
+  padding: 8px 12px;
 }
 .tab-navigation .container {
   justify-content: center;

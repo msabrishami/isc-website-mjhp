@@ -89,6 +89,20 @@ li {
   padding: 16px 0px;
   background-color: $color_primary1;
   margin-bottom: 3rem;
+  transition: all .25s ease-in-out;
+  transform-origin: top center;
+  &.fix-style {
+    padding: 8px 0;
+    .nav {
+          .nav-link {
+      font-size: 16px;
+      &.active {
+        padding: 8px 12px;
+      }
+    }
+    }
+
+  }
   .container {
     justify-content: center;
   }
@@ -177,7 +191,6 @@ li {
     }
   }
 
-
   .title-lvl2 {
     border-bottom: 2px solid $text_dark;
     padding-bottom: 1rem;
@@ -199,7 +212,6 @@ li {
   .alert {
     margin: 3rem auto 1rem;
   }
-
 }
 /*--------------------------------------------------------------
 --------------------------------------------------------------*/
