@@ -17,6 +17,7 @@ section {
   position: relative;
   padding-top: 2rem;
   padding-bottom: 0;
+  scroll-margin-top: 100px;
 }
 
 a {
@@ -233,6 +234,11 @@ li {
 /*--------------------------------------------------------------
 --------------------------------------------------------------*/
 @media screen and (min-width: 768px) {
+  section {
+    position: relative;
+    padding-top: 3rem;
+    scroll-margin-top: 50px;
+  }
   .tab-content .tab-outlines {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
@@ -242,10 +248,6 @@ li {
   }
 }
 @media (min-width: 991px) {
-  section {
-    position: relative;
-    padding-top: 5rem;
-  }
   .tab-content .tab-navigation.fix-style {
     padding: 8px 0;
   }
