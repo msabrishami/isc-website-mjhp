@@ -140,12 +140,10 @@ li {
     border-top: 3px solid $text_dark;
     padding-top: 1.5rem;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(5, 1fr);
     grid-column-gap: 16px;
     grid-row-gap: 32px;
     margin-bottom: 2rem;
-
+ 
     .outline {
       display: flex;
       flex-direction: column;
@@ -166,6 +164,24 @@ li {
         padding: 0;
         margin-bottom: 8px;
       }
+    }
+  }
+  #pills-bank{
+    .tab-outlines {
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(5, 1fr);
+    }
+  }
+  #pills-score{
+    .tab-outlines {
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(4, 1fr);
+    }
+  }
+  #pills-card{
+    .tab-outlines {
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(2, 1fr);
     }
   }
   h5 {
@@ -290,19 +306,30 @@ li {
     }
   }
   .tab-content {
-    .tab-outlines {
-      grid-template-columns: repeat(3, 1fr);
-      grid-template-rows: repeat(3, 1fr);
-      grid-column-gap: 16px;
-      grid-row-gap: 32px;
-      margin-bottom: 2rem;
+    #pills-bank{
+      .tab-outlines {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+      }
+    }
+    #pills-score{
+      .tab-outlines {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+      }
+    }
+    #pills-card{
+      .tab-outlines {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+      }
     }
   }
   .tab-navigation .nav {
     justify-content: center;
     gap: 32px;
     .nav-link {
-      width: 170px;
+      width: 150px;
       height: 50px;
       font-size: 18px;
     }
