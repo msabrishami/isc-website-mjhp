@@ -74,12 +74,14 @@ li {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 1rem 0;
   h1 {
-    font-size: 64px;
+    font-size: 32px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
     text-transform: capitalize;
+    margin-bottom: 0;
   }
 }
 
@@ -106,20 +108,20 @@ li {
       font-size: 14px;
       font-style: normal;
       line-height: normal;
-      font-weight: 400;
+      font-weight: 300;
       text-transform: capitalize;
       width: auto;
       height: 32px;
       padding: 0;
       &.active {
         display: flex;
-        padding: 0 8px;
+        padding: 0 12px;
         justify-content: center;
         align-items: center;
         color: $color_primary1;
         background-color: $color_primary2;
         border-radius: 5px;
-        font-weight: 600;
+        font-weight: 500;
       }
     }
   }
@@ -196,7 +198,7 @@ li {
 
   .title-lvl2 {
     border-bottom: 2px solid $text_dark;
-    padding-bottom: .5rem;
+    padding-bottom: 0.5rem;
     margin-bottom: 1rem;
     .outline {
       display: flex;
@@ -249,6 +251,29 @@ li {
       font-size: 14px;
     }
   }
+  .accordion {
+    .accordion-item {
+      margin-bottom: 8px;
+      border-radius: 5px;
+      overflow: hidden;
+      background-color: $color_secondary1;
+      p {
+        font-size: 14px;
+        margin-bottom: 0;
+      }
+      .accordion-button {
+        outline: none;
+        box-shadow: none;
+        &:not(.collapsed) {
+          background-color: $color_secondary1;
+          color: $text_dark;
+          &::after {
+            background-image: var(--bs-accordion-btn-icon);
+          }
+        }
+      }
+    }
+  }
 }
 /*--------------------------------------------------------------
 --------------------------------------------------------------*/
@@ -258,7 +283,11 @@ li {
     position: relative;
     padding-top: 3rem;
     scroll-margin-top: 50px;
-
+  }
+  .main-title {
+    h1 {
+      font-size: 48px;
+    }
   }
   .tab-content {
     .tab-outlines {
@@ -269,13 +298,22 @@ li {
       margin-bottom: 2rem;
     }
   }
+  .tab-navigation .nav {
+    justify-content: center;
+    gap: 32px;
+    .nav-link {
+      width: 170px;
+      height: 50px;
+      font-size: 18px;
+    }
+
+}
 }
 
 @media (max-width: 991px) {
 }
 
 @media (min-width: 991px) {
-
   .tab-content {
     .tab-navigation {
       &.fix-style {
@@ -291,13 +329,6 @@ li {
       }
       .container {
         justify-content: center;
-      }
-      .nav {
-        gap: 48px;
-        .nav-link {
-          width: 170px;
-          font-size: 20px;
-        }
       }
     }
     .tab-outlines {

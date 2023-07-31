@@ -60,13 +60,15 @@ li {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 1rem 0;
 }
 .main-title h1 {
-  font-size: 64px;
+  font-size: 32px;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
   text-transform: capitalize;
+  margin-bottom: 0;
 }
 
 .tab-navigation {
@@ -93,7 +95,7 @@ li {
   font-size: 14px;
   font-style: normal;
   line-height: normal;
-  font-weight: 400;
+  font-weight: 300;
   text-transform: capitalize;
   width: auto;
   height: 32px;
@@ -101,13 +103,13 @@ li {
 }
 .tab-navigation .nav .nav-link.active {
   display: flex;
-  padding: 0 8px;
+  padding: 0 12px;
   justify-content: center;
   align-items: center;
   color: #1a5460;
   background-color: #f7e3a3;
   border-radius: 5px;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .tab-content .tab-title {
@@ -226,6 +228,27 @@ li {
   font-family: "recoleta", sans-serif !important;
   font-size: 14px;
 }
+.tab-content .accordion .accordion-item {
+  margin-bottom: 8px;
+  border-radius: 5px;
+  overflow: hidden;
+  background-color: #fffdf8;
+}
+.tab-content .accordion .accordion-item p {
+  font-size: 14px;
+  margin-bottom: 0;
+}
+.tab-content .accordion .accordion-item .accordion-button {
+  outline: none;
+  box-shadow: none;
+}
+.tab-content .accordion .accordion-item .accordion-button:not(.collapsed) {
+  background-color: #fffdf8;
+  color: #061b1e;
+}
+.tab-content .accordion .accordion-item .accordion-button:not(.collapsed)::after {
+  background-image: var(--bs-accordion-btn-icon);
+}
 
 /*--------------------------------------------------------------
 --------------------------------------------------------------*/
@@ -235,12 +258,24 @@ li {
     padding-top: 3rem;
     scroll-margin-top: 50px;
   }
+  .main-title h1 {
+    font-size: 48px;
+  }
   .tab-content .tab-outlines {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
     grid-column-gap: 16px;
     grid-row-gap: 32px;
     margin-bottom: 2rem;
+  }
+  .tab-navigation .nav {
+    justify-content: center;
+    gap: 32px;
+  }
+  .tab-navigation .nav .nav-link {
+    width: 170px;
+    height: 50px;
+    font-size: 18px;
   }
 }
 @media (min-width: 991px) {
@@ -255,13 +290,6 @@ li {
   }
   .tab-content .tab-navigation .container {
     justify-content: center;
-  }
-  .tab-content .tab-navigation .nav {
-    gap: 48px;
-  }
-  .tab-content .tab-navigation .nav .nav-link {
-    width: 170px;
-    font-size: 20px;
   }
   .tab-content .tab-outlines {
     grid-template-columns: repeat(3, 1fr);
