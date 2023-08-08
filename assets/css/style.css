@@ -56,6 +56,38 @@ li {
 
 /*--------------------------------------------------------------
 --------------------------------------------------------------*/
+header {
+  background-image: url(../img/header/goldenGate.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 60vh;
+  position: relative;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+header::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background: linear-gradient(0deg, #061b1e 25%, #fff 100%);
+  mix-blend-mode: multiply;
+  z-index: 0;
+}
+header .container {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+  height: 100%;
+}
+header h1 {
+  font-size: 64px;
+  color: #f7e3a3;
+  z-index: 10;
+}
+
 .main-title {
   display: flex;
   justify-content: center;
@@ -110,6 +142,36 @@ li {
   background-color: #f7e3a3;
   border-radius: 5px;
   font-weight: 500;
+}
+
+.title-lvl1 {
+  border-bottom: 2px solid #061b1e;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1rem;
+}
+.title-lvl1 h2 {
+  margin-left: 0;
+  margin-bottom: 0;
+}
+
+.title-lvl2 {
+  border-bottom: 2px solid #061b1e;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1rem;
+}
+.title-lvl2 .outline {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.title-lvl2 .outline h2 {
+  margin-left: 8px;
+  margin-bottom: 0;
+}
+.title-lvl2 .outline img {
+  width: 24px;
+  height: 24px;
+  margin-bottom: 4px;
 }
 
 .tab-content .tab-title {
@@ -184,25 +246,6 @@ li {
 .tab-content .table tbody td {
   padding: 1rem;
 }
-.tab-content .title-lvl2 {
-  border-bottom: 2px solid #061b1e;
-  padding-bottom: 0.5rem;
-  margin-bottom: 1rem;
-}
-.tab-content .title-lvl2 .outline {
-  display: flex;
-  justify-content: start;
-  align-items: center;
-}
-.tab-content .title-lvl2 .outline h2 {
-  margin-left: 8px;
-  margin-bottom: 0;
-}
-.tab-content .title-lvl2 .outline img {
-  width: 24px;
-  height: 24px;
-  margin-bottom: 4px;
-}
 .tab-content .alert {
   margin: 1rem auto 1rem;
   color: #061b1e;
@@ -258,6 +301,41 @@ li {
 }
 .tab-content .accordion .accordion-item .accordion-button:not(.collapsed)::after {
   background-image: var(--bs-accordion-btn-icon);
+}
+
+.main-resources .card {
+  height: 200px;
+  position: relative;
+  margin-bottom: 2rem;
+  background-image: url(../img/landing/information.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: left center;
+  filter: grayscale(100%);
+}
+.main-resources .card p {
+  font-weight: 300;
+  margin-bottom: 0;
+}
+.main-resources .card .card-img-overlay {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+.main-resources .card .btn {
+  width: auto;
+  padding: 0.5rem 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1a5460;
+  color: #f7e3a3;
+  border: none;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
 }
 
 /*--------------------------------------------------------------

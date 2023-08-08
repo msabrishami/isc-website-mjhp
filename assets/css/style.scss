@@ -70,6 +70,38 @@ li {
 }
 /*--------------------------------------------------------------
 --------------------------------------------------------------*/
+
+header {
+  background-image: url(../img/header/goldenGate.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 60vh;
+  position: relative;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background: linear-gradient(0deg, $text_dark 25%, #fff 100%);
+    mix-blend-mode: multiply;
+    z-index: 0;
+  }
+  .container {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    height: 100%;
+  }
+  h1 {
+    font-size: 64px;
+    color: $color_primary2;
+    z-index: 10;
+  }
+}
 .main-title {
   display: flex;
   justify-content: center;
@@ -127,6 +159,37 @@ li {
   }
 }
 
+.title-lvl1 {
+  border-bottom: 2px solid $text_dark;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1rem;
+
+  h2 {
+    margin-left: 0;
+    margin-bottom: 0;
+  }
+}
+
+.title-lvl2 {
+  border-bottom: 2px solid $text_dark;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1rem;
+  .outline {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    h2 {
+      margin-left: 8px;
+      margin-bottom: 0;
+    }
+    img {
+      width: 24px;
+      height: 24px;
+      margin-bottom: 4px;
+    }
+  }
+}
+
 .tab-content {
   .tab-title {
     text-align: center;
@@ -143,7 +206,7 @@ li {
     grid-column-gap: 16px;
     grid-row-gap: 32px;
     margin-bottom: 2rem;
- 
+
     .outline {
       display: flex;
       flex-direction: column;
@@ -166,19 +229,19 @@ li {
       }
     }
   }
-  #pills-bank{
+  #pills-bank {
     .tab-outlines {
       grid-template-columns: repeat(2, 1fr);
       grid-template-rows: repeat(5, 1fr);
     }
   }
-  #pills-score{
+  #pills-score {
     .tab-outlines {
       grid-template-columns: repeat(2, 1fr);
       grid-template-rows: repeat(4, 1fr);
     }
   }
-  #pills-card{
+  #pills-card {
     .tab-outlines {
       grid-template-columns: repeat(2, 1fr);
       grid-template-rows: repeat(2, 1fr);
@@ -212,25 +275,6 @@ li {
     }
   }
 
-  .title-lvl2 {
-    border-bottom: 2px solid $text_dark;
-    padding-bottom: 0.5rem;
-    margin-bottom: 1rem;
-    .outline {
-      display: flex;
-      justify-content: start;
-      align-items: center;
-      h2 {
-        margin-left: 8px;
-        margin-bottom: 0;
-      }
-      img {
-        width: 24px;
-        height: 24px;
-        margin-bottom: 4px;
-      }
-    }
-  }
   .alert {
     margin: 1rem auto 1rem;
     color: $text_dark;
@@ -291,6 +335,45 @@ li {
     }
   }
 }
+
+.main-resources {
+  .card {
+    height: 200px;
+    position: relative;
+    margin-bottom: 2rem;
+    background-image: url(../img/landing/information.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left center;    filter: grayscale(100%);
+
+    p {
+      font-weight: 300;
+      margin-bottom: 0;
+    }
+    .card-img-overlay {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+      padding-left: 2rem;
+      padding-right: 2rem;
+
+    }
+    .btn {
+      width: auto;
+      padding: .5rem 1rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: $color_primary1;
+      color: $color_primary2;
+      border: none;
+      font-family: $font-family_2;
+      font-weight: 300;
+
+    }
+  }
+}
 /*--------------------------------------------------------------
 --------------------------------------------------------------*/
 
@@ -306,19 +389,19 @@ li {
     }
   }
   .tab-content {
-    #pills-bank{
+    #pills-bank {
       .tab-outlines {
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: repeat(3, 1fr);
       }
     }
-    #pills-score{
+    #pills-score {
       .tab-outlines {
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: repeat(3, 1fr);
       }
     }
-    #pills-card{
+    #pills-card {
       .tab-outlines {
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(2, 1fr);
@@ -333,8 +416,7 @@ li {
       height: 50px;
       font-size: 18px;
     }
-
-}
+  }
 }
 
 @media (max-width: 991px) {
