@@ -318,7 +318,7 @@ header .bottom-img {
   margin-bottom: 100px;
 }
 .main-resources .card {
-  height: 450px;
+  height: 420px;
   position: relative;
   margin-bottom: 2rem;
   background-color: white;
@@ -335,14 +335,14 @@ header .bottom-img {
   z-index: 0;
 }
 .main-resources .card .card-body {
-  display: flex;
   padding: 2rem;
   z-index: 5;
 }
 .main-resources .card .card-body .row {
   height: 100%;
-  background-color: rgba(255, 255, 255, 0.8);
   border-radius: 5px;
+  transition: all 0.5s ease-in-out;
+  background-color: rgba(255, 255, 255, 0.8);
 }
 .main-resources .card .card-body .row .card-content {
   display: flex;
@@ -357,6 +357,8 @@ header .bottom-img {
 }
 .main-resources .card .card-body .row .card-content .card-title {
   font-size: 24px;
+  transition: all 0.4s ease-in-out;
+  margin-bottom: 0.5rem;
 }
 .main-resources .card .card-body .row .right-col {
   display: flex;
@@ -371,8 +373,10 @@ header .bottom-img {
   display: flex;
 }
 .main-resources .card .card-body .card-text {
+  transition: all 0.5s ease-in-out;
+  opacity: 1;
+  visibility: visible;
   display: block;
-  transition: all 0.5s cubic-bezier(0.03, 0.19, 0.14, 0.5);
   margin-bottom: 0;
   color: #061b1e;
   font-size: 14px;
@@ -387,9 +391,10 @@ header .bottom-img {
   position: absolute;
   left: -0.75rem;
   top: 0;
-  bottom: 0;
+  height: 100%;
   width: 3px;
   background-color: #1a5460;
+  transition: all 0.5s ease-in-out;
 }
 .main-resources .card .btn {
   width: 200px;
@@ -409,6 +414,7 @@ header .bottom-img {
 .main-resources .card .btn:hover, .main-resources .card .btn:focus {
   box-shadow: 0px 3px 5px 2px rgba(0, 0, 0, 0.2078431373);
 }
+
 /*--------------------------------------------------------------
 --------------------------------------------------------------*/
 @media screen and (min-width: 768px) {
@@ -488,17 +494,42 @@ header .bottom-img {
   .main-resources .card .card-text {
     font-size: 16px;
   }
+  .main-resources .card .card-body .row {
+    background-color: rgba(255, 255, 255, 0.4);
+  }
   .main-resources .card .card-body .row .card-content {
     padding: 1rem 2rem;
-    padding-bottom: 2rem;
     justify-content: center;
     align-items: start;
   }
   .main-resources .card .card-body .row .card-content .card-title {
     font-size: 28px;
+    margin-bottom: 0;
+  }
+  .main-resources .card .card-body .row .card-content .card-text {
+    height: 0;
+    visibility: hidden;
+    opacity: 0;
+  }
+  .main-resources .card .card-body .row .card-content .card-text::before {
+    height: 0;
   }
   .main-resources .card .card-body .row .right-col {
     justify-content: center;
     margin-bottom: 0;
+  }
+  .main-resources .card:hover .card-body .row, .main-resources .card:focus .card-body .row {
+    background-color: rgba(255, 255, 255, 0.8);
+  }
+  .main-resources .card:hover .card-body .row .card-title, .main-resources .card:focus .card-body .row .card-title {
+    margin-bottom: 0.5rem;
+  }
+  .main-resources .card:hover .card-body .row .card-text, .main-resources .card:focus .card-body .row .card-text {
+    height: 60px;
+    visibility: visible;
+    opacity: 1;
+  }
+  .main-resources .card:hover .card-body .row .card-text::before, .main-resources .card:focus .card-body .row .card-text::before {
+    height: 100%;
   }
 }/*# sourceMappingURL=style.css.map */

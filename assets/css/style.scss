@@ -351,7 +351,7 @@ header {
 .main-resources {
   margin-bottom: 100px;
   .card {
-    height: 450px;
+    height: 420px;
     position: relative;
     margin-bottom: 2rem;
     background-color: white;
@@ -371,8 +371,6 @@ header {
     }
 
     .card-body {
-      display: flex;
-
       // display: flex;
       // flex-direction: column;
       // justify-content: center;
@@ -383,8 +381,9 @@ header {
       z-index: 5;
       .row {
         height: 100%;
-        background-color: rgba(255, 255, 255, 0.8);
         border-radius: 5px;
+        transition: all 0.5s ease-in-out;
+        background-color: rgba(255, 255, 255, 0.8);
 
         .card-content {
           display: flex;
@@ -398,7 +397,10 @@ header {
           padding-left: 1.5rem;
           .card-title {
             font-size: 24px;
+            transition: all 0.4s ease-in-out;
+margin-bottom: 0.5rem;
           }
+
         }
         .right-col {
           display: flex;
@@ -413,21 +415,13 @@ header {
           display: flex;
         }
       }
+
       .card-text {
-        // position: absolute;
-        // top: 100%;
-        // bottom: 0;
-        // right: 0;
-        // left: 0;
+        transition: all 0.5s ease-in-out;
+        opacity: 1;
+        visibility: visible;
         display: block;
-        // visibility: hidden;
-        // height: 0;
-        // opacity: 0;
-        // background-color: rgba(6, 27, 30, 0.8);
-        transition: all 0.5s cubic-bezier(0.03, 0.19, 0.14, 0.5);
-        // padding: 1rem 2rem;
         margin-bottom: 0;
-        // margin-top: 2rem;
         color: $text_dark;
         font-size: 14px;
         font-weight: 400;
@@ -440,9 +434,11 @@ header {
           position: absolute;
           left: -0.75rem;
           top: 0;
-          bottom: 0;
+          height: 100%;
           width: 3px;
           background-color: $color_primary1;
+          transition: all 0.5s ease-in-out;
+
         }
       }
     }
@@ -464,24 +460,6 @@ header {
       &:focus {
         box-shadow: 0px 3px 5px 2px #00000035;
       }
-    }
-    &:hover,
-    &:focus {
-      // .card-img-overlay {
-      //   filter: grayscale(30%);
-      //   opacity: 0.9;
-      // }
-      // .row {
-      //   .card-content{
-      //     background-color: rgba(255, 255, 255, 0.8);
-      //   }
-      // }
-      // .card-text {
-      //   opacity: 1;
-      //   margin-top: 0;
-      //   height: 50px;
-      //   visibility: visible;
-      // }
     }
   }
 }
@@ -593,24 +571,56 @@ header {
 
       .card-body {
         .row {
+          background-color: rgba(255, 255, 255, 0.4);
+
           .card-content {
             padding: 1rem 2rem;
-            padding-bottom: 2rem;
+            // padding-bottom: 2rem;
             justify-content: center;
             align-items: start;
             .card-title {
               font-size: 28px;
+              margin-bottom: 0;
+
+            }
+            .card-text {
+              height: 0;
+              visibility: hidden;
+              opacity: 0;
+              &::before {
+                height: 0;
+              }
             }
           }
           .right-col {
             justify-content: center;
             margin-bottom: 0;
+          }
+        }
+      }
+      &:hover,
+      &:focus {
+        .card-body {
+          .row {
+            background-color: rgba(255, 255, 255, 0.8);
+  
+            .card-title{
+              margin-bottom: .5rem;
+            }
+            .card-text {
+              height: 60px;
+              visibility: visible;
+              opacity: 1;
+              &::before {
+                // height: 20px;
+                height: 100%;
 
+              }
+            }
           }
         }
       }
     }
-
   }
 }
 
