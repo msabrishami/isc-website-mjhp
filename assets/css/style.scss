@@ -357,6 +357,7 @@ header {
   background-position: left center;
   overflow: hidden;
   transition: all 0.3s ease-in-out;
+  transform-origin: center;
   .card-content {
     z-index: 10;
   }
@@ -374,12 +375,15 @@ header {
     display: block;
     margin-bottom: 0;
     color: $text_dark;
-    font-size: 14px;
+    font-size: 0.875rem;
     font-weight: 400;
     letter-spacing: 1px;
     transform-origin: 50% top;
     position: relative;
     margin-left: 0.75rem;
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(5px);
+
     &::before {
       content: "";
       position: absolute;
@@ -395,8 +399,10 @@ header {
   &:hover,
   &:focus,
   &:active {
+    // width: 101%;
+    // height: 101%;
     // border-color: red;
-    transform: scale(1.02);
+    // transform: scale(1.02);
     box-shadow: 0px 3px 5px 2px #00000025;
     // .card-img-overlay {
     //   right: -5px;
@@ -503,7 +509,7 @@ header {
       }
     }
     .card-body {
-      height: 99px;
+      height: 109px;
       border-radius: 15px;
       background: linear-gradient(
         270deg,
@@ -513,12 +519,22 @@ header {
       background-blend-mode: multiply;
       display: flex;
       justify-content: start;
-      align-items: center;
+      align-items: start;
 
       .card-title {
         margin-bottom: 0;
         color: $text_dark;
         font-size: 32px;
+      }
+      .card-text {
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        height: 44px;
+        margin-left: 0;
+        padding-left: 1rem;
+        padding-right: 1rem;
       }
     }
     .card-img-overlay {
@@ -690,6 +706,32 @@ header {
               }
             }
           }
+        }
+      }
+    }
+  }
+  .information-portal {
+    .card {
+      .card-body {
+        align-items: center;
+        .card-title {
+          margin-bottom: 0;
+          transition: all 0.3s ease-in-out;
+
+        }
+        .card-text {
+          height: 0;
+          padding-top: 5px;
+        }
+      }
+      &:hover {
+        .card-body {
+          .card-title {
+            margin-bottom: 3rem;
+          }
+          .card-text {
+            height: 60px;
+            line-height: 1.2;          }
         }
       }
     }
