@@ -519,12 +519,12 @@ header {
       background-blend-mode: multiply;
       display: flex;
       justify-content: start;
-      align-items: start;
+      align-items: center;
 
       .card-title {
         margin-bottom: 0;
         color: $text_dark;
-        font-size: 32px;
+        font-size: 24px;
       }
       .card-text {
         position: absolute;
@@ -535,6 +535,7 @@ header {
         margin-left: 0;
         padding-left: 1rem;
         padding-right: 1rem;
+        display: none;
       }
     }
     .card-img-overlay {
@@ -712,6 +713,8 @@ header {
   }
   .information-portal {
     .card {
+      // background: linear-gradient(270deg, #1A5460 0%, rgba(247, 227, 163, 0.21) 100%);
+
       .card-body {
         align-items: center;
         .card-title {
@@ -720,8 +723,9 @@ header {
 
         }
         .card-text {
+          display: block;
+
           height: 0;
-          padding-top: 5px;
         }
       }
       &:hover {
@@ -731,7 +735,9 @@ header {
           }
           .card-text {
             height: 60px;
-            line-height: 1.2;          }
+            line-height: 1.2;   
+            padding-top: 5px;
+          }
         }
       }
     }
