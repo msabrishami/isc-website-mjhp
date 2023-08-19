@@ -104,6 +104,7 @@ header .bottom-img {
   justify-content: center;
   align-items: center;
   margin: 1rem 0;
+  position: relative;
 }
 .main-title h1 {
   font-size: 32px;
@@ -112,6 +113,19 @@ header .bottom-img {
   line-height: normal;
   text-transform: capitalize;
   margin-bottom: 0;
+}
+.main-title .back-to-IP {
+  position: absolute;
+  left: 0;
+  display: flex;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  text-decoration: underline;
+  color: #1a5460;
+}
+.main-title .back-to-IP svg {
+  height: 24px;
+  width: 24px;
 }
 
 .tab-navigation {
