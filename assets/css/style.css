@@ -573,6 +573,9 @@ main.container {
   }
 }
 @media (min-width: 991px) {
+  .top-section h1 {
+    font-size: 48px;
+  }
   .tab-content .tab-navigation.fix-style {
     padding: 8px 0;
   }
