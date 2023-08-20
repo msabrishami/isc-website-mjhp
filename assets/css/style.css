@@ -56,6 +56,11 @@ li {
 
 /*--------------------------------------------------------------
 --------------------------------------------------------------*/
+main.container {
+  width: 100vw;
+  padding: 0;
+}
+
 .top-section {
   z-index: -1;
   margin-top: -250px;
@@ -63,8 +68,9 @@ li {
   background-position: center;
   height: 50vh;
   position: relative;
-  padding: 3rem;
-  position: relative;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
 }
 .top-section::before {
   content: "";
@@ -84,9 +90,10 @@ li {
   height: 100%;
 }
 .top-section h1 {
-  font-size: 64px;
+  font-size: 32px;
   color: #f7e3a3;
   z-index: 10;
+  margin-bottom: 2rem;
 }
 .top-section .bottom-img {
   position: absolute;
