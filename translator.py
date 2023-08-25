@@ -5,7 +5,7 @@ import sys
 
 html = config.top_html
 # condition to check argv is given - TODO 
-if len(sys.argv != 3):
+if len(sys.argv) != 3:
     print("Error: provide the filenames, <input>.md and <output>.html")
 
 def gen_paragraph(par, style):
