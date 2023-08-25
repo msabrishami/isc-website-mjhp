@@ -1,8 +1,12 @@
 import re
 import config
 import pdb
+import sys
 
 html = config.top_html
+# condition to check argv is given - TODO 
+if len(sys.argv != 3):
+    print("Error: provide the filenames, <input>.md and <output>.html")
 
 def gen_paragraph(par, style):
     if style in ["h1", "h2"]:
@@ -24,7 +28,6 @@ def md2html_pars(pars, style):
     if isinstance(pars, str):
         pars = ["".join(pars)]
     for line in pars:
-        print(line)
 		# bold and italic 
         line = re.sub(r'\*\*(.*?)\*\*', r'<strong>\1</strong>', line)
         line = re.sub(r'\*(.*?)\*', r'<i>\1</i>', line)
@@ -85,7 +88,7 @@ def md2html_notes(notes):
 
 
 # Sample input
-with open("input.md", "r") as file:
+with open(sys.argv[1], "r") as file:
     lines = file.readlines()
 
 # Variables to hold data
@@ -101,10 +104,6 @@ for line in lines:
     line = line.strip()
     # if not line:
     #     continue
-    print(f".{len(line)}" + line)
-    
-    # if "alef" in line:
-    #     pdb.set_trace()
 
     if line.startswith("# "):
         h1 = line[2:]
@@ -147,10 +146,6 @@ if current_h2:
         current_h2['h3s'].append(current_h3)
     h2s.append(current_h2)
 
-
-pdb.set_trace()
-
-
 # Generate HTML
 html += f'''
 <div class="container">
@@ -189,7 +184,6 @@ html += '''
 '''
 
 for paragraph in intro_text:
-    print("." + paragraph)
     html += f'''
                 <p>{paragraph}</p>
     '''
@@ -212,7 +206,6 @@ for h2 in h2s:
     '''
     
     # creating the intro below h2 
-    print(h2['title'])
     html += md2html_pars(h2['paragraphs'], "h2")
     # html += md2html_notes(h2['notes'])
     # for paragraph in h2['paragraphs']:
@@ -238,5 +231,5 @@ html += '''
 </div>
 '''
 html += config.tail_text
-with open("output.html", "w") as output_file:
+with open(sys.argv[2], "w") as output_file:
     output_file.write(html)
