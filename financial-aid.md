@@ -1,4 +1,3 @@
-
 # Introduction
 
 Before we delve into the details, it's essential to comprehend the concept of tuition. In the United States, tuition refers to the price you pay for instruction at a university or college. This can be a substantial cost, especially for international students, but there are numerous sources of financial aid available that can help you manage these expenses. 
@@ -128,3 +127,259 @@ Work-study positions often pay at least the federal minimum wage, but some jobs 
 ### Employment Based Payment 
 
 It is important to understand that teaching assistantship (TAship), research assistantship (RAship), grader, or mentorship positions are not considered as financial aids. Students are paid for such positions. For more information, please refer to the section related to working regulations for students. 
+
+
+# Eligibility 
+
+
+## Undergraduate Students
+
+Eligibility for undergraduate students for any kind of financial assistance is based on the following:
+
+
+### Grants and Scholarships 
+
+**Need-Based Grants and Scholarships:**
+
+
+
+* Eligibility: Undergraduate students with demonstrated financial need.
+* Criteria: Family income, assets, household size, and number of family members in college.
+
+**Merit-Based Scholarships:**
+
+
+
+* Eligibility: Undergraduate students with strong academic records, extracurricular achievements, and leadership qualities.
+* Criteria: High school GPA, standardized test scores, community involvement, achievements.
+
+
+### Federal Student Aid 
+
+**Pell Grant: **
+
+
+
+* Eligibility: Undergraduate students with exceptional financial need.
+* Criteria: Financial need calculated using the Free Application for Federal Student Aid (FAFSA).
+
+**Federal Work-Study:**
+
+
+
+* Eligibility: Undergraduate students with financial need.
+* Criteria: Financial need determined by FAFSA, availability of work-study positions.
+
+
+### Loans
+
+**Direct Subsidized Loans:**
+
+
+
+* Eligibility: Undergraduate students with financial need.
+* Criteria: Financial need determined by FAFSA, enrollment in eligible programs.
+
+**Direct Unsubsidized Loans:**
+
+
+
+* Eligibility: Available to both undergraduate and graduate students.
+* Criteria: Enrollment in eligible programs.
+
+
+### State Grants 
+
+**Cal Grant (California): **
+
+
+
+* Eligibility: California residents pursuing higher education in-state.
+* Criteria: Financial need, academic achievement, application through the California Student Aid Commission.
+
+
+### Institutional Scholarships
+
+**University Scholarships:**
+
+
+
+* Eligibility: Undergraduate students admitted to specific universities.
+* Criteria: Academic merit, potential contributions to the university community.
+
+
+### Private Scholarships
+
+**External Scholarships:**
+
+
+
+* Eligibility: Undergraduate students applying for scholarships from external organizations, foundations, or corporations.
+* Criteria: Vary based on scholarship provider, including academic achievements, extracurriculars, and personal qualities.
+
+
+## Master Students
+
+Eligibility for graduate students for any kind of financial assistance is based on the following:
+
+
+### Fellowships and Scholarships
+
+**Research Fellowships:**
+
+
+
+* Eligibility: Graduate students pursuing research-intensive programs or projects.
+* Criteria: Strong research proposals, academic excellence, alignment with fellowship's research goals.
+
+**University Fellowships:**
+
+
+
+* Eligibility: Competitive graduate candidates with outstanding academic records.
+* Criteria: Academic achievements, potential contributions to the academic community, research interests.
+
+**External Fellowships:**
+
+
+
+* Eligibility: Graduate students applying for fellowships from external organizations or foundations.
+* Criteria: Varied criteria based on the organization's focus, including academic achievements, research plans, and field of study.
+
+
+### Graduate Assistantships
+
+**Teaching Assistantships (TA):**
+
+
+
+* Eligibility: Graduate students with strong communication skills and expertise in relevant subjects.
+* Criteria: Academic standing, relevant skills, departmental needs.
+
+**Research Assistantships (RA):**
+
+
+
+* Eligibility: Graduate students with research skills aligned with faculty projects.
+* Criteria: Research expertise, academic achievements, research interests.
+
+
+### Grants and Research Funding
+
+**Research Grants:**
+
+
+
+* Eligibility: Graduate students conducting original research projects.
+* Criteria: Alignment with grant's research goals, feasibility, potential impact.
+
+
+### Loan Programs 
+
+**Direct Unsubsidized Loans:**
+
+
+
+* Eligibility: Graduate students pursuing advanced degrees.
+* Criteria: Enrollment in eligible program, completion of the FAFSA, credit check for Graduate PLUS Loans.
+
+
+### Institutional Scholarships 
+
+**Program-Specific Scholarships:**
+
+
+
+* Eligibility: Graduate students within specific academic programs.
+* Criteria: Academic merit, potential contributions to the program.
+
+**Employer Sponsorship:**
+
+
+
+* Eligibility: Graduate students employed while pursuing their degree.
+* Criteria: Determined by employer's policies and objectives.
+
+
+## PhD Students
+
+Eligibility for PhD students for any kind of financial assistance is based on the following:
+
+Fellowships and Scholarships #H3
+
+**Research Fellowships:**
+
+
+
+* Eligibility: Ph.D. students with a strong research proposal or ongoing research projects related to their field.
+* Criteria: Academic merit, research potential, alignment with the fellowship's research focus.
+
+**University Fellowships:**
+
+
+
+* Eligibility: Competitive Ph.D. candidates often with outstanding academic records and research potential.
+* Criteria: Academic achievements, potential contributions to the academic community, research interests.
+
+**External Fellowships:**
+
+
+
+* Eligibility: Ph.D. students applying for fellowships from external organizations or foundations. 
+* Criteria: Vary widely based on the organization's focus, including academic achievements, research plans, and field of study.
+
+
+Graduate Assistantships
+**Teaching Assistantships (TA):**
+
+
+* Eligibility: Ph.D. students with strong communication skills and expertise in a relevant subject.
+* Criteria: Academic standing, relevant skills, departmental needs.
+
+**Research Assistantships (RA):**
+
+
+
+* Eligibility: Ph.D. students with research skills aligned with a faculty member's project.
+* Criteria: Research expertise, academic achievements, research interests.
+
+Grants and Research Funding
+
+**Research Grants:**
+
+
+
+* Eligibility: Ph.D. students conducting original research projects.
+* Criteria: Alignment with the grant's research goals, feasibility, potential impact.
+
+
+### Loan Programs
+
+**Direct Unsubsidized Loans:**
+
+
+
+* Eligibility: Ph.D. students pursuing advanced degrees.
+* Criteria: Enrollment in an eligible program, completion of the FAFSA, credit check for Graduate PLUS Loans
+
+
+### Institutional Scholarships
+
+**Ph.D. Program Scholarships:**
+
+
+
+* Eligibility: Ph.D. students within specific academic programs.
+* Criteria: Academic merit, research potential, contributions to the program.
+
+**Employer Sponsorship:**
+
+
+
+* Eligibility: Ph.D. students employed while pursuing their degree.
+* Criteria: Often determined by the employer's policies and goals.
+
+
+## International Students
+
+Financial aid eligibility for international students can vary significantly depending on the country, institution, and specific program. Many countries and institutions offer scholarships and financial aid for international students, often based on academic achievement, leadership potential, or other unique criteria. Language proficiency (e.g., English proficiency for international students) and specific requirements for international applicants may also play a role.
