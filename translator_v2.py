@@ -87,16 +87,7 @@ while (ptr_f < len(lines)-1):
                 current_h2['h3s'].append(current_h3)
             current_h3 = {'title': line[4:], 'paragraphs': []}
             current_level = 'h3'
-        # elif line.startswith("```"):
-        #     if in_note_box:
-        #         in_note_box = False
-        #         current_h2['notes'].append(' '.join(note_content))
-        #         note_content = []
-        #     else:
-        #         in_note_box = True
-    
-        # elif line and in_note_box:
-        #     note_content.append(line)
+        
         elif line:
             if current_level == 'h3':
                 current_h3['paragraphs'].append(line)
@@ -110,31 +101,12 @@ while (ptr_f < len(lines)-1):
             current_h2['h3s'].append(current_h3)
         h2s.append(current_h2)
     
-    # Generate HTML
-    # <div class="container">
-    # <div class="tab-content" id="pills-tabContent">
-
-    # html += f'''
-    #         <div
-    #             class="tab-pane fade show active"
-    #             id="pills-bank"
-    #             role="tabpanel"
-    #             aria-labelledby="pills-bank-tab"
-    #             tabindex="0">
-    #             <section>
-    #                 <div class="tab-title">
-    #                     <h2>{h1}</h2>
-    #                 </div>
-    # 
-    #                 <div class="tab-outlines">
-    # '''
     h1_id = h1.replace(" ", "-").lower()
     show_status = "show active" if len(h1s)==1 else ""
     html += config.html_tab.format(show_status, h1_id, h1_id, h1)
     icons = [
         "mdi-bank", "mdi-account-cash", "mdi-cash-fast",
-        "mdi-credit-card", "mdi-checkbook"
-    ]
+        "mdi-credit-card", "mdi-checkbook"]
     
     for idx, h2 in enumerate(h2s):
         sec_id = re.sub(r'[^a-z0-9]', '', h2['title'].lower())
@@ -157,10 +129,7 @@ while (ptr_f < len(lines)-1):
                     </div>
     '''
     
-    for paragraph in intro_text:
-        html += f'''
-                    <p>{paragraph}</p>
-        '''
+    html += md2html_pars(intro_text,"h1") 
     html += '''
              </section>
              <!-- End of First Section  -->
@@ -181,17 +150,12 @@ while (ptr_f < len(lines)-1):
         
         # creating the intro below h2 
         html += md2html_pars(h2['paragraphs'], "h2")
-        # html += md2html_notes(h2['notes'])
-        # for paragraph in h2['paragraphs']:
-        #     print("." + paragraph)
-        #     html += gen_paragraph(paragraph, 'h2')
     
         # creating the h3s within this h2
         for h3 in h2['h3s']:
             html += f'''
                         <h5>{h3['title']}</h5>
             '''
-            # html += gen_paragraph(h3['paragraph'], 'h3')
             html += md2html_pars(h3['paragraphs'], 'h3')
     
         html += '''
