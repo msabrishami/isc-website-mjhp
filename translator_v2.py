@@ -38,15 +38,12 @@ for idx, line in enumerate(lines):
         ptr_s = idx
         break
 
-# html += f'''
+# html = f'''
 #     <div class="container">
 #         <div class="tab-content" id="pills-tabContent">
 #     '''
-html = f'''
-    <div class="container">
-        <div class="tab-content" id="pills-tabContent">
-    '''
 
+html = config.html_tab_content_head
 
 while (ptr_f < len(lines)-1):
     ptr_f = ptr_s + 1
@@ -64,9 +61,6 @@ while (ptr_f < len(lines)-1):
     # Process lines
     for line in lines[ptr_s:ptr_f]:
         line = line.strip()
-        # print("." + line)
-        # if not line:
-        #     continue
     
         if line.startswith("# "):
             h1 = line[2:]
@@ -103,19 +97,13 @@ while (ptr_f < len(lines)-1):
     
     h1_id = h1.replace(" ", "-").lower()
     show_status = "show active" if len(h1s)==1 else ""
-    html += config.html_tab.format(show_status, h1_id, h1_id, h1)
+    html += config.html_tab_content.format(show_status, h1_id, h1_id, h1)
     icons = [
         "mdi-bank", "mdi-account-cash", "mdi-cash-fast",
         "mdi-credit-card", "mdi-checkbook"]
     
     for idx, h2 in enumerate(h2s):
         sec_id = re.sub(r'[^a-z0-9]', '', h2['title'].lower())
-        # html += f'''
-        #                 <a class="outline" href="#secid{secid}">
-        #                     <i class="iconify" data-icon="{icons[idx % len(icons)]}"></i>
-        #                     <h2 class="h6">{h2['title']}</h2>
-        #                 </a>
-        # '''
         
         html += f'''
                         <a class="outline" href="#secid{sec_id}">
@@ -127,42 +115,53 @@ while (ptr_f < len(lines)-1):
     # Main Content
     html += '''
                     </div>
+                    <!-- ==== End of Tab Outlines ==== -->
+
+
     '''
     
     html += md2html_pars(intro_text,"h1") 
     html += '''
-             </section>
-             <!-- End of First Section  -->
+                </section>
+                <!-- ==== End of H1 title and outline Section ==== -->
     '''
     
     for h2 in h2s:
         secid = re.sub(r'[^a-z0-9]', '', h2['title'].lower())
         # creating the h2 linked to the outline
         html += f'''
-                    <section id="secid{secid}">
-    					<div class="title-lvl2">
-    						<div class="outline">
-    							<i class="iconify" data-icon="mdi-bank"></i>
-    							<h2 class="h4">{h2['title']}</h2>
-    						</div>
-    					</div>	
+                <!-- ==== Starting a new H2 === -->
+                <section id="secid{secid}">
+                    <div class="title-lvl2">
+                        <div class="outline">
+                            <i class="iconify" data-icon="mdi-bank"></i>
+                            <h2 class="h4">{h2['title']}</h2>
+    					</div>
+    				</div>	
+                    
         '''
         
+
         # creating the intro below h2 
         html += md2html_pars(h2['paragraphs'], "h2")
     
         # creating the h3s within this h2
         for h3 in h2['h3s']:
             html += f'''
-                        <h5>{h3['title']}</h5>
+                    <h5>{h3['title']}</h5>
             '''
             html += md2html_pars(h3['paragraphs'], 'h3')
     
         html += '''
-                    </section>
+                </section>
+                <!-- ==== End of this H2 ==== -->
         '''
     html += '''
-                </div>
+            </div>
+            <!-- ==== End of this Tab (H1) ==== -->
+
+
+
     '''
     print("Done with this Tab")
     ptr_s = ptr_f
@@ -190,3 +189,7 @@ html_ += '''
 html_ += config.tail_text
 with open(sys.argv[2], "w") as output_file:
     output_file.write(html_)
+
+
+
+#<!-- ====End of  H1.title, outline of H2s, main content ==== -->

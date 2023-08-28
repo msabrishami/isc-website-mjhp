@@ -12,3 +12,7 @@ Here is the process flow I suggest:
 * Make sure the Markdown does not have an invalid item.
 * Run the code on input.md and it generates the html for you in output.html
 * You can first test the html on your computer, but that is NOT enough, it needs to be pushed and viewed to make sure all iconos are correct.
+
+
+## Important Notes:
+* NO dots in H1 (and probably H2) strings. 

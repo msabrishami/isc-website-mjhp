@@ -7,13 +7,13 @@ import re
 def gen_paragraph(par, style):
     if style in ["h1", "h2"]:
         res = f'''
-            <p>{par}</p>
-            '''
+                    <p>{par}</p>
+                    '''
 
     elif style == "h3":
         res = f'''
-            <p class="ms-3">{par}</p>
-            '''
+                    <p class="ms-3">{par}</p>
+                    '''
 
     return res
 
@@ -45,9 +45,9 @@ def md2html_pars(pars, style):
         # itemized list, the line starts with '*'
         if line.startswith('*'):
             if not in_list:
-                res += '<ul>\n'
+                res += '\n<ul>\n'
                 in_list = True
-            res  += f'<li>{line[1:].strip()}</li>\n'
+            res  += f'\t<li>{line[1:].strip()}</li>\n'
         else:
             if in_list:
                 res += '</ul>\n'
@@ -57,9 +57,9 @@ def md2html_pars(pars, style):
             if in_note:
                 res+= line
             elif style in ["h1", "h2"]:
-                res += f'<p>{line}</p>\n'
+                res += f'\t\t\t<p>{line}</p>\n'
             elif style in ["h3"]:
-                res += f'<p class="ms-3">{line}</p>\n'
+                res += f'\t\t<p class="ms-3">{line}</p>\n'
             else:
                 print("Warning: paragraph with unknown style!")
                 res += f'<p>{line}</p>\n'
