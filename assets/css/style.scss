@@ -142,6 +142,7 @@ main.container {
     font-family: $font-family_2;
     text-decoration: underline;
     color: $color_primary1;
+    text-transform: uppercase;
     svg {
       height: 24px;
       width: 24px;
@@ -226,6 +227,7 @@ main.container {
       width: 24px;
       height: 24px;
       margin-bottom: 4px;
+      color: $text_dark;
     }
   }
 }
@@ -244,14 +246,47 @@ main.container {
     padding-top: 1.5rem;
     display: grid;
     grid-column-gap: 16px;
-    grid-row-gap: 32px;
+    grid-row-gap: 16px;
     margin-bottom: 2rem;
+
+    .outline-container {
+      display: flex;
+      justify-content: flex-start;
+      align-items: flex-end;
+      height: 115px;
+    }
 
     .outline {
       display: flex;
       flex-direction: column;
       justify-content: start;
       align-items: center;
+      padding: 0.5rem;
+      border-radius: 5px;
+      position: relative;
+      transition: all 0.25s ease-in-out;
+      width: 100%;
+      &::before {
+        content: "";
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        height: 100%;
+        border-radius: 5px;
+        background-color: transparent;
+        transition: all 0.25s ease-in-out;
+      }
+      &::after {
+        content: "";
+        position: absolute;
+        left: 5px;
+        right: 5px;
+        bottom: 0;
+        height: 2px;
+        background-color: $text_dark;
+        transition: all 0.2s ease-in-out;
+      }
       h2 {
         color: $text_dark;
         text-align: center;
@@ -266,6 +301,17 @@ main.container {
         height: 32px;
         padding: 0;
         margin-bottom: 8px;
+        color: $text_dark;
+      }
+      &:hover,
+      &:focus {
+        &::before {
+          background-color: rgb(26 84 96 / 10%);
+        }
+        &::after {
+          left: 0;
+          right: 0;
+        }
       }
     }
   }
@@ -689,18 +735,22 @@ main.container {
       grid-template-columns: repeat(3, 1fr);
       grid-template-rows: repeat(3, 1fr);
       grid-column-gap: 16px;
-      grid-row-gap: 32px;
+      grid-row-gap: 24px;
       margin-bottom: 2rem;
-
+      .outline-container {
+        align-items: center;
+        height: auto;
+      }
       .outline {
         flex-direction: row;
-        padding: 4px;
+        padding: 0.5rem;
+        width: auto;
+
         svg {
           width: 20px;
           height: 20px;
           margin-bottom: 0;
           margin-right: 8px;
-          color: $text_dark;
         }
       }
     }
@@ -761,7 +811,6 @@ main.container {
             opacity: 1;
             visibility: visible;
             display: block;
-
           }
         }
       }
