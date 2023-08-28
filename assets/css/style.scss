@@ -646,6 +646,41 @@ main.container {
     }
   }
 }
+
+footer {
+  // min-height: 150px;
+  padding: 2rem;
+  background-color: $color_primary1;
+  .social-media-links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    a {
+      width: 40px;
+      height: 40px;
+      background-color: #fff;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      transition: all 0.25s ease-in-out;
+      margin: .25rem;
+      svg {
+        width: 20px;
+        height: 20px;
+        color: $color_primary1;
+      }
+      &:hover {
+        background-color: $color_primary2;
+        box-shadow: 0px 3px 5px 2px #00000025;
+      }
+    }
+   
+  }
+  p {
+    color: white;
+  }
+}
 /*--------------------------------------------------------------
 --------------------------------------------------------------*/
 
