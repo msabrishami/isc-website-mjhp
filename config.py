@@ -367,19 +367,52 @@ tab_html = '''
       <!-- End Tabs Navigation -->
       '''
 
+html_footer ='''
+
+<!-- ======= Footer ======= -->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 col-md-5 d-flex align-items-center">
+                <div>
+                    <p class="h6 mb-3 mx-auto mb-md-2">Iranian Students of California</p>
+                    <p class="sponsor small fw-light">
+                    Information Portal is sponsored by
+                    <a class="d-block d-md-inline" 
+                        href="https://parsequalitycenter.org/" 
+                        target="_blank">Pars Equality Center
+                    </a>
+                    </p>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-7">
+                <div class="social-media-links">
+                    <a href="https://www.instagram.com/iranian.students.ca/" target="_blank"> <i class="iconify" data-icon="mdi-instagram"></i> </a>
+                    <a href="https://www.linkedin.com/company/iranian-students-of-california/" target="_blank"> <i class="iconify" data-icon="mdi-linkedin"></i> </a>
+                    <a href="https://www.facebook.com/Iranian.Students.CA/" target="_blank"> <i class="iconify" data-icon="mdi-facebook"></i> </a>
+                    <a href="https://twitter.com/IranStudentsCA" target="_blank"> <i class="iconify" data-icon="mdi-twitter"></i> </a>
+                    <a href="https://www.youtube.com/channel/UCP48hfBfB9mC63UI35rE6mw" target="_blank"> <i class="iconify" data-icon="mdi-youtube"></i> </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- End Footer -->
+
+'''
 
 tail_text = '''
-      </main>
-      <!-- End #main -->
-      
-      <!-- ======= Footer ======= -->
-      <!-- End Footer -->
-      
-      <!-- JS Files -->
-      <script src="assets/libraries/bootstrap/js/bootstrap.bundle.min.js"></script>
-      
-      <!-- Main JS File -->
-      <script src="assets/js/main.js"></script>
-  </body>
+</main>
+<!-- End #main -->
+''' + html_footer + '''
+
+<!-- JS Files -->
+<script src="assets/libraries/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+<!-- Main JS File -->
+<script src="assets/js/main.js"></script>
+
+</body>
 </html>
 '''
+

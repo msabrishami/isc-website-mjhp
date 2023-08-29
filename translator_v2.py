@@ -61,6 +61,7 @@ while (ptr_f < len(lines)-1):
     # Process lines
     for line in lines[ptr_s:ptr_f]:
         line = line.strip()
+        # print("|" + line + "|")
     
         if line.startswith("# "):
             h1 = line[2:]
@@ -94,7 +95,7 @@ while (ptr_f < len(lines)-1):
         if current_h3:
             current_h2['h3s'].append(current_h3)
         h2s.append(current_h2)
-    
+    # print("." + str(len(line)) + "." + line) 
     h1_id = h1.replace(" ", "-").lower()
     show_status = "show active" if len(h1s)==1 else ""
     html += config.html_tab_content.format(show_status, h1_id, h1_id, h1)

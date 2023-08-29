@@ -3,6 +3,7 @@
 # Misc. functions 
 
 import re
+import pdb
 
 def gen_paragraph(par, style):
     if style in ["h1", "h2"]:
@@ -17,10 +18,47 @@ def gen_paragraph(par, style):
 
     return res
 
+def gen_table(table):
+    # print(table)
+    header = table.split("tr")[1][1:-2]
+    header = [x.replace("<td>", "") for x in header[:-5].split("</td>")]
+
+    
+    html = '''
+<!-- ======= Table ======= -->
+<div class="table-responsive">
+    <table class="table table-bordered">
+        <thead>
+            <tr>\n''' 
+    for col in header:
+        html+= f'''\t\t\t\t<th scope="col">{col}</th>\n'''
+    html += "\t\t\t</tr>\n"
+    html += "\t\t</thead>\n"
+    html += "\t\t<tbody>\n"
+    body = [x[4:] for x in table.split("</tr>")[1:-1]]
+    for row in body:
+        html += "\t\t\t<tr>\n"
+        items = row.split("</td>")
+        for item in items[:-1]:
+            html += "\t\t\t\t" + item + "</td>\n"
+        # html += "\t\t\t\t" + row.replace("</td>", "</td>\n")
+        html += "\t\t\t</tr>\n"
+
+    html += "\t\t</tbody>\n"
+    html += "\t</table>\n"
+    html += "</div>\n"
+    return html
+
+
+
+
 def md2html_pars(pars, style):
     res = ""
     in_list = False
     in_note = False
+    in_table = False
+    table_str = ""
+
     if isinstance(pars, str):
         pars = ["".join(pars)]
     for line in pars:
@@ -41,6 +79,21 @@ def md2html_pars(pars, style):
                 in_note = True
             continue
 
+        if line.strip() == "<table>":
+            in_table = True
+            in_note = False
+            in_list = False
+            table_str += line
+            continue
+        elif line.strip() == "</table>":
+            in_table = False
+            table_str += line
+            res += gen_table(table_str)
+            table_str = ""
+            continue
+        elif in_table:
+            table_str += line
+            continue
 
         # itemized list, the line starts with '*'
         if line.startswith('*'):
@@ -55,6 +108,8 @@ def md2html_pars(pars, style):
 			
 			# based on style paragraph can be different
             if in_note:
+                res+= line
+            elif in_table: 
                 res+= line
             elif style in ["h1", "h2"]:
                 res += f'\t\t\t<p>{line}</p>\n'
