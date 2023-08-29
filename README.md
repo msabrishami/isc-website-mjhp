@@ -14,5 +14,6 @@ Here is the process flow I suggest:
 * You can first test the html on your computer, but that is NOT enough, it needs to be pushed and viewed to make sure all iconos are correct.
 
 
-## Important Notes:
+## Important notes and current shortcomings:
 * NO dots in H1 (and probably H2) strings. 
+* Links from Google Doc and Markdwon are not correctly translated. 
