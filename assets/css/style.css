@@ -235,8 +235,15 @@ main.container {
 .tab-content .tab-outlines .outline-container {
   display: flex;
   justify-content: flex-start;
-  align-items: flex-end;
+  align-items: flex-start;
+  padding-top: 0.75rem;
   height: 115px;
+  background-color: rgba(26, 84, 96, 0.1);
+  border-radius: 5px;
+  cursor: pointer;
+}
+.tab-content .tab-outlines .outline-container:hover, .tab-content .tab-outlines .outline-container:focus, .tab-content .tab-outlines .outline-container:active {
+  background-color: rgba(26, 84, 96, 0.15);
 }
 .tab-content .tab-outlines .outline {
   display: flex;
@@ -248,27 +255,6 @@ main.container {
   position: relative;
   transition: all 0.25s ease-in-out;
   width: 100%;
-}
-.tab-content .tab-outlines .outline::before {
-  content: "";
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  height: 100%;
-  border-radius: 5px;
-  background-color: transparent;
-  transition: all 0.25s ease-in-out;
-}
-.tab-content .tab-outlines .outline::after {
-  content: "";
-  position: absolute;
-  left: 5px;
-  right: 5px;
-  bottom: 0;
-  height: 2px;
-  background-color: #061b1e;
-  transition: all 0.2s ease-in-out;
 }
 .tab-content .tab-outlines .outline h2 {
   color: #061b1e;
@@ -285,13 +271,6 @@ main.container {
   padding: 0;
   margin-bottom: 8px;
   color: #061b1e;
-}
-.tab-content .tab-outlines .outline:hover::before, .tab-content .tab-outlines .outline:focus::before {
-  background-color: rgba(26, 84, 96, 0.1);
-}
-.tab-content .tab-outlines .outline:hover::after, .tab-content .tab-outlines .outline:focus::after {
-  left: 0;
-  right: 0;
 }
 .tab-content #pills-bank .tab-outlines {
   grid-template-columns: repeat(2, 1fr);
@@ -654,18 +633,18 @@ footer p {
   .tab-content .tab-outlines {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
-    grid-column-gap: 16px;
-    grid-row-gap: 24px;
+    grid-column-gap: 24px;
+    grid-row-gap: 16px;
     margin-bottom: 2rem;
   }
   .tab-content .tab-outlines .outline-container {
     align-items: center;
     height: auto;
+    padding-top: 0;
   }
   .tab-content .tab-outlines .outline {
     flex-direction: row;
     padding: 0.5rem;
-    width: auto;
   }
   .tab-content .tab-outlines .outline svg {
     width: 20px;
