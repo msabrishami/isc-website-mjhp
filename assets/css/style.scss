@@ -658,6 +658,12 @@ footer {
   p {
     color: white;
   }
+  .sponsor {
+    a {
+      color: white;
+      text-decoration: underline;
+    }
+  }
 }
 /*--------------------------------------------------------------
 --------------------------------------------------------------*/
@@ -867,6 +873,16 @@ footer {
       }
     }
   }
+
+  footer {
+    .social-media-links {
+
+      justify-content: flex-end;
+
+    }
+
+  }
+
 }
 
 @media (min-width: 992px) {
