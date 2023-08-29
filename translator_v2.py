@@ -107,10 +107,12 @@ while (ptr_f < len(lines)-1):
         sec_id = re.sub(r'[^a-z0-9]', '', h2['title'].lower())
         
         html += f'''
-                        <a class="outline" href="#secid{sec_id}">
-                            <i class="iconify" data-icon="{icons[idx % len(icons)]}"></i>
-                            <h2 class="h6">{h2['title']}</h2>
-                        </a>
+                        <div class="outline-container">
+                            <a class="outline" href="#secid{sec_id}">
+                                <i class="iconify" data-icon="{icons[idx % len(icons)]}"></i>
+                                <h2 class="h6">{h2['title']}</h2>
+                            </a>
+                        </div>
         '''
 
     # Main Content
