@@ -195,6 +195,9 @@ main.container {
         background-color: $color_primary2;
         border-radius: 5px;
         font-weight: 500;
+        &:hover, &:focus, &:active {
+          background-color: $color_primary2;
+        }
       }
     }
   }

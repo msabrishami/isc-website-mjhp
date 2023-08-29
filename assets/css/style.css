@@ -184,6 +184,9 @@ main.container {
   border-radius: 5px;
   font-weight: 500;
 }
+.tab-navigation .nav .nav-link.active:hover, .tab-navigation .nav .nav-link.active:focus, .tab-navigation .nav .nav-link.active:active {
+  background-color: #f7e3a3;
+}
 
 .title-lvl1 {
   border-bottom: 2px solid #061b1e;
