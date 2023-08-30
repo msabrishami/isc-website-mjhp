@@ -1,16 +1,31 @@
 # isc-website-mjhp
 This is the bootstrap-based project for the information portal of ISC website
 
+## Process Flow in Phase 1
 
+Our golden database in the Google Doc, so do NOT change anything in html unless it is changed on the Google Doc.
 
-## How to use the translator:
-Here is the process flow I suggest:
-* Make sure the content only consists of the items allowed in our system, i.e. H1, H2, H3, Normal Text, Note-Box, Itemized list with bullet points, bold and italic. If not, tag the person in charge or communicate with me, or just fix it based on your best understanding.
-* Our golden database in the Google Doc, so do NOT change anything in html unless it is changed on the Google Doc.
-* Put the content for a single H1 in a separate temporary Google Doc
-* Extract the document as Markdown, there are different Chrome Plugins for this.
+The content on Google Doc. is translated into Markdown using a Google Chrome's Add On. 
+
+The Markdown file is then translated into html, using this script: 
+
+```
+python3 translator_v2.py markdown-file.md output-html-file-name.html "the title string"
+```
+
+**Important notes for content creators and editors on Google Doc.** 
+* Make sure the content only consists of the items allowed in our process: 
+- Header 1 
+- Header 2 
+- Header 3 
+- Normal Text
+- Note-Box: Create a single cell table and put your alert note in it. 
+- Itemized list with bullet points
+- Bold text 
+- Italicized text 
+
 * Make sure the Markdown does not have an invalid item.
-* Run the code on input.md and it generates the html for you in output.html
+
 * You can first test the html on your computer, but that is NOT enough, it needs to be pushed and viewed to make sure all iconos are correct.
 
 
