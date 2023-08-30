@@ -1,11 +1,3 @@
-<p style="color: red; font-weight: bold">>>>>>  gd2md-html alert:  ERRORs: 0; WARNINGs: 1; ALERTS: 0.</p>
-<ul style="color: red; font-weight: bold"><li>See top comment block for details on ERRORs and WARNINGs. <li>In the converted Markdown or HTML, search for inline alerts that start with >>>>>  gd2md-html alert:  for specific instances that need correction.</ul>
-
-<p style="color: red; font-weight: bold">Links to alert messages:</p>
-<p style="color: red; font-weight: bold">>>>>> PLEASE check and correct alert issues and delete this message and the inline alerts.<hr></p>
-
-
-
 # Phone Services
 
 A reliable phone connection is essential for daily tasks, university communications, and staying in touch. With various options available, it's crucial to understand the basics of the U.S. phone services. This guide will provide a clear overview to help you navigate and choose the best phone solutions for your needs.
@@ -48,10 +40,10 @@ The US has several mobile carriers (wireless communications service providers) o
 
 
 
-* AT&T -** **[https://www.att.com](https://www.att.com/?source=ECBB0000000CE100P&tfn=homesolutions&WT.srch=1&wtExtndSource=S_AIB_IPM_NSP-CAT_G_TM_SEA_CRS_LF_SALE_GM_ALL_INF_FIB_NA_BND_EXM_SEAR_NA_NA_Prospecting_NA_NA_NA_CPC;ATT+Trademark+IF+Core+Brand+Terms+-+AT%26T+TV+Offer+-+at%26t;700000001899547;at%26t&ds_eid=700000001899547&ds_cid=71700000071439125&ds_agid=58700006286226506&ds_kids=p56797212187&gclsrc=aw.ds&gad=1&gclid=CjwKCAjwivemBhBhEiwAJxNWN6hFftYewrDs8h4uaNmqnrLDtX5dX1YEmJarmWl6z2LP1X4sKK9vABoC3uoQAvD_BwE&gclsrc=aw.ds)/
-* Verizon -** **[https://www.verizon.com/](https://www.verizon.com/)
-* T-Mobile and Sprint - [https://www.t-mobile.com/](https://www.t-mobile.com/?&cmpid=MGPO_PB_P_EVGRNBHV_43700070651103760_655199692934&gclid=CjwKCAjwivemBhBhEiwAJxNWN4856ByyYQ-iUc8-35Rk8THQZNPe1ruk6PtnrLvA1Vu9ja00S5K_5hoClGkQAvD_BwE&gclsrc=aw.ds)
-* Google Fi -** **[https://fi.google.com/about?pli=1](https://fi.google.com/about?pli=1)
+* AT&T - [https://www.att.com](https://www.att.com) 
+* Verizon - [https://www.verizon.com](https://www.verizon.com) 
+* T-Mobile and Sprint - [https://www.t-mobile.com](https://www.t-mobile.com) 
+* Google Fi - [https://fi.google.com/about](https://fi.google.com/about) 
 * Mobile Virtual Network Operators (MVNOs) are companies that do not own a mobile spectrum license but sell mobile services under its brand name using the network of a licensed mobile operator.
 
     ```
