@@ -46,7 +46,7 @@ The US has several mobile carriers (wireless communications service providers) o
 * Google Fi - [https://fi.google.com/about](https://fi.google.com/about) 
 * Mobile Virtual Network Operators (MVNOs) are companies that do not own a mobile spectrum license but sell mobile services under its brand name using the network of a licensed mobile operator.
 
-    ```
+```
 Comparison with Iran:
 Famous Iranian mobile carriers are Hamrah-e Aval, Irancell, and Rightel. 
 ```
