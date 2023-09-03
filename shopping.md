@@ -1,7 +1,4 @@
 
-# Shopping
-
-
 # Grocery Shopping
 
 Grocery shopping is an essential part of everyday life and one of the important items for students’ budget planning. If you're new to the country, navigating a U.S. grocery store might seem daunting initially, given the vast array of products and brands available. But, with a bit of knowledge and planning, you can make your shopping experience seamless and even enjoyable. 
