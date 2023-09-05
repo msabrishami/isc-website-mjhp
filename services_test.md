@@ -288,7 +288,7 @@ Kanopy is a video streaming platform providing access to more than 30,000 indepe
 
 ## HBO
 
-You can watch all the movies on the HBO Max platform using your phone services or internet provider. Simply navigate to [https://auth.max.com/providers](https://auth.max.com/providers), choose the provider and find out if you can access HBO max for free.
+You can watch all the movies on the HBO Max platform using your phone services or internet provider. Simply navigate to [here](https://auth.max.com/providers), choose the provider and find out if you can access HBO max for free.
 
 ## Netflix
 
