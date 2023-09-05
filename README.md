@@ -5,7 +5,7 @@ This is the bootstrap-based project for the information portal of ISC website
 
 Our golden database in the Google Doc, so do NOT change anything in html unless it is changed on the Google Doc.
 
-The content on Google Doc. is translated into Markdown using a Google Chrome's Add On. 
+The content on Google Doc. is translated into Markdown using a Google Doc's Ad-On (named Docs to Markdown). 
 
 The Markdown file is then translated into html, using this script: 
 
@@ -23,6 +23,14 @@ python3 translator_v2.py markdown-file.md output-html-file-name.html "the title 
 - Itemized list with bullet points
 - Bold text 
 - Italicized text 
+- comment sections are tagged as shown below: 
+```
+!TODO-START
+some notes here
+some other notes here 
+maybe something else here
+!TODO-END
+```
 
 * Make sure the Markdown does not have an invalid item.
 
