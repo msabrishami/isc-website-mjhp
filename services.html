@@ -1,661 +1,1189 @@
-
 <!DOCTYPE html>
 <html lang="en">
-    
 <head>
-    <meta charset="utf-8" />
-    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
 
-    <title>Services_test</title>
+  <title>Services</title>
 
-    <!-- Favicons -->
-    <!-- <link href="assets/img/favicon.png" rel="icon" />
-    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" /> -->
-    
-    <!--  scripts -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
-    <script src="//code.iconify.design/1/1.0.6/iconify.min.js"></script>
-    
-    <!--  CSS Files -->
-    <link
-      href="assets/libraries/bootstrap/css/bootstrap.min.css"
-      rel="stylesheet"
-    />
-    
-    <!-- Main CSS File -->
-    <link href="assets/css/style.css" rel="stylesheet" />
+  <!-- Favicons -->
+  <!-- <link href="assets/img/favicon.png" rel="icon" />
+<link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" /> -->
+
+  <!--  scripts -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+  <script src="//code.iconify.design/1/1.0.6/iconify.min.js"></script>
+
+  <!--  CSS Files -->
+  <link
+    href="assets/libraries/bootstrap/css/bootstrap.min.css"
+    rel="stylesheet"
+  />
+
+  <!-- Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet" />
+
+  <!-- =======================================================
+======================================================== -->
 </head>
 
-
-
-
 <body>
-    
-    
 <!-- ======= Header ======= -->
-<!-- Header is here -->
-<!-- ======= End Header ======= -->
 
+<!-- End Header -->
 
 <main id="main">
-    
+  <!-- ======= Title ======= -->
+  <div class="container">
+    <div class="main-title mb-2">
+      <a class="back-to-IP" href="https://www.iranianstudentsca.org/information-portal">
+        <i class="iconify" data-icon="mdi-chevron-left"></i>
+        back
+        <span class="d-none d-lg-inline-block">&nbsp;to information portal</span>
+      </a>
+      <h1>Services</h1>
+      <a class="logo" href="https://www.iranianstudentsca.org/">
+        <img
+          src="https://images.squarespace-cdn.com/content/v1/6174deaec8e33e3a7fc7bf7b/58ce6a7a-2109-40ca-91a0-6e060c4e2fd3/Icon.png?format=1500w"
+          alt="" />
+      </a>
+    </div>
+  </div>
 
-    <!-- ======= Title ======= -->
+  <!-- End Title -->
+
+  <!-- ======= Tabs Navigation ======= -->
+  <div class="tab-navigation">
     <div class="container">
-        <div class="main-title mb-2">
-            <a class="back-to-IP" href="https://www.iranianstudentsca.org/information-portal"><i class="iconify" data-icon="mdi-chevron-left"></i>
-                back
-                <span class="d-none d-lg-inline-block">&nbsp;to information portal</span>
+      <ul class="nav nav-pills" id="pills-tab" role="tablist">
+        <li class="nav-item" role="presentation">
+          <button
+            class="nav-link active"
+            id="pills-bank-tab"
+            data-bs-toggle="pill"
+            data-bs-target="#pills-bank"
+            type="button"
+            role="tab"
+            aria-controls="pills-bank"
+            aria-selected="true"
+          >
+            phone services
+          </button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button
+            class="nav-link"
+            id="pills-score-tab"
+            data-bs-toggle="pill"
+            data-bs-target="#pills-score"
+            type="button"
+            role="tab"
+            aria-controls="pills-score"
+            aria-selected="false"
+          >
+            Streaming Services
+          </button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button
+            class="nav-link"
+            id="pills-card-tab"
+            data-bs-toggle="pill"
+            data-bs-target="#pills-card"
+            type="button"
+            role="tab"
+            aria-controls="pills-card"
+            aria-selected="false"
+          >
+            Internet & Wifi
+          </button>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <!-- End Tabs Navigation -->
+
+  <div class="container">
+    <div class="tab-content" id="pills-tabContent">
+      <!-- ======= First Tab Content ======= -->
+
+      <!-- ======= First Section ======= -->
+      <div
+        class="tab-pane fade show active"
+        id="pills-bank"
+        role="tabpanel"
+        aria-labelledby="pills-bank-tab"
+        tabindex="0"
+      >
+        <section>
+          <div class="tab-title">
+            <h2>Phone Services</h2>
+          </div>
+          <div class="tab-outlines">
+            <!-- ======= outline 1 ======= -->
+            <a class="outline" href="#Phone_Services_Key_Terms">
+              <i class="iconify" data-icon="mdi-bank"></i>
+              <h2 class="h6">Understanding the Key Terms</h2>
             </a>
-            <h1>Services_test</h1>
-            <a class="logo" href="https://www.iranianstudentsca.org/">
-                <img src="https://images.squarespace-cdn.com/content/v1/6174deaec8e33e3a7fc7bf7b/58ce6a7a-2109-40ca-91a0-6e060c4e2fd3/Icon.png?format=1500w" alt="" />
+            <!-- ======= outline 2 ======= -->
+            <a class="outline" href="#Mobile_Carriers">
+              <i class="iconify" data-icon="mdi-account-cash"></i>
+              <h2 class="h6">Mobile Carriers</h2>
             </a>
-        </div>
-    </div>
-    <!-- ======= End Title ====== -->
+            <!-- ======= outline 3 ======= -->
+            <a class="outline" href="#Mobile_Plans">
+              <i class="iconify" data-icon="mdi-cash-fast"></i>
+              <h2 class="h6">Understanding Mobile Plans</h2>
+            </a>
+            <!-- ======= outline 4 ======= -->
+            <a class="outline" href="#Type_of_Contracts">
+              <i class="iconify" data-icon="mdi-credit-card"></i>
+              <h2 class="h6">Type of Contracts</h2>
+            </a>
+            <!-- ======= outline 5 ======= -->
+            <a class="outline" href="#Technology_Compatibility">
+              <i class="iconify" data-icon="mdi-checkbook"></i>
+              <h2 class="h6">Technology Compatibility</h2>
+            </a>
+            <!-- ======= outline 6 ======= -->
+            <a class="outline" href="#Buy_New_Device">
+              <i class="iconify" data-icon="mdi-cash"></i>
+              <h2 class="h6">Buying a New Device</h2>
+            </a>
+            <!-- ======= outline 7 ======= -->
+            <a class="outline" href="#Phone_Services_for_NewComers">
+              <i class="iconify" data-icon="mdi-monitor-cellphone"></i>
+              <h2 class="h6">Phone Services for NewComers</h2>
+            </a>
+          </div>
 
+          <p>
+            A reliable phone connection is essential for daily tasks,
+            university communications, and staying in touch. With various
+            options available, it's crucial to understand the basics of the
+            U.S. phone services. This guide will provide a clear overview to
+            help you navigate and choose the best phone solutions for your
+            needs.
+          </p>
+        </section>
 
-    
-    <!-- ======= Tabs Navigation ======= -->
-    <div class="tab-navigation">
-        <div class="container">
-            <ul class="nav nav-pills" id="pills-tab" role="tablist">
-    
-                
-                <!-- Instance for a tab in tab navigator -->
-                <li class="nav-item" role="presentation">
-                    <button
-                        class="nav-link active"
-                        id="pills-phone-services-tab"
-                        data-bs-toggle="pill"
-                        data-bs-target="#pills-phone-services"
-                        type="button"
-                        role="tab"
-                        aria-controls="pills-phone-services"
-                        aria-selected="true">
-                        Phone Services
-                    </button>
-                </li>
-                
-                
-                <!-- Instance for a tab in tab navigator -->
-                <li class="nav-item" role="presentation">
-                    <button
-                        class="nav-link  "
-                        id="pills-streaming-services-tab"
-                        data-bs-toggle="pill"
-                        data-bs-target="#pills-streaming-services"
-                        type="button"
-                        role="tab"
-                        aria-controls="pills-streaming-services"
-                        aria-selected="true">
-                        Streaming Services
-                    </button>
-                </li>
-                
-            </ul>
-        </div>
-    </div>
-    <!-- ====== End Tabs Navigation ====== -->
+        <!-- End of First Section  -->
 
-    
-    <div class="container">
-        <div class="tab-content" id="pills-tabContent">
-        
-            <!-- ==== Starting a new tab (H1) ==== -->
-            <!-- Connecting Tab's show on/off to Tab Navigator -->
-            <div class="tab-pane fade show active"
-                id="pills-phone-services"
-                role="tabpanel"
-                aria-labelledby="pills-phone-services-tab"
-                tabindex="0">
-                
-                <!-- == H1.title, outline of H2s ==== -->
-                <section>
-                    
-                    <!-- ==== Tab title ==== -->
-                    <div class="tab-title">
-                        <h2>Phone Services</h2>
-                    </div>
+        <!-- Understanding the Key Terms section -->
+        <section id="Phone_Services_Key_Terms">
+          <div class="title-lvl2">
+            <div class="outline">
+              <i class="iconify" data-icon="mdi-bank"></i>
 
-                    <!-- ==== Tab Outline (list of H2s) ==== -->
-                    <div class="tab-outlines">
-
-                        <a class="outline" href="#secidunderstandingthekeyterms">
-                            <i class="iconify" data-icon="mdi-bank"></i>
-                            <h2 class="h6">Understanding the Key Terms</h2>
-                        </a>
-        
-                        <a class="outline" href="#secidmobilecarriers">
-                            <i class="iconify" data-icon="mdi-account-cash"></i>
-                            <h2 class="h6">Mobile Carriers</h2>
-                        </a>
-        
-                        <a class="outline" href="#secidunderstandingmobileplans">
-                            <i class="iconify" data-icon="mdi-cash-fast"></i>
-                            <h2 class="h6">Understanding Mobile Plans</h2>
-                        </a>
-        
-                        <a class="outline" href="#secidtypeofcontracts">
-                            <i class="iconify" data-icon="mdi-credit-card"></i>
-                            <h2 class="h6">Type of Contracts</h2>
-                        </a>
-        
-                        <a class="outline" href="#secidtechnologycompatibility">
-                            <i class="iconify" data-icon="mdi-checkbook"></i>
-                            <h2 class="h6">Technology Compatibility</h2>
-                        </a>
-        
-                        <a class="outline" href="#secidbuyinganewdevice">
-                            <i class="iconify" data-icon="mdi-bank"></i>
-                            <h2 class="h6">Buying a New Device</h2>
-                        </a>
-        
-                        <a class="outline" href="#secidphoneservicesfornewcomers">
-                            <i class="iconify" data-icon="mdi-account-cash"></i>
-                            <h2 class="h6">Phone Services for NewComers</h2>
-                        </a>
-        
-                    </div>
-                    <!-- ==== End of Tab Outlines ==== -->
-
-
-    			<p>A reliable phone connection is essential for daily tasks, university communications, and staying in touch. With various options available, it's crucial to understand the basics of the U.S. phone services. This guide will provide a clear overview to help you navigate and choose the best phone solutions for your needs.</p>
-
-                </section>
-                <!-- ==== End of H1 title and outline Section ==== -->
-    
-                <!-- ==== Starting a new H2 === -->
-                <section id="secidunderstandingthekeyterms">
-                    <div class="title-lvl2">
-                        <div class="outline">
-                            <i class="iconify" data-icon="mdi-bank"></i>
-                            <h2 class="h4">Understanding the Key Terms</h2>
-    					</div>
-    				</div>	
-                    
-        			<p>Grasping U.S. phone service terminology is vital, as the system and terms may differ significantly from those in other countries. Some of these terms are:</p>
-
-<ul>
-	<li><strong>Phone Number:</strong> In the U.S., phone numbers typically have 10 digits: a three-digit area code, followed by a seven-digit number (e.g., +1-123-456-7890).</li>
-	<li><strong>Data:</strong> This refers to internet usage on your mobile device.</li>
-	<li><strong>International Roaming:</strong> This is when your phone uses another carrier's network to maintain service when you're traveling outside of your provider's coverage area. Usually comes with a cost depending on the plan you have.</li>
-	<li><strong>Mobile Hotspot/Tethering:</strong> This is when you use your smartphone as a portable Wi-Fi hotspot to share your phone's data connection with other devices, such as your laptop or tablet.</li>
-	<li><strong>Mobile Carriers:</strong> Major carriers include <strong>AT&T</strong>, <strong>Verizon</strong>, <strong>T-Mobile</strong>, <strong>Sprint</strong> (now part of T-Mobile), and recently <strong>Google Fi</strong>.</li>
-	<li><strong>Mobile Plan:</strong> There are numerous plans within each of the mobile carriers. See below and specific Mobile Carrier’s website for more detailed information about each of these plans.</li>
-</ul>
-                    <h5>Phone Number</h5>
-            		<p class="ms-3">In the U.S. and Canada, the parts of a phone number are the <strong>exit code</strong>, <strong>country code</strong>, <strong>area code</strong>, <strong>telephone prefix</strong>, and <strong>line number</strong>. The exit code lets you dial out of your home country. The country code is an identifier for a specific country. The area code directs calls to a broad region. The telephone prefix is a smaller area within that region, like a city. The line number identifies the specific phone you are trying to reach.</p>
-<div class="alert alert-primary" role="alert">
-Canada: It is important to note that although the country code of Canada is the same as the US, calling Canada is considered an international call. Some plans support free calls to Canada but not all of them. So, be cautious about calling Canada. In cases where you were charged on accident, communicate that with your carrier's customer service and they may waive the fee.</div>
-
-                    <h5>Writing a Phone Number</h5>
-            		<p class="ms-3">How to write a phone number? In the United States, phone numbers are typically written in the following format: (XXX) XXX-XXXX, where "XXX" represents the area code and "XXXX" represents the local number. Here's an example: (123) 456-7890. Please note that the parentheses around the area code are optional, but they are commonly used for clarity.</p>
-
-                </section>
-                <!-- ==== End of this H2 ==== -->
-        
-                <!-- ==== Starting a new H2 === -->
-                <section id="secidmobilecarriers">
-                    <div class="title-lvl2">
-                        <div class="outline">
-                            <i class="iconify" data-icon="mdi-bank"></i>
-                            <h2 class="h4">Mobile Carriers</h2>
-    					</div>
-    				</div>	
-                    
-        			<p>The US has several mobile carriers (wireless communications service providers) offering different plans and services. Major carriers include <strong>AT&T</strong>, <strong>Verizon</strong>, <strong>T-Mobile</strong>, <strong>Sprint</strong> (now part of T-Mobile), and recently <strong>Google Fi</strong>. Additionally, there are numerous <strong>Mobile Virtual Network Operators (MVNOs)</strong> that operate on these major networks and often offer more affordable plans.The websites to each of these carriers are:</p>
-
-<ul>
-	<li>AT&T - [https://www.att.com](https://www.att.com)</li>
-	<li>Verizon - [https://www.verizon.com](https://www.verizon.com)</li>
-	<li>T-Mobile and Sprint - [https://www.t-mobile.com](https://www.t-mobile.com)</li>
-	<li>Google Fi - [https://fi.google.com/about](https://fi.google.com/about)</li>
-	<li>Mobile Virtual Network Operators (MVNOs) are companies that do not own a mobile spectrum license but sell mobile services under its brand name using the network of a licensed mobile operator.</li>
-</ul>
-<div class="alert alert-primary" role="alert">
-Comparison with Iran: Famous Iranian mobile carriers are Hamrah-e Aval, Irancell, and Rightel.</div>
-
-                </section>
-                <!-- ==== End of this H2 ==== -->
-        
-                <!-- ==== Starting a new H2 === -->
-                <section id="secidunderstandingmobileplans">
-                    <div class="title-lvl2">
-                        <div class="outline">
-                            <i class="iconify" data-icon="mdi-bank"></i>
-                            <h2 class="h4">Understanding Mobile Plans</h2>
-    					</div>
-    				</div>	
-                    
-        			<p>Each plan has its own features. Some of the major features include:</p>
-			<p><table></p>
-			<p><tr></p>
-			<p><td><strong>Factor</strong></p>
-			<p></td></p>
-			<p><td><strong>Brief Description</strong></p>
-			<p></td></p>
-			<p></tr></p>
-			<p><tr></p>
-			<p><td>Type of Contract</p>
-			<p></td></p>
-			<p><td>There are different types of mobile plans based on the method of the contracts, e.g. prepaid, postpaid, and family plans. More on them later.</p>
-			<p></td></p>
-			<p></tr></p>
-			<p><tr></p>
-			<p><td>Coverage</p>
-			<p></td></p>
-			<p><td>The geographical area or network range in which the service (e.g., cellular or internet) is available and functional. Check carrier's website for neighborhood coverage.</p>
-			<p></td></p>
-			<p></tr></p>
-			<p><tr></p>
-			<p><td>Cost</p>
-			<p></td></p>
-			<p><td>The monetary expense associated with the service, including monthly fees, upfront charges, and any additional costs such as taxes or overage fees.</p>
-			<p></td></p>
-			<p></tr></p>
-			<p><tr></p>
-			<p><td>Customer Service</p>
-			<p></td></p>
-			<p><td>This is where you seek assistance and support and ask the service provider to address your inquiries, concerns, or technical issues.</p>
-			<p></td></p>
-			<p></tr></p>
-			<p><tr></p>
-			<p><td>Data limit</p>
-			<p></td></p>
-			<p><td>The maximum amount of data (in terms of gigabytes or megabytes) that can be used within a certain timeframe, often associated with internet or mobile plans.</p>
-			<p></td></p>
-			<p></tr></p>
-			<p><tr></p>
-			<p><td>Extra Features</p>
-			<p></td></p>
-			<p><td>Additional functionalities or services beyond the basic offering, such as device upgrade program, bundle with streaming services, etc.</p>
-			<p></td></p>
-			<p></tr></p>
-			<p></table></p>
-
-                    <h5>Extra Features</h5>
-            		<p class="ms-3">Additional functionalities or services beyond the basic offering, which may include perks like unlimited streaming, international calling, or cloud storage. You might want to consider these features if you need them. Explore additional perks or services included with the carrier's plans on their websites. Some famous extra features include:</p>
-
-<ul>
-	<li><strong>Mobile Hotspot Functionality:</strong> Some carriers allow you to use your smartphone as a mobile hotspot, enabling you to share your cellular data connection with other devices like laptops or tablets.</li>
-	<li><strong>Streaming Subscriptions:</strong> Some carriers offer free or discounted subscriptions to popular streaming services like Netflix, Hulu, or Amazon Prime Video as part of their plans.</li>
-	<li><strong>Cloud Storage:</strong> Certain carriers provide free or discounted cloud storage options, allowing you to back up and access your files and data from multiple devices.</li>
-	<li><strong>Device Upgrade Programs:</strong> Carriers often have programs that allow you to upgrade your smartphone to a latest model after a certain period, typically in exchange for a monthly fee or contract extension.</li>
-</ul>
-                </section>
-                <!-- ==== End of this H2 ==== -->
-        
-                <!-- ==== Starting a new H2 === -->
-                <section id="secidtypeofcontracts">
-                    <div class="title-lvl2">
-                        <div class="outline">
-                            <i class="iconify" data-icon="mdi-bank"></i>
-                            <h2 class="h4">Type of Contracts</h2>
-    					</div>
-    				</div>	
-                    
-        			<p>In general, there are different types of mobile plans based on the method of the contracts, e.g. prepaid, postpaid, and family plans.</p>
-
-                    <h5>Prepaid</h5>
-            		<p class="ms-3">Pay for your service upfront. Once you've used your data, call minutes, and texts, you'll need to purchase more. Great for budgeting and avoiding unexpected costs. No long-term commitment required.</p>
-		<p class="ms-3">Prepaid plans can be a good option for new international students, or travelers. These plans typically do not require a long-term contract or credit history. They offer flexibility and control over your expenses. Prepaid plans allow you to pay for the services upfront, and you can top up or renew them as needed. MVNOs often provide competitive prepaid plans, so explore these options as well.</p>
-
-                    <h5>Postpaid</h5>
-            		<p class="ms-3">Unlike prepaid plans where you pay in advance for a certain amount of usage, postpaid plans involve you using the services first and then receiving a bill for the usage at the end of the billing cycle which is usually the end of the month. Most postpaid plans offer unlimited talk and text, and a certain amount of data. May require a credit check.</p>
-		<p class="ms-3">Postpaid plans often come with benefits such as the ability to use the services without worrying about running out of credit, access to premium features, better customer support, and the option to upgrade to new devices at discounted rates.</p>
-
-                    <h5>Family Plans</h5>
-            		<p class="ms-3">A family plan covers everyone in your family who you add to the plan. Generally, this includes you, your spouse, and your children up to age 26. The primary purpose of family plans is to offer cost savings and convenience for families or groups of people who live together and want to share a service.</p>
-
-<ul>
-	<li><strong>Shared Usage and Billing:</strong> With a family plan, all lines within the plan share a common pool of resources, such as voice minutes, text messages, and mobile data. The primary account holder receives a single bill for all lines, simplifying the billing process.</li>
-	<li><strong>Cost Savings:</strong> Family plans often offer cost advantages compared to individual plans. Carriers frequently provide discounts on monthly service fees when multiple lines are included in a family plan. This can result in significant savings, especially when compared to the cost of individual plans for each member.</li>
-	<li><strong>Different Line Options:</strong> Family plans accommodate different types of lines, where each line can have its own phone number and individual usage limits, ensuring flexibility in meeting the communication needs of each family member.</li>
-	<li><strong>Shared Data Allowance:</strong> In many family plans, the mobile data allowance is shared among all lines. This means that all family members draw from the same data pool. It is important to consider the data needs of each member and choose a plan with an appropriate data allocation to avoid exceeding the limit or incurring additional charges.</li>
-	<li><strong>Managing Usage and Controls:</strong> Family plans often provide tools for managing and monitoring usage. The primary account holder can set usage limits, control content access for specific lines (especially useful for children), and receive notifications or alerts regarding usage. These features enable better control over expenses and ensure responsible usage.</li>
-	<li><strong>Eligibility and Line Additions:</strong> To add additional lines to a family plan, carriers typically require the primary account holder to be a legal adult and undergo a credit check. Some carriers may also have restrictions on the number of lines that can be added to a plan.</li>
-	<li><strong>Device Purchases and Upgrades:</strong> Family plans allow for flexibility in device purchases and upgrades. Each line can have its own device, and members can select phones that meet their individual preferences and needs. Some carriers offer installment plans or discounted pricing on devices when purchased as part of a family plan.</li>
-	<li><strong>Note:</strong> Before selecting a family plan, consider the specific needs of your family members, including their voice, messaging, and data requirements. Research and compare family plans offered by different carriers to find the one that offers the most suitable combination of features, coverage, and pricing for your family's needs.</li>
-</ul>
-<div class="alert alert-primary" role="alert">
-Note: If you find a group of other students to apply together, a family plan could be a great option for you.</div>
-
-                    <h5>Phone Plan with Mobile</h5>
-            		<p class="ms-3">A lot of mobile carriers offer to add the mobile device payment on the billing statement of your phone service if you get the device with them. If you do get a phone device with your phone plan, the payment will be added to the monthly installment fees. So, you will need to pay it off before you want to switch your carriers.</p>
-
-                </section>
-                <!-- ==== End of this H2 ==== -->
-        
-                <!-- ==== Starting a new H2 === -->
-                <section id="secidtechnologycompatibility">
-                    <div class="title-lvl2">
-                        <div class="outline">
-                            <i class="iconify" data-icon="mdi-bank"></i>
-                            <h2 class="h4">Technology Compatibility</h2>
-    					</div>
-    				</div>	
-                    
-        			<p>In this section, we'll delve into the key concepts related to the compatibility of mobile network technologies and how they impact your choice of carriers and phone services in the United States. Understanding these compatibility factors is crucial for making informed decisions about your choice of carrier and mobile phone.</p>
-
-                    <h5>GSM (Global System for Mobile Communications)</h5>
-            		<p class="ms-3">GSM is the most widely used mobile network technology worldwide, including in the United States. If you have a GSM-compatible phone, it should work with most carriers in the US. This technology uses SIM (Subscriber Identity Module) cards, which contain your subscriber information and allow you to easily switch between phones or carriers by swapping the SIM card.</p>
-
-                    <h5>CDMA (Code Division Multiple Access)</h5>
-            		<p class="ms-3">CDMA is another mobile network technology used by some carriers in the US, although it is less common compared to GSM. Unlike GSM, CDMA doesn't use SIM cards. Instead, CDMA carriers link the subscriber's information to the phone itself. This means that CDMA phones are typically locked to a specific carrier and cannot be easily switched to another CDMA carrier. If you have a CDMA phone, you may need to check if it is compatible with your desired carrier's network before activating service.</p>
-
-                    <h5>Compatibility and Carrier Choices</h5>
-            		<p class="ms-3">GSM phones are generally more versatile and compatible with a wide range of carriers globally. If you have a GSM phone, you will have a broader selection of carriers to choose from in the US. You can switch carriers by simply replacing the SIM card, which offers flexibility and convenience.</p>
-
-                    <h5>Checking Phone Compatibility</h5>
-            		<p class="ms-3">To determine if your phone is compatible with a specific carrier, you can check the phone's specifications or contact the carrier directly. Carriers usually provide online tools or customer support services to verify compatibility. In some cases, you may need to unlock your GSM phone from your previous carrier to use it with a new carrier.</p>
-
-                    <h5>LTE and 5G Compatibility</h5>
-            		<p class="ms-3">As you research mobile carriers, consider the compatibility of your phone with the carrier's LTE (Long-Term Evolution) and 5G networks. LTE is the prevailing high-speed data network in the US, while 5G is the next-generation network that offers even faster speeds and low latency. Ensure your phone supports the LTE bands and 5G frequencies used by your chosen carrier to maximize the mobile data experience.</p>
-		<p class="ms-3">Remember to check with carriers directly or visit their websites for the most up-to-date information on network types and phone compatibility. By understanding these mobile network technologies and their implications, you can make an informed decision when selecting a mobile phone service provider in the US that aligns with your phone's compatibility and preferences.</p>
-
-                </section>
-                <!-- ==== End of this H2 ==== -->
-        
-                <!-- ==== Starting a new H2 === -->
-                <section id="secidbuyinganewdevice">
-                    <div class="title-lvl2">
-                        <div class="outline">
-                            <i class="iconify" data-icon="mdi-bank"></i>
-                            <h2 class="h4">Buying a New Device</h2>
-    					</div>
-    				</div>	
-                    
-        			<p>This section will delve into more details on what factors to consider when buying a new device. If you are looking into buying a new phone for your new phone service, you want to check out this section.</p>
-
-                    <h5>Locked Devices</h5>
-            		<p class="ms-3">A locked mobile device is one that is tied ("locked") to a specific carrier or network provider, like AT&T or Verizon. This means that the device is programmed to work only with SIM cards from that particular carrier. Locked phones have a software code on them that prevents the user from using other networks. These devices often come with discounted prices or installment plans when purchased through a carrier and may have carrier-specific features or apps pre-installed. However, these devices are limited to using the carrier's network and services. They typically require unlocking to use with other carriers, and you need to unlock it before you leave for a different country.</p>
-
-                    <h5>Unlocked Devices</h5>
-            		<p class="ms-3">An unlocked mobile device is not tied to any specific carrier. These devices are not restricted to a single network and can accept SIM cards from any carrier that uses compatible technology (e.g., GSM or CDMA). These devices give you the freedom to switch between carriers and plans without unlocking. You can also use local SIM cards while traveling internationally, potentially saving on roaming fees. If you plan on reselling the device, the value may be higher since the device is not carrier-locked. One downside to these devices is that they often come with higher upfront costs compared to the carrier-subsidized devices. However, it is worth it if you travel internationally or plan on switching your carrier in the future.</p>
-
-                    <h5>Unlocking a Locked Device</h5>
-            		<p class="ms-3">If you have a locked device and want to use it with a different carrier, you will need to "unlock" it. This involves contacting your current carrier and requesting an unlock code or instructions. Once unlocked, the device can accept SIM cards from other carriers.</p>
-<div class="alert alert-primary" role="alert">
-Note: A carrier can only unlock an iPhone that has been fully paid off.</div>
-
-                    <h5>Apple iPhone Upgrade Program</h5>
-            		<p class="ms-3">The Apple iPhone Upgrade Program is a service offered by Apple that allows customers to purchase a new iPhone and spread out the cost over a period of time through monthly installments. It's designed to make it easier for customers to stay up-to-date with the latest iPhone models without having to pay the full retail price upfront. For more information visit their website [Here](https://www.apple.com/shop/iphone/iphone-upgrade-program).</p>
-<div class="alert alert-primary" role="alert">
-Note: The program requires participants to have a credit check, and they need to be eligible based on their credit history. So, don't try to apply for the Apple Credit Card and make it your first credit card.</div>
-
-                    <h5>BestBuy Finance system</h5>
-            		<p class="ms-3">BestBuy has two finance programs for financing your phone. For more information visit their website [Here](https://www.bestbuy.com/site/financing-rewards/learn-about-best-buy-financing/pcmcat1476112234971.c?id=pcmcat1476112234971) or read the information below:</p>
-
-<ul>
-	<li><strong>Reduced Rate Credit Plan:</strong> This type of financing offers a fixed, often lower interest rate on the financed amount. The interest rate is typically advertised as lower than the standard credit card interest rates. With a reduced rate credit plan, you will pay interest on the remaining balance over the course of the financing term. The interest is calculated based on the outstanding balance and the agreed-upon interest rate. Since the interest rate is fixed in this plan, you can accurately predict the interest costs over the term. But you will still need to pay interest on the financed amount, which could add to the overall cost of your purchase. There might also be fees associated with setting up the credit plan.</li>
-	<li><strong>Deferred Interest Financing:</strong> Deferred interest financing is often marketed as "0% interest" or "no interest if paid in full within [X] months." This means that you won't incur interest charges during the promotional period, which is usually a set number of months. However, if you fail to pay off the full balance within that time frame, you could be retroactively charged interest on the entire original purchase amount from the date of purchase, often at a higher interest rate. These plans are good if you can pay off the balance within the promotional period, and won't incur any interest charges. They also allow you to make a large purchase without immediate financial strain. However, if you don't pay off the full balance within the promotional period, you could be hit with a significant amount of retroactive interest. So, make sure you carefully understand the terms and conditions to avoid surprises.</li>
-</ul>
-<div class="alert alert-primary" role="alert">
-Note:  The program requires participants to have a credit check, and they need to be eligible based on their credit history. So, don't try to apply for the BestBuy Credit Card and make it your first credit card.</div>
-
-                </section>
-                <!-- ==== End of this H2 ==== -->
-        
-                <!-- ==== Starting a new H2 === -->
-                <section id="secidphoneservicesfornewcomers">
-                    <div class="title-lvl2">
-                        <div class="outline">
-                            <i class="iconify" data-icon="mdi-bank"></i>
-                            <h2 class="h4">Phone Services for NewComers</h2>
-    					</div>
-    				</div>	
-                    
-        			<p>Now that you have learned the basics of phone services in the United States, this section provides a comprehensive guide on how to obtain your phone service.</p>
-<div class="alert alert-primary" role="alert">
-Notice: Always ask around and check online for promotions!</div>
-
-                    <h5>First Weeks</h5>
-            		<p class="ms-3">Most students consider family plans to be their preferred long-term solution for fulfilling their phone requirements. Nevertheless, prior to selecting a group of individuals to join a family plan with, opting for a temporary SIM card is advisable. As of 2023, Google Fi stands out as one of the most recommended choices in this regard. To streamline the purchasing process, simply follow these steps when you're prepared to make your decision:</p>
-
-                    <h5>Determine Requirements</h5>
-            
-<ul>
-	<li>Decide what type of phone service you need. Will it be a prepaid plan, postpaid plan, or a family plan?</li>
-	<li>Consider factors like data usage, talk time, international calling needs, and budget.</li>
-</ul>
-                    <h5>Select a Plan</h5>
-            
-<ul>
-	<li>Pick the type of contract you want from Prepaid, Postpaid and Family plans.</li>
-	<li>Mobile data is essential for internet access on your phone. Determine your data usage needs and choose a plan accordingly that suits your needs and budget.</li>
-	<li>Plans typically include data, talk time, and text messages. Some plans might also include international calling or data roaming options. Most carriers offer different data packages, ranging from limited to unlimited options.</li>
-	<li>If you have access to Wi-Fi at home and work, you may be able to opt for a more affordable plan with lower data limits.</li>
-</ul>
-                    <h5>After Selecting a Plan</h5>
-            		<p class="ms-3">1. Visit a Retail Store or Website</p>
-
-<ul>
-	<li>Once you have researched and chosen a Carrier, visit their stores to inquire about plans, activate your service, and obtain a SIM card.</li>
-	<li>Alternatively, you can order SIM cards and activate services online through carrier websites or authorized retailers.</li>
-	<li>Ensure to carry your identification documents, such as your passport or visa, as they may be required during the activation process.</li>
-</ul>
-		<p class="ms-3">2. Choose a Device or Bring an Unlocked one</p>
-
-<ul>
-	<li>If you already have an unlocked phone that supports GSM networks, you can simply insert a US SIM card and start using it.</li>
-	<li>If your phone is locked to a specific carrier or incompatible with US networks, you may need to purchase a new phone.</li>
-	<li>If you need a new phone, select a device from the carrier's offerings. This might include smartphones or basic phones</li>
-	<li>There are some carriers that have promotions that give you a new device with your line.</li>
-	<li>Many carriers offer installment plans or outright purchase options for smartphones.</li>
-</ul>
-		<p class="ms-3">3. Select a Phone Number</p>
-
-<ul>
-	<li>You can often choose a phone number from available options, which might include local area codes.</li>
-	<li>Alternatively, you might be able to port an existing number from a previous carrier.</li>
-</ul>
-		<p class="ms-3">4. Complete the Application:</p>
-
-<ul>
-	<li>If applying in person, fill out the necessary paperwork and provide the required identification.</li>
-	<li>If applying online, follow the instructions to complete the application and upload any necessary documents.</li>
-</ul>
-		<p class="ms-3">5. Choose Additional Services</p>
-
-<ul>
-	<li>Mobile carriers often offer additional services like insurance for the device, device protection plans, extended warranties, international roaming packages, family plans, and mobile banking options.</li>
-	<li>Take the time to explore these offerings to see if they align with your needs and preferences.</li>
-</ul>
-		<p class="ms-3">6. Activate the Service</p>
-
-<ul>
-	<li>If you're applying in person, the carrier's representative will assist with activating the service and setting up the device.</li>
-	<li>If applying online, follow the activation instructions provided by the carrier.</li>
-</ul>
-		<p class="ms-3">7. Set Up the Phone</p>
-
-<ul>
-	<li>Once the service is activated, follow the prompts on the device to complete the setup process.</li>
-	<li>This might involve connecting to Wi-Fi, logging in to accounts, and configuring settings.</li>
-</ul>
-		<p class="ms-3">8. Test the Service</p>
-
-<ul>
-	<li>Make a test call, send a text message, and use data to ensure that the phone service is working correctly.</li>
-</ul>
-		<p class="ms-3">9. Understand Billing and Payment</p>
-
-<ul>
-	<li>Familiarize yourself with the billing cycle, payment methods, and due dates for the chosen plan. Many carriers offer online account management to view bills, make payments, and change plan details.</li>
-</ul>
-                </section>
-                <!-- ==== End of this H2 ==== -->
-        
+              <h2 class="h4">Understanding the Key Terms</h2>
             </div>
-            <!-- ==== End of this Tab (H1) ==== -->
+          </div>
 
+          <p>
+            Grasping U.S. phone service terminology is vital, as the system and terms may differ significantly from
+            those in other countries. Some of these terms are:
+          </p>
+          <ul>
+            <li><strong>Phone Number:</strong> In the U.S., phone numbers typically have 10 digits: a three-digit area
+              code, followed by a
+              seven-digit number (e.g., +1-123-456-7890).
+            </li>
 
+            <li><strong>Data:</strong> This refers to internet usage on your mobile device.</li>
 
-    
-            <!-- ==== Starting a new tab (H1) ==== -->
-            <!-- Connecting Tab's show on/off to Tab Navigator -->
-            <div class="tab-pane fade "
-                id="pills-streaming-services"
-                role="tabpanel"
-                aria-labelledby="pills-streaming-services-tab"
-                tabindex="0">
-                
-                <!-- == H1.title, outline of H2s ==== -->
-                <section>
-                    
-                    <!-- ==== Tab title ==== -->
-                    <div class="tab-title">
-                        <h2>Streaming Services</h2>
-                    </div>
+            <li><strong>International Roaming:</strong> This is when your phone uses another carrier's network to
+              maintain service when
+              you're traveling outside of your provider's coverage area. Usually comes with a cost depending on the plan
+              you have.
+            </li>
 
-                    <!-- ==== Tab Outline (list of H2s) ==== -->
-                    <div class="tab-outlines">
+            <li><strong>Mobile Hotspot/Tethering:</strong> This is when you use your smartphone as a portable Wi-Fi
+              hotspot to share your
+              phone's data connection with other devices, such as your laptop or tablet.
+            </li>
 
-                        <a class="outline" href="#secidamazonprime">
-                            <i class="iconify" data-icon="mdi-bank"></i>
-                            <h2 class="h6">Amazon Prime</h2>
-                        </a>
-        
-                        <a class="outline" href="#secidspotifystudent">
-                            <i class="iconify" data-icon="mdi-account-cash"></i>
-                            <h2 class="h6">Spotify Student</h2>
-                        </a>
-        
-                        <a class="outline" href="#secidkanopy">
-                            <i class="iconify" data-icon="mdi-cash-fast"></i>
-                            <h2 class="h6">Kanopy</h2>
-                        </a>
-        
-                        <a class="outline" href="#secidhbo">
-                            <i class="iconify" data-icon="mdi-credit-card"></i>
-                            <h2 class="h6">HBO</h2>
-                        </a>
-        
-                        <a class="outline" href="#secidnetflix">
-                            <i class="iconify" data-icon="mdi-checkbook"></i>
-                            <h2 class="h6">Netflix</h2>
-                        </a>
-        
-                        <a class="outline" href="#secidyoutubepremium">
-                            <i class="iconify" data-icon="mdi-bank"></i>
-                            <h2 class="h6">YouTube Premium</h2>
-                        </a>
-        
-                    </div>
-                    <!-- ==== End of Tab Outlines ==== -->
+            <li><strong>Mobile Carriers:</strong> Major carriers include AT&T, Verizon, T-Mobile, Sprint (now part of
+              T-Mobile), and
+              recently
+              Google Fi.
+            </li>
 
+            <li><strong>Mobile Plan:</strong> There are numerous plans within each of the mobile carriers. See below and
+              specific Mobile
+              Carrier’s website for more detailed information about each of these plans.
+            </li>
+          </ul>
 
-    
-                </section>
-                <!-- ==== End of H1 title and outline Section ==== -->
-    
-                <!-- ==== Starting a new H2 === -->
-                <section id="secidamazonprime">
-                    <div class="title-lvl2">
-                        <div class="outline">
-                            <i class="iconify" data-icon="mdi-bank"></i>
-                            <h2 class="h4">Amazon Prime</h2>
-    					</div>
-    				</div>	
-                    
-        			<p>As a student, you can sign up for a 6-month trial of Amazon Prime (using your .edu email address) which includes 2-day shipping on most of the items, access to Amazon Prime Now (2 hour delivery for groceries), access to hundreds of movies and tv series on Prime Video, and lots of other benefits. All you have to do is to check out [here](https://www.amazon.com/Amazon-Student/b?ie=UTF8&node=668781011), and follow the instructions.</p>
+          <h5>Phone Number</h5>
+          <p class="ms-3">
+            In the U.S. and Canada, the parts of a phone number are the <strong>exit code</strong>, <strong>country
+            code</strong>, <strong>area code</strong>, <strong>telephone prefix</strong>, and <strong>line
+            number</strong>. The exit code lets you dial out of your home country. The
+            country code is an
+            identifier for a specific country. The area code directs calls to a broad region. The telephone prefix is
+            a
+            smaller area within that region, like a city. The line number identifies the specific phone you are trying
+            to reach.
+          </p>
 
-                </section>
-                <!-- ==== End of this H2 ==== -->
-        
-                <!-- ==== Starting a new H2 === -->
-                <section id="secidspotifystudent">
-                    <div class="title-lvl2">
-                        <div class="outline">
-                            <i class="iconify" data-icon="mdi-bank"></i>
-                            <h2 class="h4">Spotify Student</h2>
-    					</div>
-    				</div>	
-                    
-        			<p>You can sign up for Spotify students, which includes Spotify + hulu (w. adds) + Showtime, all for 5$/month (August 2023). Check out [here](https://www.spotify.com/us/student/).</p>
+          <!-- ======= Note ======= -->
+          <div class="alert alert-primary" role="alert">
+            <h5>Canada:</h5>
+            <p>
+              It is important to note that although the country code of Canada is the same as the US, calling Canada is
+              considered an international call. Some plans support free calls to Canada but not all of them. So, be
+              cautious about calling Canada. In cases where you were charged on accident, communicate that with your
+              carrier’s customer service and they may waive the fee.
+            </p>
+          </div>
 
-                </section>
-                <!-- ==== End of this H2 ==== -->
-        
-                <!-- ==== Starting a new H2 === -->
-                <section id="secidkanopy">
-                    <div class="title-lvl2">
-                        <div class="outline">
-                            <i class="iconify" data-icon="mdi-bank"></i>
-                            <h2 class="h4">Kanopy</h2>
-    					</div>
-    				</div>	
-                    
-        			<p>Kanopy is a video streaming platform providing access to more than 30,000 independent and documentary films, including a number of Iranian movies. It is the same as Netflix but mostly for international movies and documentaries. You can access the content using your University’s email & password, free of charge; check out [here.](https://libraries.usc.edu/databases/kanopy-streaming-service)</p>
+          <h5>Writing a Phone Number</h5>
+          <p class="ms-3">
+            How to write a phone number? In the United States, phone numbers are typically written in the following
+            format: (XXX) XXX-XXXX, where "XXX" represents the area code and "XXXX" represents the local number. Here's
+            an example: (123) 456-7890. Please note that the parentheses around the area code are optional, but they are
+            commonly used for clarity.
+          </p>
+        </section>
+        <!-- End of Understanding the Key Terms section -->
 
-                </section>
-                <!-- ==== End of this H2 ==== -->
-        
-                <!-- ==== Starting a new H2 === -->
-                <section id="secidhbo">
-                    <div class="title-lvl2">
-                        <div class="outline">
-                            <i class="iconify" data-icon="mdi-bank"></i>
-                            <h2 class="h4">HBO</h2>
-    					</div>
-    				</div>	
-                    
-        			<p>You can watch all the movies on the HBO Max platform using your phone services or internet provider. Simply navigate to [https://auth.max.com/providers](https://auth.max.com/providers), choose the provider and find out if you can access HBO max for free.</p>
+        <!-- Mobile Carriers section -->
+        <section id="Mobile_Carriers">
+          <div class="title-lvl2">
+            <div class="outline">
+              <i class="iconify" data-icon="mdi-account-cash"></i>
 
-                </section>
-                <!-- ==== End of this H2 ==== -->
-        
-                <!-- ==== Starting a new H2 === -->
-                <section id="secidnetflix">
-                    <div class="title-lvl2">
-                        <div class="outline">
-                            <i class="iconify" data-icon="mdi-bank"></i>
-                            <h2 class="h4">Netflix</h2>
-    					</div>
-    				</div>	
-                    
-        			<p>Known for its vast library of movies, TV shows, and original content, Netflix offers a wide range of genres to cater to different tastes. You can get this from your phone service for free depending on your plan. So, make sure to ask from the customer service of your mobile carrier. Some carriers include: [T-Mobile](https://www.t-mobile.com/tv-streaming/netflix-on-us), and [Verizon](https://www.verizon.com/about/news/verizon-exclusive-play-offer-one-year-netflix).</p>
-
-                </section>
-                <!-- ==== End of this H2 ==== -->
-        
-                <!-- ==== Starting a new H2 === -->
-                <section id="secidyoutubepremium">
-                    <div class="title-lvl2">
-                        <div class="outline">
-                            <i class="iconify" data-icon="mdi-bank"></i>
-                            <h2 class="h4">YouTube Premium</h2>
-    					</div>
-    				</div>	
-                    
-        			<p>Busy students can not only get ad-free videos with YouTube Premium, but the option to download them for offline viewing for $6.99/month (August 2023). You’ll also get unlimited access to YouTube Music if Spotify or Amazon Music’s libraries just aren’t cutting it for you. Choose a one month free trial before you start if you want to test the waters watching YouTube without all the pesky ad distractions. Checkout the discount [here](https://www.youtube.com/premium/student).</p>
-
-                </section>
-                <!-- ==== End of this H2 ==== -->
-        
+              <h2 class="h4">Mobile Carriers</h2>
             </div>
-            <!-- ==== End of this Tab (H1) ==== -->
+          </div>
+          <p>
+            The US has several mobile carriers (wireless communications service providers) offering different plans and
+            services. Major carriers include <strong>AT&T</strong>, <strong>Verizon</strong>, <strong>T-Mobile</strong>,
+            <strong>Sprint</strong> (now part of T-Mobile), and recently <strong>Google
+            Fi</strong>. Additionally, there are numerous <strong>Mobile Virtual Network Operators (MVNOs)</strong> that
+            operate on these major
+            networks and often offer more affordable plans.The websites to each of these carriers are:
+          </p>
+          <ul>
+            <li><a href="https://www.att.com/" target="_blank">AT&T</a></li>
+            <li><a href="https://www.verizon.com/" target="_blank">Verizon</a></li>
+            <li><a href="https://www.t-mobile.com/" target="_blank">T-Mobile and Sprint</a></li>
+            <li><a href="https://fi.google.com/about?pli=1" target="_blank">Google Fi</a></li>
+            <li>
+              Mobile Virtual Network Operators (MVNOs) are companies that do not own a mobile spectrum license but
+              sell
+              mobile services under its brand name using the network of a licensed mobile operator.
+            </li>
+
+          </ul>
+          <!-- ======= Note ======= -->
+          <div class="alert alert-primary" role="alert">
+            <h5>
+              Comparison with Iran:
+            </h5>
+            <p>
+              Famous Iranian mobile carriers are Hamrah-e Aval, Irancell, and Rightel.
+            </p>
+          </div>
+        </section>
+        <!-- End of Mobile Carriers section -->
+
+        <!-- Understanding Mobile Plans section -->
+        <section id="Mobile_Plans">
+          <div class="title-lvl2">
+            <div class="outline">
+              <i class="iconify" data-icon="mdi-cash-fast"></i>
+
+              <h2 class="h4">Understanding Mobile Plans</h2>
+            </div>
+          </div>
+          <p>
+            Each plan has its own features. Some major features include:
+          </p>
+
+          <!-- ======= Table ======= -->
+          <div class="table-responsive">
+            <table class="table table-bordered">
+              <thead>
+              <tr>
+                <th scope="col">Factor</th>
+                <th scope="col">Brief Description</th>
+              </tr>
+              </thead>
+              <tbody>
+              <tr>
+                <th scope="row">Type of Contract</th>
+                <td>
+                  There are different types of mobile plans based on the method of the contracts, e.g. prepaid,
+                  postpaid, and family plans. More on them later.
+                </td>
+              </tr>
+
+              <tr>
+                <th scope="row">Coverage</th>
+                <td>
+                  The geographical area or network range in which the service (e.g., cellular or internet) is available
+                  and functional. Check carrier's website for neighborhood coverage.
+                </td>
+              </tr>
+
+              <tr>
+                <th scope="row">Cost</th>
+                <td>
+                  The monetary expense associated with the service, including monthly fees, upfront charges, and any
+                  additional costs such as taxes or overage fees.
+                </td>
+              </tr>
+
+              <tr>
+                <th scope="row">Customer Service</th>
+                <td>
+                  This is where you seek assistance and support and ask the service provider to address your inquiries,
+                  concerns, or technical issues.
+                </td>
+              </tr>
+
+              <tr>
+                <th scope="row">Data limit</th>
+                <td>
+                  The maximum amount of data (in terms of gigabytes or megabytes) that can be used within a certain
+                  timeframe, often associated with internet or mobile plans.
+                </td>
+              </tr>
+
+              <tr>
+                <th scope="row">Extra Features</th>
+                <td>
+                  Additional functionalities or services beyond the basic offering, such as device upgrade program,
+                  bundle with streaming services, etc.
+                </td>
+              </tr>
+              </tbody>
+            </table>
+          </div>
 
 
+          <h5>Extra Features</h5>
 
-    
-            </section>
-        </div>
+          <p class="ms-3">
+            Additional functionalities or services beyond the basic offering, which may include perks like unlimited
+            streaming, international calling, or cloud storage. You might want to consider these features if you need
+            them. Explore additional perks or services included with the carrier's plans on their websites. Some famous
+            extra features include:
+          </p>
+
+          <ul>
+            <li>
+              <strong>Mobile Hotspot Functionality:</strong>
+              Some carriers allow you to use your smartphone as a mobile hotspot, enabling
+              you
+              to share your cellular data connection with other devices like laptops or tablets.
+            </li>
+            <li>
+              <strong>Streaming Subscriptions:</strong>
+              Some carriers offer free or discounted subscriptions to popular streaming
+              services
+              like Netflix, Hulu, or Amazon Prime Video as part of their plans.
+            </li>
+            <li>
+              <strong>Cloud Storage:</strong>
+              Certain carriers provide free or discounted cloud storage options, allowing you to back up
+              and
+              access your files and data from multiple devices.
+            </li>
+            <li>
+              <strong>Device Upgrade Programs: </strong>
+              Carriers often have programs that allow you to upgrade your smartphone to a
+              latest
+              model after a certain period, typically in exchange for a monthly fee or contract extension.
+            </li>
+          </ul>
+        </section>
+        <!-- End of Understanding Mobile Plans section -->
+
+        <!-- Type of Contracts section -->
+        <section id="Type_of_Contracts">
+          <div class="title-lvl2">
+            <div class="outline">
+              <i class="iconify" data-icon="mdi-credit-card"></i>
+
+              <h2 class="h4">Type of Contracts</h2>
+            </div>
+          </div>
+          <p>
+            In general, there are different types of mobile plans based on the method of the contracts, e.g. prepaid,
+            postpaid, and family plans.
+          </p>
+
+          <h5>Prepaid</h5>
+
+          <p class="ms-3">
+            Pay for your service upfront. Once you've used your data, call minutes, and texts, you'll need to purchase
+            more. Great for budgeting and avoiding unexpected costs. No long-term commitment required.
+          </p>
+
+          <p class="ms-3">
+            Prepaid plans can be a good option for new international students, or travelers. These plans typically do
+            not
+            require a long-term contract or credit history. They offer flexibility and control over your expenses.
+            Prepaid
+            plans allow you to pay for the services upfront, and you can top up or renew them as needed. MVNOs often
+            provide competitive prepaid plans, so explore these options as well.
+          </p>
+
+
+          <h5>Postpaid</h5>
+
+          <p class="ms-3">
+            Unlike prepaid plans where you pay in advance for a certain amount of usage, postpaid plans involve you
+            using
+            the services first and then receiving a bill for the usage at the end of the billing cycle which is usually
+            the end of the month. Most postpaid plans offer unlimited talk and text, and a certain amount of data. May
+            require a credit check.
+          </p>
+
+          <p class="ms-3">
+            Postpaid plans often come with benefits such as the ability to use the services without worrying about
+            running
+            out of credit, access to premium features, better customer support, and the option to upgrade to new devices
+            at discounted rates.
+          </p>
+
+          <h5>Family Plans</h5>
+
+          <p class="ms-3">
+            A family plan covers everyone in your family who you add to the plan. Generally, this includes you, your
+            spouse, and your children up to age 26. The primary purpose of family plans is to offer cost savings and
+            convenience for families or groups of people who live together and want to share a service.
+          </p>
+
+          <ul>
+            <li>
+              <strong>Shared Usage and Billing:</strong> With a family plan, all lines within the plan share a common
+              pool of resources,
+              such
+              as voice minutes, text messages, and mobile data. The primary account holder receives a single bill for
+              all
+              lines, simplifying the billing process.
+            </li>
+            <li>
+              <strong>Cost Savings:</strong> Family plans often offer cost advantages compared to individual plans.
+              Carriers frequently
+              provide discounts on monthly service fees when multiple lines are included in a family plan. This can
+              result
+              in significant savings, especially when compared to the cost of individual plans for each member.
+            </li>
+            <li>
+              <strong>Different Line Options:</strong> Family plans accommodate different types of lines, where each
+              line can have its
+              own
+              phone number and individual usage limits, ensuring flexibility in meeting the communication needs of each
+              family member.
+            </li>
+            <li>
+              <strong>Shared Data Allowance:</strong> In many family plans, the mobile data allowance is shared among
+              all lines. This
+              means
+              that all family members draw from the same data pool. It is important to consider the data needs of each
+              member and choose a plan with an appropriate data allocation to avoid exceeding the limit or incurring
+              additional charges.
+            </li>
+            <li>
+              <strong>Managing Usage and Controls:</strong> Family plans often provide tools for managing and monitoring
+              usage. The
+              primary
+              account holder can set usage limits, control content access for specific lines (especially useful for
+              children), and receive notifications or alerts regarding usage. These features enable better control over
+              expenses and ensure responsible usage.
+            </li>
+            <li>
+              <strong>Eligibility and Line Additions:</strong> To add additional lines to a family plan, carriers
+              typically require the
+              primary account holder to be a legal adult and undergo a credit check. Some carriers may also have
+              restrictions on the number of lines that can be added to a plan.
+            </li>
+            <li>
+              <strong>Device Purchases and Upgrades:</strong> Family plans allow for flexibility in device purchases and
+              upgrades. Each
+              line
+              can have its own device, and members can select phones that meet their individual preferences and needs.
+              Some
+              carriers offer installment plans or discounted pricing on devices when purchased as part of a family plan.
+            </li>
+            <li>
+              <strong>Note:</strong> Before selecting a family plan, consider the specific needs of your family members,
+              including their
+              voice, messaging, and data requirements. Research and compare family plans offered by different carriers
+              to
+              find the one that offers the most suitable combination of features, coverage, and pricing for your
+              family's
+              needs.
+            </li>
+          </ul>
+
+          <!-- ======= Note ======= -->
+          <div class="alert alert-primary" role="alert">
+            If you find a group of other students to apply together, family plan could be a great option for you.
+          </div>
+
+
+          <h5>
+            Phone Plan with Mobile
+
+          </h5>
+          <p class="ms-3">
+            A lot of mobile carriers offer to add the mobile device payment on the billing statement of your phone
+            service if you get the device with them. If you do get a phone device with your phone plan, the payment will
+            be added to the monthly installment fees. So, you will need to pay it off before you want to switch your
+            carriers.
+          </p>
+        </section>
+        <!-- End of Type of Contracts section -->
+
+        <!-- Technology Compatibility Section  -->
+        <section id="Technology_Compatibility">
+          <div class="title-lvl2">
+            <div class="outline">
+              <i class="iconify" data-icon="mdi-checkbook"></i>
+              <h2 class="h4">Technology Compatibility</h2>
+            </div>
+          </div>
+
+          <p>
+            In this section, we'll delve into the key concepts related to the compatibility of mobile network
+            technologies
+            and how they impact your choice of carriers and phone services in the United States. Understanding these
+            compatibility factors is crucial for making informed decisions about your choice of carrier and mobile
+            phone.
+          </p>
+
+          <h5>GSM (Global System for Mobile Communications)</h5>
+          <p class="ms-3">
+            GSM is the most widely used mobile network technology worldwide, including in the United States. If you have
+            a
+            GSM-compatible phone, it should work with most carriers in the US. This technology uses SIM (Subscriber
+            Identity Module) cards, which contain your subscriber information and allow you to easily switch between
+            phones or carriers by swapping the SIM card.
+          </p>
+
+          <h5>CDMA (Code Division Multiple Access)</h5>
+          <p class="ms-3">
+            CDMA is another mobile network technology used by some carriers in the US, although it is less common
+            compared
+            to GSM. Unlike GSM, CDMA doesn't use SIM cards. Instead, CDMA carriers link the subscriber's information to
+            the phone itself. This means that CDMA phones are typically locked to a specific carrier and cannot be
+            easily
+            switched to another CDMA carrier. If you have a CDMA phone, you may need to check if it is compatible with
+            your desired carrier's network before activating service.
+          </p>
+
+          <h5>Compatibility and Carrier Choices</h5>
+          <p class="ms-3">
+            GSM phones are generally more versatile and compatible with a wide range of carriers globally. If you have a
+            GSM phone, you will have a broader selection of carriers to choose from in the US. You can switch carriers
+            by
+            simply replacing the SIM card, which offers flexibility and convenience.
+          </p>
+
+          <h5>Checking Phone Compatibility</h5>
+          <p class="ms-3">
+            To determine if your phone is compatible with a specific carrier, you can check the phone's specifications
+            or
+            contact the carrier directly. Carriers usually provide online tools or customer support services to verify
+            compatibility. In some cases, you may need to unlock your GSM phone from your previous carrier to use it
+            with
+            a new carrier.
+          </p>
+
+          <h5>LTE and 5G Compatibility</h5>
+          <p class="ms-3">
+            As you research mobile carriers, consider the compatibility of your phone with the carrier's LTE (Long-Term
+            Evolution) and 5G networks. LTE is the prevailing high-speed data network in the US, while 5G is the
+            next-generation network that offers even faster speeds and low latency. Ensure your phone supports the LTE
+            bands and 5G frequencies used by your chosen carrier to maximize the mobile data experience.
+          </p>
+
+          <p class="ms-3">
+            Remember to check with carriers directly or visit their websites for the most up-to-date information on
+            network types and phone compatibility. By understanding these mobile network technologies and their
+            implications, you can make an informed decision when selecting a mobile phone service provider in the US
+            that
+            aligns with your phone's compatibility and preferences.
+          </p>
+
+        </section>
+        <!-- End of Technology Compatibility Section  -->
+
+        <!-- Buying a New Device Section  -->
+        <section id="Buy_New_Device">
+          <div class="title-lvl2">
+            <div class="outline">
+              <i class="iconify" data-icon="mdi-cash"></i>
+              <h2 class="h4">Buying a New Device</h2>
+            </div>
+          </div>
+
+          <h5>Locked Devices</h5>
+          <p class="ms-3">
+            A locked mobile device is one that is tied ("locked") to a specific carrier or network provider, like AT&T
+            or
+            Verizon. This means that the device is programmed to work only with SIM cards from that particular carrier.
+            Locked phones have a software code on them that prevents the user from using other networks. These devices
+            often come with discounted prices or installment plans when purchased through a carrier and may have
+            carrier-specific features or apps pre-installed. However, these devices are limited to using the carrier's
+            network and services. They typically require unlocking to use with other carriers, and you need to unlock it
+            before you leave for a different country.
+          </p>
+
+          <h5>Unlocked Devices</h5>
+          <p class="ms-3">
+            An unlocked mobile device is not tied to any specific carrier. These devices are not restricted to a single
+            network and can accept SIM cards from any carrier that uses compatible technology (e.g., GSM or CDMA). These
+            devices give you the freedom to switch between carriers and plans without unlocking. You can also use local
+            SIM cards while traveling internationally, potentially saving on roaming fees. If you plan on reselling the
+            device, the value may be higher since the device is not carrier-locked. One downside to these devices is
+            that
+            they often come with higher upfront costs compared to the carrier-subsidized devices. However, it is worth
+            it
+            if you travel internationally or plan on switching your carrier in the future.
+          </p>
+
+          <h5>Unlocking a Locked Device</h5>
+          <p class="ms-3">
+            If you have a locked device and want to use it with a different carrier, you will need to "unlock" it. This
+            involves contacting your current carrier and requesting an unlock code or instructions. Once unlocked, the
+            device can accept SIM cards from other carriers.
+          </p>
+
+          <!-- ======= Note ======= -->
+          <div class="alert alert-primary" role="alert">
+            A carrier can only unlock an iPhone that has been fully paid off.
+          </div>
+
+
+          <h5>Apple iPhone Upgrade Program</h5>
+          <p class="ms-3">
+            The Apple iPhone Upgrade Program is a service offered by Apple that allows customers to purchase a new
+            iPhone
+            and spread out the cost over a period of time through monthly installments. It's designed to make it easier
+            for customers to stay up-to-date with the latest iPhone models without having to pay the full retail price
+            upfront. For more information visit their website
+            <a href="https://www.apple.com/shop/iphone/iphone-upgrade-program" target="_blank">
+              here
+            </a>
+            .
+          </p>
+
+          <!-- ======= Note ======= -->
+          <div class="alert alert-primary" role="alert">
+            The program requires participants to have a credit check, and they need to be eligible based on their
+            credit history. So, don’t try to apply for the Apple Credit Card and make it your first credit card.
+          </div>
+
+
+          <h5>BestBuy Finance system</h5>
+          <p class="ms-3">
+            BestBuy has two finance programs for financing your phone. For more information visit their website
+            <a
+              href="https://www.bestbuy.com/site/financing-rewards/learn-about-best-buy-financing/pcmcat1476112234971.c?id=pcmcat1476112234971"
+              target="_blank"
+            >here</a>
+            or read the information below:
+          </p>
+
+          <ul>
+            <li>
+              <strong>Reduced Rate Credit Plan:</strong> This type of financing offers a fixed, often lower interest
+              rate on the financed
+              amount. The interest rate is typically advertised as lower than the standard credit card interest rates.
+              With
+              a reduced rate credit plan, you will pay interest on the remaining balance over the course of the
+              financing
+              term. The interest is calculated based on the outstanding balance and the agreed-upon interest rate. Since
+              the
+              interest rate is fixed in this plan, you can accurately predict the interest costs over the term. But you
+              will
+              still need to pay interest on the financed amount, which could add to the overall cost of your purchase.
+              There
+              might also be fees associated with setting up the credit plan.
+            </li>
+
+            <li>
+              <strong>Deferred Interest Financing:</strong> Deferred interest financing is often marketed as "0%
+              interest" or "no interest if
+              paid in full within [X] months." This means that you won't incur interest charges during the promotional
+              period, which is usually a set number of months. However, if you fail to pay off the full balance within
+              that
+              time frame, you could be retroactively charged interest on the entire original purchase amount from the
+              date
+              of purchase, often at a higher interest rate. These plans are good if you can pay off the balance within
+              the
+              promotional period, and won't incur any interest charges. They also allow you to make a large purchase
+              without
+              immediate financial strain. However, if you don't pay off the full balance within the promotional period,
+              you
+              could be hit with a significant amount of retroactive interest. So, make sure you carefully understand the
+              terms and conditions to avoid surprises.
+            </li>
+          </ul>
+
+
+          <!-- ======= Note ======= -->
+          <div class="alert alert-primary" role="alert">
+            The program requires participants to have a credit check, and they need to be eligible based on their
+            credit history. So, don’t try to apply for the BestBuy Credit Card and make it your first credit card.
+          </div>
+
+        </section>
+        <!-- End of Buying a New Device Section  -->
+
+        <!-- Phone Services for NewComers Section  -->
+        <section id="Phone_Services_for_NewComers">
+          <div class="title-lvl2">
+            <div class="outline">
+              <i class="iconify" data-icon="mdi-transfer"></i>
+              <h2 class="h4">Phone Services for NewComers</h2>
+            </div>
+          </div>
+
+          Now that you have learned the basics of phone services in the United States, this section provides a
+          comprehensive guide on how to obtain your phone service.
+
+          <!-- ======= Note ======= -->
+          <div class="alert alert-primary" role="alert">
+            Always ask around and check online for promotions!
+          </div>
+
+
+          <h5>First Weeks</h5>
+          <p class="ms-3">
+            Most students consider family plans to be their preferred long-term solution for fulfilling their phone
+            requirements. Nevertheless, prior to selecting a group of individuals to join a family plan with, opting for
+            a
+            temporary SIM card is advisable. As of 2023, Google Fi stands out as one of the most recommended choices in
+            this regard. To streamline the purchasing process, simply follow these steps when you're prepared to make
+            your
+            decision:
+          </p>
+
+          <h5>Determine Requirements</h5>
+
+          <ul>
+            <li>
+              Decide what type of phone service you need. Will it be a prepaid plan, postpaid plan, or a family plan?
+            </li>
+
+            <li>
+              Consider factors like data usage, talk time, international calling needs, and budget.
+            </li>
+          </ul>
+
+          <h5>Select a Plan</h5>
+          <ul>
+            <li>
+              Pick the type of contract you want from Prepaid, Postpaid and Family plans.
+            </li>
+
+            <li>
+              Mobile data is essential for internet access on your phone. Determine your data usage needs and choose a
+              plan
+              accordingly that suits your needs and budget.
+            </li>
+
+            <li>
+              Plans typically include data, talk time, and text messages. Some plans might also include international
+              calling or data roaming options. Most carriers offer different data packages, ranging from limited to
+              unlimited options.
+            </li>
+
+            <li>
+              If you have access to Wi-Fi at home and work, you may be able to opt for a more affordable plan with lower
+              data limits.
+            </li>
+          </ul>
+
+
+          <h5>After Selecting a Plan</h5>
+
+          <ol>
+
+            <li>
+              Visit a Retail Store or Website
+              <ul>
+                <li>
+                  Once you have researched and chosen a Carrier, visit their stores to inquire about plans, activate
+                  your
+                  service, and obtain a SIM card.
+                </li>
+                <li>
+                  Alternatively, you can order SIM cards and activate services online through carrier websites or
+                  authorized
+                  retailers.
+                </li>
+                <li>
+                  Ensure to carry your identification documents, such as your passport or visa, as they may be required
+                  during
+                  the activation process.
+                </li>
+              </ul>
+            </li>
+
+            <li>
+              Choose a Device or Bring an Unlocked one
+              <ul>
+                <li>
+                  If you already have an unlocked phone that supports GSM networks, you can simply insert a US SIM card
+                  and
+                  start using it.
+                </li>
+                <li>
+                  If your phone is locked to a specific carrier or incompatible with US networks, you may need to
+                  purchase a new
+                  phone.
+                </li>
+                <li>
+                  If you need a new phone, select a device from the carrier's offerings. This might include smartphones
+                  or basic
+                  phones.
+                </li>
+                <li>
+                  There are some carriers that have promotions that give you a new device with your line.
+                </li>
+                <li>
+                  Many carriers offer installment plans or outright purchase options for smartphones.
+                </li>
+              </ul>
+            </li>
+
+            <li>
+              Select a Phone Number
+              <ul>
+                <li>
+                  You can often choose a phone number from available options, which might include local area codes.
+                </li>
+                <li>
+                  Alternatively, you might be able to port an existing number from a previous carrier.
+                </li>
+              </ul>
+            </li>
+            <li>
+              Complete the Application
+              <ul>
+                <li>
+                  If applying in person, fill out the necessary paperwork and provide the required identification.
+                </li>
+                <li>
+                  If applying online, follow the instructions to complete the application and upload any necessary
+                  documents.
+                </li>
+              </ul>
+            </li>
+            <li>
+              Choose Additional Services
+              <ul>
+                <li>
+                  Mobile carriers often offer additional services like insurance for the device, device protection
+                  plans,
+                  extended warranties, international roaming packages, family plans, and mobile banking options.
+                </li>
+                <li>
+                  Take the time to explore these offerings to see if they align with your needs and preferences.
+                </li>
+              </ul>
+            </li>
+            <li>
+              Activate the Service
+              <ul>
+                <li>
+                  If you're applying in person, the carrier's representative will assist with activating the service and
+                  setting
+                  up the device.
+                </li>
+                <li>
+                  If applying online, follow the activation instructions provided by the carrier.
+                </li>
+              </ul>
+            </li>
+            <li>
+              Set Up the Phone
+              <ul>
+                <li>
+                  Once the service is activated, follow the prompts on the device to complete the setup process.
+                </li>
+                <li>
+                  This might involve connecting to Wi-Fi, logging in to accounts, and configuring settings.
+                </li>
+              </ul>
+            </li>
+            <li>
+              Test the Service
+              <ul>
+                <li>
+                  Make a test call, send a text message, and use data to ensure that the phone service is working
+                  correctly.
+                </li>
+              </ul>
+            </li>
+            <li>
+              Understand Billing and Payment
+              <ul>
+                <li>
+                  Familiarize yourself with the billing cycle, payment methods, and due dates for the chosen plan. Many
+                  carriers
+                  offer online account management to view bills, make payments, and change plan details.
+                </li>
+              </ul>
+            </li>
+          </ol>
+        </section>
+        <!-- End of Money Transfer Section  -->
+
+      </div>
+      <!-- End of Tab One -->
+
+      <!-- ======= Second Tab Content ======= -->
+      <div
+        class="tab-pane fade"
+        id="pills-score"
+        role="tabpanel"
+        aria-labelledby="pills-score-tab"
+        tabindex="0"
+      >
+        <!-- ======= First Section ======= -->
+        <section>
+          <div class="tab-title">
+            <h2>Streaming Services</h2>
+          </div>
+          <div class="tab-outlines">
+            <!-- ======= outline 1 ======= -->
+            <a class="outline" href="#Amazon_Prime">
+              <i
+                class="iconify"
+                data-icon="mdi-credit-card-check-outline"
+              ></i>
+              <h2 class="h6">Amazon Prime</h2>
+            </a>
+            <!-- ======= outline 2 ======= -->
+            <a class="outline" href="#Spotify_Student ">
+              <i class="iconify" data-icon="mdi-credit-card-plus"></i>
+
+              <h2 class="h6">Spotify Student</h2>
+            </a>
+            <!-- ======= outline 3 ======= -->
+            <a class="outline" href="#Netflix">
+              <i class="iconify" data-icon="mdi-list-status"></i>
+              <h2 class="h6">Netflix</h2>
+            </a>
+            <!-- ======= outline 4 ======= -->
+            <a class="outline" href="#YouTube_Premium">
+              <i class="iconify" data-icon="mdi-credit-card-scan"></i>
+              <h2 class="h6">YouTube Premium</h2>
+            </a>
+          </div>
+        </section>
+        <!-- End of First Section  -->
+
+        <!-- ======= Amazon Prime section ======= -->
+        <section id="Amazon_Prime">
+          <div class="title-lvl2">
+            <div class="outline">
+              <i
+                class="iconify"
+                data-icon="mdi-credit-card-check-outline"
+              ></i>
+
+              <h2 class="h4">Amazon Prime</h2>
+            </div>
+          </div>
+
+          <p>
+            As a student, you can sign up for a 6-month trial of Amazon Prime (using your .edu email address) which
+            includes 2-day shipping on most of the items, access to Amazon Prime Now (2 hour delivery for groceries),
+            access to hundreds of movies and tv series on Prime Video, and lots of other benefits. All you have to do
+            is to check out
+            <a href="https://www.amazon.com/Amazon-Student/b?ie=UTF8&node=668781011" target="_blank">
+              here
+            </a>
+            , and follow the instructions.
+          </p>
+        </section>
+        <!-- End of Amazon Prime Section  -->
+
+        <!-- ======= Spotify Student section ======= -->
+        <section id="Spotify_Student">
+          <div class="title-lvl2">
+            <div class="outline">
+              <i class="iconify" data-icon="mdi-credit-card-plus"></i>
+              <h2 class="h4">Spotify Student</h2>
+            </div>
+          </div>
+
+          <p>
+            You can sign up for Spotify students, which includes Spotify + hulu (w. adds) + Showtime, all for 5$/month
+            (August 2023). Check out
+            <a href="https://www.spotify.com/us/student/" target="_blank">
+              here
+            </a>
+            .
+          </p>
+        </section>
+        <!-- End of Spotify Student Section  -->
+
+        <!-- ======= Netflix section ======= -->
+        <section id="Netflix">
+          <div class="title-lvl2">
+            <div class="outline">
+              <i class="iconify" data-icon="mdi-list-status"></i>
+              <h2 class="h4">Netflix</h2>
+            </div>
+          </div>
+          <p>
+            Known for its vast library of movies, TV shows, and original content, Netflix offers a wide range of
+            genres to cater to different tastes. You can get this from your phone service for free depending on your
+            plan. So, make sure to ask from the customer service of your mobile carrier. Some carriers include:
+            <a href="https://www.t-mobile.com/tv-streaming/netflix-on-us" target="_blank">
+              T-Mobile
+            </a>
+            , and
+            <a href="https://www.verizon.com/about/news/verizon-exclusive-play-offer-one-year-netflix"
+               target="_blank">
+              Verizon
+            </a>
+            .
+          </p>
+        </section>
+        <!-- End of Netflix Section  -->
+
+        <!-- ======= YouTube Premium section ======= -->
+        <section id="YouTube_Premium">
+          <div class="title-lvl2">
+            <div class="outline">
+              <i class="iconify" data-icon="mdi-credit-card-scan"></i>
+              <h2 class="h4">YouTube Premium</h2>
+            </div>
+          </div>
+          <p>
+            Busy students can not only get ad-free videos with YouTube Premium, but the option to download them for
+            offline viewing for $6.99/month (August 2023). You’ll also get unlimited access to YouTube Music if
+            Spotify or Amazon Music’s libraries just aren’t cutting it for you. Choose a one month free trial before
+            you start if you want to test the waters watching YouTube without all the pesky ad distractions. Checkout
+            the discount
+            <a href="https://www.youtube.com/premium/student" target="_blank">
+              here
+            </a>
+            .
+          </p>
+        </section>
+        <!-- End of YouTube Premium Section  -->
+      </div>
+      <!-- End of Second Tab -->
+
+      <!-- ======= Third Tab Content ======= -->
+      <div
+        class="tab-pane fade"
+        id="pills-card"
+        role="tabpanel"
+        aria-labelledby="pills-card-tab"
+        tabindex="0"
+      >
+        <!-- ======= First Section ======= -->
+        <section>
+          <div class="tab-title">
+            <h2>Internet & WiFi</h2>
+          </div>
+          <div class="tab-outlines">
+            <!-- ======= outline 1 ======= -->
+            <a class="outline" href="#Key_Terms">
+              <i class="iconify" data-icon="mdi-format-list-checks"></i>
+
+              <h2 class="h6">Understanding The Key Terms</h2>
+            </a>
+            <!-- ======= outline 2 ======= -->
+            <!--<a class="outline" href="#Rewards">
+              <i class="iconify" data-icon="mdi-gift"></i>
+              <h2 class="h6">Understanding Credit Card Rewards</h2>
+            </a>-->
+            <!-- ======= outline 3 ======= -->
+            <!--<a class="outline" href="#Types_of_Credit_Cards">
+              <i class="iconify" data-icon="mdi-credit-card-multiple"></i>
+              <h2 class="h6">Types of Credit Cards</h2>
+            </a>-->
+            <!-- ======= outline 4 ======= -->
+            <!-- <a class="outline" href="#Monitoring">
+              <img
+                src="assets/img/icons/financial/svg/018-card-1.svg"
+                alt=""
+              />
+              <h2 class="h6">Monitoring</h2>
+            </a> -->
+            <!-- ======= outline 5 ======= -->
+            <!-- <a class="outline" href="#Inquiries">
+              <img
+                src="assets/img/icons/financial/svg/030-account.svg"
+                alt=""
+              />
+              <h2 class="h6">Hard and Soft Inquiries</h2>
+            </a> -->
+            <!-- ======= outline 6 ======= -->
+            <!-- <a class="outline" href="#Uses_of_Score">
+              <img
+                src="assets/img/icons/financial/svg/024-bag-1.svg"
+                alt=""
+              />
+              <h2 class="h6">Uses of Credit Score</h2>
+            </a> -->
+            <!-- ======= outline 7 ======= -->
+            <!-- <a class="outline" href="#International_Students">
+              <img
+                src="assets/img/icons/financial/svg/001-card.svg"
+                alt=""
+              />
+              <h2 class="h6">International Students</h2>
+            </a> -->
+            <!-- ======= outline 8 ======= -->
+            <!-- <a class="outline" href="#Money">
+            <img
+              src="assets/img/icons/financial/svg/025-bill-1.svg"
+              alt=""
+            />
+            <h2 class="h6">Money Transfer</h2>
+          </a> -->
+          </div>
+          <p>
+          </p>
+        </section>
+        <!-- End of First Section  -->
+
+        <!-- ======= section ======= -->
+        <section id="Key_Terms">
+          <div class="title-lvl2">
+            <div class="outline">
+              <i class="iconify" data-icon="mdi-format-list-checks"></i>
+
+              <h2 class="h4">Title</h2>
+            </div>
+          </div>
+          <p>
+          </p>
+        </section>
+        <!-- End of Section  -->
+
+      </div>
+      <!-- End of Third Tab-->
+
     </div>
-</div>
+  </div>
+</main>
+<!-- End #main -->
 
-      </main>
-      <!-- End #main -->
-      
-      <!-- ======= Footer ======= -->
-      <!-- End Footer -->
-      
-      <!-- JS Files -->
-      <script src="assets/libraries/bootstrap/js/bootstrap.bundle.min.js"></script>
-      
-      <!-- Main JS File -->
-      <script src="assets/js/main.js"></script>
-  </body>
+<!-- ======= Footer ======= -->
+
+<!-- End Footer -->
+
+<!-- JS Files -->
+<script src="assets/libraries/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+<!-- Main JS File -->
+<script src="assets/js/main.js"></script>
+</body>
 </html>
