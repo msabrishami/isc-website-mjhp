@@ -32,14 +32,14 @@ Finally, there are different official forms that are either required to be fille
 
 ```
 Know Your Rights
-It's essential to know your rights if approached by immigration officials, whether at the border, an airport, or within the U.S. You have the right to be treated fairly, and in specific situations, you might have the right to legal representation or to decline answering certain questions without a lawyer present. We strongly suggest our international NewComers to read the corresponding section on our information portal. 
+It is essential to know your rights if approached by immigration officials, whether at the border, an airport, or within the U.S. You have the right to be treated fairly, and in specific situations, you might have the right to legal representation or to decline answering certain questions without a lawyer present. We strongly suggest our international NewComers to read the corresponding section on our information portal. 
 ```
 
 
 
 ## Department of Homeland Security (DHS)
 
-The Department of Homeland Security, commonly known as DHS, was established in 2002 to help keep the United States safe. Its main job is to protect the country from potential dangers whether it's guarding the country's borders, checking travelers at airports, or responding to natural disasters. DHS also plays a key role in making sure the U.S. is protected against terrorism threats. 
+The Department of Homeland Security, commonly known as DHS, was established in 2002 to help keep the United States safe. Its main job is to protect the country from potential dangers whether it is guarding the country's borders, checking travelers at airports, or responding to natural disasters. DHS also plays a key role in making sure the U.S. is protected against terrorism threats. 
 
 
 ### Primary Roles and Responsibilities
@@ -67,7 +67,7 @@ The Department of Homeland Security (DHS) plays a significant role in a newcomer
 
 **Arrival at U.S. Ports (CBP):** When you first arrive in the U.S., you'll likely encounter officers from U.S. Customs and Border Protection (CBP), a key agency under DHS. They inspect and decide who gets to enter the country. 
 
-**Visa vs. Admission (CBP):** Being granted a visa by the U.S. Department of State doesn't guarantee entry into the U.S. The final decision rests with CBP officers at the port of entry. Think of a visa as a request to knock on the U.S.'s door, and CBP decides whether to let you in.
+**Visa vs. Admission (CBP):** Being granted a visa by the U.S. Department of State does not guarantee entry into the U.S. The final decision rests with CBP officers at the port of entry. Think of a visa as a request to knock on the U.S.'s door, and CBP decides whether to let you in.
 
 **Staying Legally (ICE):** It's crucial to adhere to the conditions of your visa. Overstaying or violating visa terms can lead to complications, and you might have interactions with U.S. Immigration and Customs Enforcement (ICE), another DHS agency.
 
