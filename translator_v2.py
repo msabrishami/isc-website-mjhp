@@ -38,18 +38,12 @@ for idx, line in enumerate(lines):
         ptr_s = idx
         break
 
-# html = f'''
-#     <div class="container">
-#         <div class="tab-content" id="pills-tabContent">
-#     '''
-
 html = config.html_tab_content_head
 
 in_comment = False
 
 while (ptr_f < len(lines)-1):
     ptr_f = ptr_s + 1
-    # print("Starting the loop: ", ptr_s, ptr_f)
     while (ptr_f < len(lines)) and (not lines[ptr_f].startswith("# ")):
         ptr_f += 1
     h1 = None
