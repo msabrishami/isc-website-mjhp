@@ -10,7 +10,7 @@ The content on Google Doc. is translated into Markdown using a Google Doc's Ad-O
 The Markdown file is then translated into html, using this script: 
 
 ```
-python3 translator_v2.py markdown-file.md output-html-file-name.html "the title string"
+python3 translator.py markdown-file.md output-html-file-name.html "the title string"
 ```
 
 **Important notes for content creators and editors on Google Doc.** 
