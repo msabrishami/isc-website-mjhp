@@ -36,9 +36,7 @@ The US has several mobile carriers (wireless communications service providers) o
 * Mobile Virtual Network Operators (MVNOs) are companies that do not own a mobile spectrum license but sell mobile services under its brand name using the network of a licensed mobile operator.
 
 ```
-
-Comparison with Iran: Famous Iranian mobile carriers are Hamrah-e Aval, Irancell, and Rightel.
-
+Comparison with Iran: Famous Iranian mobile carriers are Hamrah-e Aval, Irancell, and Rightel. 
 ```
 
 ## Understanding Mobile Plans
@@ -124,14 +122,12 @@ A family plan covers everyone in your family who you add to the plan. Generally,
 * **Different Line Options:** Family plans accommodate different types of lines, where each line can have its own phone number and individual usage limits, ensuring flexibility in meeting the communication needs of each family member.
 * **Shared Data Allowance:** In many family plans, the mobile data allowance is shared among all lines. This means that all family members draw from the same data pool. It is important to consider the data needs of each member and choose a plan with an appropriate data allocation to avoid exceeding the limit or incurring additional charges.
 * **Managing Usage and Controls:** Family plans often provide tools for managing and monitoring usage. The primary account holder can set usage limits, control content access for specific lines (especially useful for children), and receive notifications or alerts regarding usage. These features enable better control over expenses and ensure responsible usage.
-* **Eligibility and Line Additions:**To add additional lines to a family plan, carriers typically require the primary account holder to be a legal adult and undergo a credit check. Some carriers may also have restrictions on the number of lines that can be added to a plan.
+* **Eligibility and Line Additions:** To add additional lines to a family plan, carriers typically require the primary account holder to be a legal adult and undergo a credit check. Some carriers may also have restrictions on the number of lines that can be added to a plan.
 * **Device Purchases and Upgrades:** Family plans allow for flexibility in device purchases and upgrades. Each line can have its own device, and members can select phones that meet their individual preferences and needs. Some carriers offer installment plans or discounted pricing on devices when purchased as part of a family plan.
 * **Note:** Before selecting a family plan, consider the specific needs of your family members, including their voice, messaging, and data requirements. Research and compare family plans offered by different carriers to find the one that offers the most suitable combination of features, coverage, and pricing for your family's needs.
 
 ```
-
-Note: If you find a group of other students to apply together, a family plan could be a great option for you.
-
+Note: If you find a group of other students to apply together, a family plan could be a great option for you. 
 ```
 
 ### Phone Plan with Mobile
@@ -181,32 +177,26 @@ An unlocked mobile device is not tied to any specific carrier. These devices are
 If you have a locked device and want to use it with a different carrier, you will need to "unlock" it. This involves contacting your current carrier and requesting an unlock code or instructions. Once unlocked, the device can accept SIM cards from other carriers.
 
 ```
-
 Note: A carrier can only unlock an iPhone that has been fully paid off.
-
 ```
 
 ### Apple iPhone Upgrade Program
 
-The Apple iPhone Upgrade Program is a service offered by Apple that allows customers to purchase a new iPhone and spread out the cost over a period of time through monthly installments. It's designed to make it easier for customers to stay up-to-date with the latest iPhone models without having to pay the full retail price upfront. For more information visit [their website](https://www.apple.com/shop/iphone/iphone-upgrade-program).
+The Apple iPhone Upgrade Program is a service offered by Apple that allows customers to purchase a new iPhone and spread out the cost over a period of time through monthly installments. It's designed to make it easier for customers to stay up-to-date with the latest iPhone models without having to pay the full retail price upfront. For more information visit their website [Here](https://www.apple.com/shop/iphone/iphone-upgrade-program).
 
 ```
-
-Note: The program requires participants to have a credit check, and they need to be eligible based on their credit history. So, don't try to apply for the Apple Credit Card and make it your first credit card.
-
+Note: The program requires participants to have a credit check, and they need to be eligible based on their credit history. So, don't try to apply for the Apple Credit Card and make it your first credit card. 
 ```
 
 ### BestBuy Finance system
 
-BestBuy has two finance programs for financing your phone. For more information visit [their website](https://www.bestbuy.com/site/financing-rewards/learn-about-best-buy-financing/pcmcat1476112234971.c?id=pcmcat1476112234971) or read the information below:
+BestBuy has two finance programs for financing your phone. For more information visit their website [Here](https://www.bestbuy.com/site/financing-rewards/learn-about-best-buy-financing/pcmcat1476112234971.c?id=pcmcat1476112234971) or read the information below:
 
 * **Reduced Rate Credit Plan:** This type of financing offers a fixed, often lower interest rate on the financed amount. The interest rate is typically advertised as lower than the standard credit card interest rates. With a reduced rate credit plan, you will pay interest on the remaining balance over the course of the financing term. The interest is calculated based on the outstanding balance and the agreed-upon interest rate. Since the interest rate is fixed in this plan, you can accurately predict the interest costs over the term. But you will still need to pay interest on the financed amount, which could add to the overall cost of your purchase. There might also be fees associated with setting up the credit plan.
 * **Deferred Interest Financing:** Deferred interest financing is often marketed as "0% interest" or "no interest if paid in full within [X] months." This means that you won't incur interest charges during the promotional period, which is usually a set number of months. However, if you fail to pay off the full balance within that time frame, you could be retroactively charged interest on the entire original purchase amount from the date of purchase, often at a higher interest rate. These plans are good if you can pay off the balance within the promotional period, and won't incur any interest charges. They also allow you to make a large purchase without immediate financial strain. However, if you don't pay off the full balance within the promotional period, you could be hit with a significant amount of retroactive interest. So, make sure you carefully understand the terms and conditions to avoid surprises.
 
 ```
-
-Note:  The program requires participants to have a credit check, and they need to be eligible based on their credit history. So, don't try to apply for the BestBuy Credit Card and make it your first credit card.
-
+Note:  The program requires participants to have a credit check, and they need to be eligible based on their credit history. So, don't try to apply for the BestBuy Credit Card and make it your first credit card. 
 ```
 
 ## Phone Services for NewComers
@@ -214,9 +204,7 @@ Note:  The program requires participants to have a credit check, and they need t
 Now that you have learned the basics of phone services in the United States, this section provides a comprehensive guide on how to obtain your phone service.
 
 ```
-
-Note: Always ask around and check online for promotions!
-
+Notice: Always ask around and check online for promotions! 
 ```
 
 ### First Weeks
@@ -271,7 +259,7 @@ Most students consider family plans to be their preferred long-term solution for
 * If you're applying in person, the carrier's representative will assist with activating the service and setting up the device.
 * If applying online, follow the activation instructions provided by the carrier.
 
-7. Set Up the Phone  
+7. Set Up the Phone
 
 * Once the service is activated, follow the prompts on the device to complete the setup process.
 * This might involve connecting to Wi-Fi, logging in to accounts, and configuring settings.
@@ -288,7 +276,7 @@ Most students consider family plans to be their preferred long-term solution for
 
 ## Amazon Prime
 
-As a student, you can sign up for a 6-month trial of Amazon Prime (using your .edu email address) which includes 2-day shipping on most of the items, access to Amazon Prime Now (2-hour delivery for groceries), access to hundreds of movies and tv series on Prime Video, and lots of other benefits. All you have to do is to check out [here](https://www.amazon.com/Amazon-Student/b?ie=UTF8&node=668781011), and follow the instructions.
+As a student, you can sign up for a 6-month trial of Amazon Prime (using your .edu email address) which includes 2-day shipping on most of the items, access to Amazon Prime Now (2 hour delivery for groceries), access to hundreds of movies and tv series on Prime Video, and lots of other benefits. All you have to do is to check out [here](https://www.amazon.com/Amazon-Student/b?ie=UTF8&node=668781011), and follow the instructions.
 
 ## Spotify Student
 
@@ -296,11 +284,11 @@ You can sign up for Spotify students, which includes Spotify + hulu (w. adds) + 
 
 ## Kanopy
 
-Kanopy is a video streaming platform providing access to more than 30,000 independent and documentary films, including a number of Iranian movies. It is the same as Netflix but mostly for international movies and documentaries. You can access the content using your University’s email & password, free of charge, Check out [here.](https://libraries.usc.edu/databases/kanopy-streaming-service)
+Kanopy is a video streaming platform providing access to more than 30,000 independent and documentary films, including a number of Iranian movies. It is the same as Netflix but mostly for international movies and documentaries. You can access the content using your University’s email & password, free of charge; check out [here.](https://libraries.usc.edu/databases/kanopy-streaming-service)
 
 ## HBO
 
-You can watch all the movies on the HBO Max platform using your phone services or internet provider. Simply navigate to [https://auth.max.com/providers](https://auth.max.com/providers), choose the provider and find out if you can access HBO max for free.
+You can watch all the movies on the HBO Max platform using your phone services or internet provider. Simply navigate to [here](https://auth.max.com/providers), choose the provider and find out if you can access HBO max for free.
 
 ## Netflix
 
