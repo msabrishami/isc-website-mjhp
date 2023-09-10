@@ -302,7 +302,6 @@ While both FICO Score and VantageScore serve the same purpose of assessing credi
 * **Factors Weighting:** The weight given to specific credit factors may differ between the two models. For example, the importance of payment history and credit utilization may vary.
 * **Weighting:** FICO gives more weight to payment history, while VantageScore's latest version emphasizes total credit usage and balances.
 
-![image_info](./images/pic1.png)
 
 ```
 
@@ -322,7 +321,8 @@ Some specialized models assess creditworthiness based on factors relevant to eac
 
 Various factors contribute to your credit score, and understanding them will help you take actions to improve and maintain a good score. Credit scores are calculated using various factors and weighted differently depending on the scoring model. The factors commonly considered in credit score calculations include:
 
-![alt_text]("https://github.com/msabrishami/isc-website-mjhp/blob/develope/images/pic1.png")
+![image_info](./images/pic1.png)
+
 
 ### Payment History
 
