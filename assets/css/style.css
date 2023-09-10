@@ -119,8 +119,8 @@ main.container {
   font-style: normal;
   font-weight: 600;
   line-height: normal;
-  text-transform: capitalize;
   margin-bottom: 0;
+  text-align: center;
 }
 .main-title .back-to-IP {
   position: absolute;
@@ -173,7 +173,6 @@ main.container {
   font-style: normal;
   line-height: normal;
   font-weight: 300;
-  text-transform: capitalize;
   width: auto;
   height: 32px;
   padding: 0 8px;
@@ -245,6 +244,7 @@ main.container {
   grid-column-gap: 16px;
   grid-row-gap: 16px;
   margin-bottom: 2rem;
+  grid-template-columns: repeat(2, 1fr);
 }
 .tab-content .tab-outlines .outline-container {
   display: flex;
@@ -603,21 +603,6 @@ footer .sponsor a {
     padding-top: 3rem;
     scroll-margin-top: 50px;
   }
-  .main-title h1 {
-    font-size: 48px;
-  }
-  .main-title .back-to-IP {
-    top: unset;
-  }
-  .main-title .logo {
-    position: absolute;
-    right: 0;
-    top: unset;
-  }
-  .main-title .logo img {
-    height: 65px;
-    width: 65px;
-  }
   .tab-content #pills-bank .tab-outlines {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
@@ -658,9 +643,6 @@ footer .sponsor a {
   .tab-navigation .nav .nav-link:hover, .tab-navigation .nav .nav-link:focus, .tab-navigation .nav .nav-link:active {
     background-color: rgba(247, 227, 163, 0.2);
   }
-  .tab-navigation.fix-style {
-    padding: 8px 0;
-  }
   .tab-navigation.fix-style .nav .nav-link {
     font-size: 16px;
   }
@@ -669,6 +651,14 @@ footer .sponsor a {
   }
   .tab-navigation .container {
     justify-content: center;
+  }
+  .main-title .back-to-IP {
+    top: unset;
+  }
+  .main-title .logo {
+    position: absolute;
+    right: 0;
+    top: unset;
   }
   .tab-content .tab-outlines {
     grid-template-columns: repeat(3, 1fr);
