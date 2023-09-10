@@ -40,7 +40,7 @@ maybe something else here
 
 * You can first test the html on your computer, but that is NOT enough, it needs to be pushed and viewed to make sure all iconos are correct.
 
-## Important notes and current shortcomings:
+## Important notes and current shortcomings
 
 * NO dots in H1 (and probably H2) strings.
 * Links from Google Doc and Markdwon are not correctly translated.
@@ -54,6 +54,14 @@ First, move your picture file in the `images` folder in this directory. Then, in
 `![image_title](./images/pic1.png)`
 
 Now, your image must be showed up in the text.
+
+ For more options such as alignment or width, you can use the HTML format like below:
+
+```
+<p align="center">
+<img src="./images/pic1.png" width="400">
+</p>
+```
 
 ## Links
 
