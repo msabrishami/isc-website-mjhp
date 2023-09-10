@@ -112,6 +112,7 @@ main.container {
   align-items: center;
   margin: 1rem 0;
   position: relative;
+  padding-top: 32px;
 }
 .main-title h1 {
   font-size: 32px;
@@ -124,6 +125,7 @@ main.container {
 .main-title .back-to-IP {
   position: absolute;
   left: 0;
+  top: 0;
   display: flex;
   align-items: center;
   font-family: "Poppins", sans-serif;
@@ -138,6 +140,7 @@ main.container {
 .main-title .logo {
   position: absolute;
   right: 0;
+  top: -12px;
 }
 .main-title .logo img {
   height: 44px;
@@ -148,9 +151,10 @@ main.container {
   position: sticky;
   top: 0;
   z-index: 10;
-  padding: 12px 0px;
+  padding: 8px 0px 0px;
   background-color: #1a5460;
   margin-bottom: 0;
+  border-bottom: 1px solid #f7e3a3;
 }
 .tab-navigation .container {
   justify-content: center;
@@ -172,20 +176,27 @@ main.container {
   text-transform: capitalize;
   width: auto;
   height: 32px;
-  padding: 0;
+  padding: 0 8px;
+  border-radius: 5px 5px 0 0;
+  padding-top: 5px;
+  position: relative;
+  z-index: 10;
+  margin-bottom: -1px;
 }
 .tab-navigation .nav .nav-link.active {
   display: flex;
-  padding: 0 12px;
   justify-content: center;
   align-items: center;
   color: #1a5460;
-  background-color: #f7e3a3;
-  border-radius: 5px;
+  background-color: #f2f2f2;
   font-weight: 500;
+  border-left: 1px solid #f7e3a3;
+  border-top: 1px solid #f7e3a3;
+  border-right: 1px solid #f7e3a3;
+  border-bottom: 1px solid #f2f2f2;
 }
 .tab-navigation .nav .nav-link.active:hover, .tab-navigation .nav .nav-link.active:focus, .tab-navigation .nav .nav-link.active:active {
-  background-color: #f7e3a3;
+  background-color: #f2f2f2;
 }
 
 .title-lvl1 {
@@ -595,9 +606,13 @@ footer .sponsor a {
   .main-title h1 {
     font-size: 48px;
   }
+  .main-title .back-to-IP {
+    top: unset;
+  }
   .main-title .logo {
     position: absolute;
     right: 0;
+    top: unset;
   }
   .main-title .logo img {
     height: 65px;
@@ -620,9 +635,12 @@ footer .sponsor a {
     gap: 0;
   }
   .tab-navigation .nav .nav-link {
-    width: 150px;
+    min-width: 150px;
     height: 50px;
-    font-size: 18px;
+    font-size: 16px;
+    padding-right: 12px;
+    padding-left: 12px;
+    letter-spacing: 0.25px;
   }
 }
 @media (min-width: 991px) {

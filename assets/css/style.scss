@@ -126,6 +126,7 @@ main.container {
   align-items: center;
   margin: 1rem 0;
   position: relative;
+  padding-top: 32px;
   h1 {
     font-size: 32px;
     font-style: normal;
@@ -137,6 +138,7 @@ main.container {
   .back-to-IP {
     position: absolute;
     left: 0;
+    top: 0;
     display: flex;
     align-items: center;
     font-family: $font-family_2;
@@ -151,6 +153,8 @@ main.container {
   .logo {
     position: absolute;
     right: 0;
+    top: -12px;
+
     img {
       height: 44px;
       width: 44px;
@@ -162,9 +166,10 @@ main.container {
   position: sticky;
   top: 0;
   z-index: 10;
-  padding: 12px 0px;
+  padding: 8px 0px 0px;
   background-color: $color_primary1;
   margin-bottom: 0;
+  border-bottom: 1px solid $color_primary2;
 
   .container {
     justify-content: center;
@@ -185,18 +190,52 @@ main.container {
       text-transform: capitalize;
       width: auto;
       height: 32px;
-      padding: 0;
+      padding: 0 8px;
+      border-radius: 5px 5px 0 0;
+      padding-top: 5px;
+      position: relative;
+      z-index: 10;
+      margin-bottom: -1px;
+      // &::after {
+      //   content: "";
+      //   position: absolute;
+      //   background-image: url(../img/header/rightBottom.svg);
+      //   background-repeat: no-repeat;
+      //   background-size: contain;
+      //   width: 15px;
+      //   height: 15px;
+      //   right: -15px;
+      //   bottom: -1px;
+      // }
+      // &::before {
+      //   content: "";
+      //   position: absolute;
+      //   background-image: url(../img/header/leftBottom.svg);
+      //   background-repeat: no-repeat;
+      //   background-size: contain;
+      //   width: 15px;
+      //   height: 15px;
+      //   left: -14px;
+      //   bottom: -1px;
+      // }
+
       &.active {
         display: flex;
-        padding: 0 12px;
         justify-content: center;
         align-items: center;
         color: $color_primary1;
-        background-color: $color_primary2;
-        border-radius: 5px;
+        background-color: #f2f2f2;
+        // border-radius: 5px;
         font-weight: 500;
-        &:hover, &:focus, &:active {
-          background-color: $color_primary2;
+        border-left: 1px solid $color_primary2;
+        border-top: 1px solid $color_primary2;
+        border-right: 1px solid $color_primary2;
+        border-bottom: 1px solid #f2f2f2;
+
+        &:hover,
+        &:focus,
+        &:active {
+          background-color: #f2f2f2;
         }
       }
     }
@@ -689,9 +728,14 @@ footer {
     h1 {
       font-size: 48px;
     }
+    .back-to-IP {
+      top: unset;
+    }
     .logo {
       position: absolute;
       right: 0;
+      top: unset;
+
       img {
         height: 65px;
         width: 65px;
@@ -722,9 +766,12 @@ footer {
     justify-content: space-around;
     gap: 0;
     .nav-link {
-      width: 150px;
+      min-width: 150px;
       height: 50px;
-      font-size: 18px;
+      font-size: 16px;
+      padding-right: 12px;
+      padding-left: 12px;
+      letter-spacing: .25px;
     }
   }
 }
@@ -745,7 +792,9 @@ footer {
       gap: 32px;
       .nav-link {
         background-color: rgb(247 227 163 / 10%);
-        &:hover, &:focus, &:active {
+        &:hover,
+        &:focus,
+        &:active {
           background-color: rgb(247 227 163 / 20%);
         }
       }
@@ -766,7 +815,6 @@ footer {
     }
   }
   .tab-content {
-
     .tab-outlines {
       grid-template-columns: repeat(3, 1fr);
       grid-template-rows: repeat(3, 1fr);
