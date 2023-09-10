@@ -56,3 +56,9 @@ First, move your picture file in the `images` folder in this directory. Then, in
 Now, your image must be showed up in the text.
 
 ## Links
+
+Wherever you want to insert a link, use this code:
+
+`[link](http://www.nerdwallet.com)`
+
+In the parenthesis enter the correct URL link and in the bracket, write the text you want to be showed up in the text.
