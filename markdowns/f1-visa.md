@@ -14,8 +14,7 @@ Navigating the complexities of an F-1 visa can be overwhelming for international
 
 ### Full Time Status
 
-Universities and colleges have different requirements for what it means for a student to be considered **Full Time**. But generally, this means taking a number of courses during the Fall and Spring semesters. For example, if you are enrolled in 
-<a href="https://summeraid.berkeley.edu/how-aid-works/eligibility/#:~:text=Maintain%20satisfactory%20academic%20progress.,is%20considered%20full%2Dtime%20enrollment">UC Berkeley</a>, this typically means taking 12 units during the semester, or 6-course units for <a href="https://ois.usc.edu/students/maintainingstudentstatus/">USC</a>. Please make sure to check your school’s requirements for the specific number of courses/units required. However, the summer semester is excluded from this requirement and the students are not required to register for any courses then.
+Universities and colleges have different requirements for what it means for a student to be considered **Full Time**. But generally, this means taking a number of courses during the Fall and Spring semesters. For example, if you are enrolled in <a href="https://summeraid.berkeley.edu/how-aid-works/eligibility/#:~:text=Maintain%20satisfactory%20academic%20progress.,is%20considered%20full%2Dtime%20enrollment">UC Berkeley</a>, this typically means taking 12 units during the semester, or 6-course units for <a href="https://ois.usc.edu/students/maintainingstudentstatus/">USC</a>. Please make sure to check your school’s requirements for the specific number of courses/units required. However, the summer semester is excluded from this requirement and the students are not required to register for any courses then.
 
 There are some exceptions to the above rule in some colleges. For example, if a PhD student passes the qualifying exam, then they may be able to take fewer courses to be considered a full-time student. For the exact details, we recommend that you refer to your university’s international office website.
 
@@ -125,4 +124,4 @@ Students who have earned degrees in certain science, technology, engineering, or
 * Requires application and approval from the U.S. Citizenship and Immigration Services (USCIS).
 * OPT can be part-time (up to 20 hours per week) during the academic year and full-time during official school breaks.
 * If you are pursuing a PhD in a STEM (Science, Technology, Engineering, or Mathematics) field, you may be eligible for an extended period of Optional Practical Training (OPT) after completing your program. STEM OPT allows you to work in the United States for an additional 24 months beyond the initial 12 months of OPT. You must apply for STEM OPT and meet specific eligibility requirements.
-*  Consult with your DSO for guidance on STEM OPT application procedures.
+* Consult with your DSO for guidance on STEM OPT application procedures.
