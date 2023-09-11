@@ -217,7 +217,6 @@ You can find halal grocery stores using:
 **Note:** Some **Kosher** and **Indian** restaurants and grocery stores also provide Halal products. 
 
 
-
 # Furniture
 
 When deciding where to shop, consider factors such as your budget, style preferences, and the convenience of delivery or transportation. Each option has its pros and cons, so it's a good idea to explore multiple avenues to find the best deals and pieces that suit your needs.
@@ -452,4 +451,4 @@ Specialty stores, also known as specialty retailers, are retail businesses that 
 
 
 
-* Office Depot/OfficeMax: They supplies office essentials and equipment, along with printing services and rewards programs. Prices may not always be competitive, and the tech selection is limited.
+* Office Depot/OfficeMax: They supply office essentials and equipment, along with printing services and rewards programs. Prices may not always be competitive, and the tech selection is limited.
