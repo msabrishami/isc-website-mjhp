@@ -43,7 +43,6 @@ The creation and responsibilities of the Department of Homeland Security (DHS) p
 
 ```
 While the Department of State has the authority to issue visas, the responsibility for admitting individuals into the United States falls under the DHS. Specifically, within DHS, CBP is the agency tasked with inspecting and admitting or denying entry to individuals at the border and ports of entry.
-
 ```
 
 ### Interactions and Key Points for Newcomers
@@ -142,7 +141,6 @@ For many international students, this is their first introduction to the U.S. le
 
 ```
 Customs regulations are dynamic and frequently updated, so it's crucial to stay informed about the most recent changes to ensure smooth travel experiences.
-
 ```
 
 ## Importance
@@ -160,7 +158,7 @@ Many travelers, especially international students, may wonder why there are so m
 All items you bring should be declared to the U.S. Customs and Border Protection (CBP) upon arrival. Each individual arriving into the United States must complete the Customs and Border Protection (CBP) Declaration Form 6059B. This form can now be filled out prior to or during your travel.
 
 ```
-It is always better to declare something if you're unsure. Failure to declare can result in penalties.
+It is always better to declare something if you are unsure. Failure to declare can result in penalties.
 ```
 
 ### Declaration Form 6059B

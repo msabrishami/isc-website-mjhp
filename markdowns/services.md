@@ -18,7 +18,7 @@ Grasping U.S. phone service terminology is vital, as the system and terms may di
 In the U.S. and Canada, the parts of a phone number are the **exit code**, **country code**, **area code**, **telephone prefix**, and **line number**. The exit code lets you dial out of your home country. The country code is an identifier for a specific country. The area code directs calls to a broad region. The telephone prefix is a smaller area within that region, like a city. The line number identifies the specific phone you are trying to reach.
 
 ```
-Canada: It is important to note that although the country code of Canada is the same as the US, calling Canada is considered an international call. Some plans support free calls to Canada but not all of them. So, be cautious about calling Canada. In cases where you were charged on accident, communicate that with your carrier's customer service and they may waive the fee. 
+**Canada:** It is important to note that although the country code of Canada is the same as the US, calling Canada is considered an international call. Some plans support free calls to Canada but not all of them. So, be cautious about calling Canada. In cases where you were charged on accident, communicate that with your carrier's customer service and they may waive the fee. 
 ```
 
 ### Writing a Phone Number
@@ -36,7 +36,7 @@ The US has several mobile carriers (wireless communications service providers) o
 * Mobile Virtual Network Operators (MVNOs) are companies that do not own a mobile spectrum license but sell mobile services under its brand name using the network of a licensed mobile operator.
 
 ```
-Comparison with Iran: Famous Iranian mobile carriers are Hamrah-e Aval, Irancell, and Rightel. 
+**Comparison with Iran:** Famous Iranian mobile carriers are Hamrah-e Aval, Irancell, and Rightel. 
 ```
 
 ## Understanding Mobile Plans
@@ -127,7 +127,7 @@ A family plan covers everyone in your family who you add to the plan. Generally,
 * **Note:** Before selecting a family plan, consider the specific needs of your family members, including their voice, messaging, and data requirements. Research and compare family plans offered by different carriers to find the one that offers the most suitable combination of features, coverage, and pricing for your family's needs.
 
 ```
-Note: If you find a group of other students to apply together, a family plan could be a great option for you. 
+**Note:** If you find a group of other students to apply together, a family plan could be a great option for you. 
 ```
 
 ### Phone Plan with Mobile
@@ -177,7 +177,7 @@ An unlocked mobile device is not tied to any specific carrier. These devices are
 If you have a locked device and want to use it with a different carrier, you will need to "unlock" it. This involves contacting your current carrier and requesting an unlock code or instructions. Once unlocked, the device can accept SIM cards from other carriers.
 
 ```
-Note: A carrier can only unlock an iPhone that has been fully paid off.
+**Note:** A carrier can only unlock an iPhone that has been fully paid off.
 ```
 
 ### Apple iPhone Upgrade Program
@@ -185,7 +185,7 @@ Note: A carrier can only unlock an iPhone that has been fully paid off.
 The Apple iPhone Upgrade Program is a service offered by Apple that allows customers to purchase a new iPhone and spread out the cost over a period of time through monthly installments. It's designed to make it easier for customers to stay up-to-date with the latest iPhone models without having to pay the full retail price upfront. For more information visit their website <a href="https://www.apple.com/shop/iphone/iphone-upgrade-program">here</a>.
 
 ```
-Note: The program requires participants to have a credit check, and they need to be eligible based on their credit history. So, don't try to apply for the Apple Credit Card and make it your first credit card. 
+**Note:** The program requires participants to have a credit check, and they need to be eligible based on their credit history. So, don't try to apply for the Apple Credit Card and make it your first credit card. 
 ```
 
 ### BestBuy Finance system
@@ -196,7 +196,7 @@ BestBuy has two finance programs for financing your phone. For more information 
 * **Deferred Interest Financing:** Deferred interest financing is often marketed as "0% interest" or "no interest if paid in full within [X] months." This means that you won't incur interest charges during the promotional period, which is usually a set number of months. However, if you fail to pay off the full balance within that time frame, you could be retroactively charged interest on the entire original purchase amount from the date of purchase, often at a higher interest rate. These plans are good if you can pay off the balance within the promotional period, and won't incur any interest charges. They also allow you to make a large purchase without immediate financial strain. However, if you don't pay off the full balance within the promotional period, you could be hit with a significant amount of retroactive interest. So, make sure you carefully understand the terms and conditions to avoid surprises.
 
 ```
-Note:  The program requires participants to have a credit check, and they need to be eligible based on their credit history. So, don't try to apply for the BestBuy Credit Card and make it your first credit card. 
+**Note:** The program requires participants to have a credit check, and they need to be eligible based on their credit history. So, don't try to apply for the BestBuy Credit Card and make it your first credit card. 
 ```
 
 ## Phone Services for NewComers
@@ -204,7 +204,7 @@ Note:  The program requires participants to have a credit check, and they need t
 Now that you have learned the basics of phone services in the United States, this section provides a comprehensive guide on how to obtain your phone service.
 
 ```
-Notice: Always ask around and check online for promotions! 
+**Notice:** Always ask around and check online for promotions! 
 ```
 
 ### First Weeks

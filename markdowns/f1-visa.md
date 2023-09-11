@@ -14,7 +14,7 @@ Navigating the complexities of an F-1 visa can be overwhelming for international
 
 ### Full Time Status
 
-Universities and colleges have different requirements for what it means for a student to be considered **Full Time**. But generally, this means taking a number of courses during Fall and Spring semesters. For example, if you are enrolled in UC Berkeley, this typically means taking 12 units during the semester [[1](https://summeraid.berkeley.edu/how-aid-works/eligibility/#:~:text=Maintain%20satisfactory%20academic%20progress.,is%20considered%20full%2Dtime%20enrollment.)], or 6 course units for USC [[2](https://ois.usc.edu/students/maintainingstudentstatus/)] (please make sure to check your school’s requirement for the specific number of courses/units required). However, summer semester is excluded from this requirement and the students are not required to register for any courses then.
+Universities and colleges have different requirements for what it means for a student to be considered **Full Time**. But generally, this means taking a number of courses during Fall and Spring semesters. For example, if you are enrolled in UC Berkeley, this typically means taking 12 units during the semester [[1](https://summeraid.berkeley.edu/how-aid-works/eligibility/#:~:text=Maintain%20satisfactory%20academic%20progress.,is%20considered%20full%2Dtime%20enrollment.)], or 6 course units for <a href="https://ois.usc.edu/students/maintainingstudentstatus/">USC</a> [[2] (please make sure to check your school’s requirement for the specific number of courses/units required). However, summer semester is excluded from this requirement and the students are not required to register for any courses then.
 
 There are some exceptions to the above rule in some colleges. For example, if a PhD student passes the qualifying exam, then they may be able to take fewer courses to be considered a full time student. For the exact details, we recommend that you refer to your university’s international office website.
 
@@ -38,7 +38,7 @@ There are some limitations associated with an RCL:
 
 Failure to obtain the proper authorization for an RCL or failing to resume a full course load after the RCL period has ended can result in the student falling out of status, which can have serious consequences for their F-1 status.
 
-Please note that regulations and policies can change over time, so it is important for students to check with their DSO and keep up-to-date with any changes. For more details we recommend reaching out to your school’s international office and also study [DHS guidelines](https://studyinthestates.dhs.gov/sevis-help-hub/student-records/manage-program-dates-registration-and-course-load/reduced-course).
+Please note that regulations and policies can change over time, so it is important for students to check with their DSO and keep up-to-date with any changes. For more details we recommend reaching out to your school’s international office and also study <a href="https://studyinthestates.dhs.gov/sevis-help-hub/student-records/manage-program-dates-registration-and-course-load/reduced-course">DHS guidelines</a>.
 
 ### Valid Passport
 
@@ -78,7 +78,7 @@ It is important to note that SSR provisions are temporary measures that are impl
 
 If you would like to apply for this program you need to first reach out to your Designated School Official (DSO) for their guidance on eligibility and the application process.
 
-Please note that immigration policies and regulations can change, and it is important to stay informed about any updates or changes. For more details, please contact your school’s international office, and visit [USCIS page](https://www.uscis.gov/newsroom/alerts/uscis-issues-clarifying-guidance-for-individuals-authorized-to-work-under-special-student-relief) for more detailed information.
+Please note that immigration policies and regulations can change, and it is important to stay informed about any updates or changes. For more details, please contact your school’s international office, and visit <a href="https://www.uscis.gov/newsroom/alerts/uscis-issues-clarifying-guidance-for-individuals-authorized-to-work-under-special-student-relief">USCIS page</a> for more detailed information.
 
 # CPT
 

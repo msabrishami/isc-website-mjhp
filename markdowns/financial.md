@@ -302,17 +302,13 @@ While both FICO Score and VantageScore serve the same purpose of assessing credi
 * **Factors Weighting:** The weight given to specific credit factors may differ between the two models. For example, the importance of payment history and credit utilization may vary.
 * **Weighting:** FICO gives more weight to payment history, while VantageScore's latest version emphasizes total credit usage and balances.
 
-
 ```
-
-Other Credit Scoring Models
-There are alternative credit scoring models developed by various companies and financial institutions. These models may consider different data sources and use unique algorithms to calculate credit scores.
+**Other Credit Scoring Models:** There are alternative credit scoring models developed by various companies and financial institutions. These models may consider different data sources and use unique algorithms to calculate credit scores.
 
 ```
 
 ```
-
-Loan Specific Scoring Models
+**Loan Specific Scoring Models:**
 Some specialized models assess creditworthiness based on factors relevant to each specific type of loan. For example, Experian's FICO Auto Score, which is used for car loans, and FICO Mortgage Score, which is used for mortgage loans.
 
 ```
@@ -322,7 +318,6 @@ Some specialized models assess creditworthiness based on factors relevant to eac
 Various factors contribute to your credit score, and understanding them will help you take actions to improve and maintain a good score. Credit scores are calculated using various factors and weighted differently depending on the scoring model. The factors commonly considered in credit score calculations include:
 
 ![image_info](./images/pic1.png)
-
 
 ### Payment History
 
@@ -365,7 +360,6 @@ Regularly monitoring your credit can help you detect signs of identity theft or 
 
 ```
 Set Reminders for Credit Check-ups Make it a habit to check your credit score regularly. Set up reminders to review your credit reports at least once a year or before applying for significant financial transactions, such as loans or credit cards.
-
 ```
 
 ### Check for Errors and Discrepancies
@@ -430,7 +424,6 @@ Hard inquiries are associated with credit applications and may impact your credi
 
 ```
 Multiple hard inquiries within a short period, especially if you apply for various types of credit, may raise concerns for lenders and could further lower your credit score.
-
 ```
 
 ```
@@ -476,7 +469,6 @@ Your rental payment history is typically not reported to credit bureaus unless y
 
 ```
 Different financial institutions and credit issuers may have varying requirements and programs to cater to individuals without an SSN or credit history. By exploring these alternatives and responsibly managing your finances, you can gradually build a positive credit history in the U.S.
-
 ```
 
 ## FAQ
@@ -705,9 +697,7 @@ Collected by the national government, these taxes primarily fund national defens
 Each of the 50 states in the U.S. may impose its own set of taxes. These can include income taxes, sales taxes, and more. The revenue from state taxes is used to fund state-level services such as public education, health care, transportation, and state police forces.
 
 ```
-
 Not all states levy all types of taxes. For example, some states might not have a personal income tax but might have higher sales or property taxes.
-
 ```
 
 ### Local Taxes
