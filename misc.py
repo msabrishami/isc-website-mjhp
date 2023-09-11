@@ -5,6 +5,18 @@
 import re
 import pdb
 
+
+all_icons = {
+        "financial": [],
+        "arrival": [],
+        }
+
+all_icons["financial"] = ["mdi-bank", "mdi-account-cash", "mdi-cash-fast", 
+        "mdi-credit-card", "mdi-checkbook"]
+
+all_icons["arrival"] = ["mdi-notebook", "mdi-shield-home", "mdi-shield-sun",
+        "mdi-plane-car", "mdi-list-box"]
+
 def gen_paragraph(par, style):
     if style in ["h1", "h2"]:
         res = f'''

@@ -4,7 +4,8 @@ import sys
 
 
 import config
-from misc import gen_paragraph, md2html_pars, md2html_notes  
+from misc import gen_paragraph, md2html_pars, md2html_notes
+from misc import all_icons
 
 # html_head (title, title)
 # html_tab_head
@@ -41,6 +42,14 @@ for idx, line in enumerate(lines):
 html = config.html_tab_content_head
 
 in_comment = False
+
+
+### setting icons:
+tag_icons = sys.argv[1].split("/")[-1].replace(".md", "")
+if tag_icons not in all_icons.keys(): 
+    icons = all_icons["financial"] 
+else:
+    icons = all_icons[tag_icons]
 
 while (ptr_f < len(lines)-1):
     ptr_f = ptr_s + 1
