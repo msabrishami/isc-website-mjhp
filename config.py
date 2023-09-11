@@ -12,8 +12,8 @@ html_head = '''
     <title>{}</title>
 
     <!-- Favicons -->
-    <!-- <link href="assets/img/favicon.png" rel="icon" />
-    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" /> -->
+    <link href="assets/img/logos/fav-icon/favicon-32x32.png" rel="icon" />
+    <link href="assets/img/logos/fav-icon/apple-touch-icon.png" rel="apple-touch-icon" />
     
     <!--  scripts -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
@@ -373,7 +373,7 @@ html_footer ='''
 <footer>
     <div class="container">
         <div class="row">
-            <div class="col-lg-6 col-md-5 d-flex align-items-center">
+            <div class="col-lg-6 col-md-5 d-flex align-items-center justify-content-center justify-content-md-start">
                 <div>
                     <p class="h6 mb-3 mx-auto mb-md-2">Iranian Students of California</p>
                     <p class="sponsor small fw-light">
