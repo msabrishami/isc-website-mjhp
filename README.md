@@ -67,6 +67,4 @@ Now, your image must be showed up in the text.
 
 Wherever you want to insert a link, use this code:
 
-`[link](http://www.nerdwallet.com)`
-
-In the parenthesis enter the correct URL link and in the bracket, write the text you want to be showed up in the text.
+`<a href="http://www.YourURL.com">Text to be shown</a>`

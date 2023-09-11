@@ -649,7 +649,7 @@ When choosing a credit card, start by evaluating your needs and spending habitsâ
 
 You can find which credit card suits you best by matching your needs and situation to these features, for instance if you'll pay off the balance each month, the APR may be less important than the rewards. If you'll carry a balance, you'll want a card with a low APR.
 
-There are several reputable resources where you can compare credit cards to find the one that best suits your needs. To name a few, NerdWallet ([www.nerdwallet.com](http://www.nerdwallet.com)) and Credit Karma ([www.creditkarma.com](http://www.creditkarma.com)) are two popular credit card comparison websites.
+There are several reputable resources where you can compare credit cards to find the one that best suits your needs. To name a few,  <a href="http://www.nerdwallet.com">NerdWallet</a> and <a href="http://www.creditkarma.com">Credit Karma</a> are two popular credit card comparison websites.
 
 ## First Credit Card or Starting With No Credit
 

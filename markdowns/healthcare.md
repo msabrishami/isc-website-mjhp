@@ -151,7 +151,7 @@ Many universities and educational institutions offer health insurance plans spec
 
 ### Dependent Insurance Coverage
 
-The university does not provide insurance coverage for dependents, so you will need to purchase it yourself. You can explore minimum coverage plans on the Covered California website at [https://www.coveredca.com](https://www.coveredca.com). One option to consider is Anthem Blue Cross, which offers insurance plans in California.
+The university does not provide insurance coverage for dependents, so you will need to purchase it yourself. You can explore minimum coverage plans on the Covered California website at <a href="https://www.coveredca.com">https://www.coveredca.com</a>. One option to consider is Anthem Blue Cross, which offers insurance plans in California.
 
 The cost of minimum coverage varies and is influenced by factors such as age, gender, and personal circumstances. In 2021, the approximate cost was around $180, but it's important to obtain a specific quote based on your individual situation.
 

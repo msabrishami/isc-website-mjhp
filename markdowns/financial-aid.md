@@ -313,7 +313,7 @@ It can take a few days for your FSA ID to become active, so I recommend doing th
 
 ### Start the FAFSA Application
 
-To get started filling out the FAFSA, head over to the [FAFSA website](https://studentaid.gov/h/apply-for-aid/fafsa) to get started. On the login page, click “I am the student” and then you will be asked to enter your FSA ID username and password. The following describes the pages you’ll see as you go through the FAFSA and how to complete them.
+To get started filling out the FAFSA, head over to the <a href="https://studentaid.gov/h/apply-for-aid/fafsa">FAFSA website</a> to get started. On the login page, click “I am the student” and then you will be asked to enter your FSA ID username and password. The following describes the pages you’ll see as you go through the FAFSA and how to complete them.
 
 ### Choose the Correct Year
 

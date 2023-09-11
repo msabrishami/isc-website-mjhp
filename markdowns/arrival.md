@@ -104,7 +104,7 @@ A Port of Entry, often referred to as a POE, is any designated place where a per
 
 Whether you're arriving by plane, ship, or car, it's at a POE where U.S. Customs and Border Protection (CBP) officers will inspect travelers and their belongings, ensuring compliance with immigration, customs, and agriculture regulations.
 
-The complete list of the POEs can be found on [CBP’s website](https://www.cbp.gov/about/contact/ports). There are more than 20 POEs in California. Some of the famous ones are:
+The complete list of the POEs can be found on <a href="https://www.cbp.gov/about/contact/ports">CBP’s website</a>. There are more than 20 POEs in California. Some of the famous ones are:
 
 * Los Angeles International Airport-Cargo Operations (LAX), California - 2720
 * San Diego (SAN International Airport), California - 2501
@@ -126,7 +126,7 @@ Form I-94, also known as the “Arrival/Departure Record,” is an important doc
 
 **Importance:** The I-94 is a crucial document that proves the legal status of a non-U.S. citizen in the U.S. It's important to keep this document safe, and to be aware of the departure date listed.
 
-**Electronic Record:** As of 2013, the I-94 is generally issued electronically upon arrival by air or sea. Travelers can access and print their electronic I-94 record from the [CBP website](https://i94.cbp.dhs.gov/).
+**Electronic Record:** As of 2013, the I-94 is generally issued electronically upon arrival by air or sea. Travelers can access and print their electronic I-94 record from the <a href="https://i94.cbp.dhs.gov/">CBP website</a>.
 
 **Paper Form:** If entering by land, or in some special circumstances, a paper I-94 card may be issued, which is usually stapled into the passport.
 
@@ -190,7 +190,7 @@ At some international airports, the US operates United States border preclearanc
 
 ## CBP’s Regulations
 
-Customs regulations are dynamic and frequently updated, so it's crucial to stay informed about the most recent changes to ensure smooth travel experiences. The list of prohibited items can be found on [CBP’s website](https://www.cbp.gov/travel/us-citizens/know-before-you-go/prohibited-and-restricted-items). Here are the main categories of prohibited items that are most relevant to international students:
+Customs regulations are dynamic and frequently updated, so it's crucial to stay informed about the most recent changes to ensure smooth travel experiences. The list of prohibited items can be found on <a href="https://www.cbp.gov/travel/us-citizens/know-before-you-go/prohibited-and-restricted-items">CBP’s website</a>. Here are the main categories of prohibited items that are most relevant to international students:
 
 ### Food and Agricultural Products
 
