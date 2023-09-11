@@ -132,8 +132,9 @@ main.container {
     font-style: normal;
     font-weight: 600;
     line-height: normal;
-    text-transform: capitalize;
+    // text-transform: capitalize;
     margin-bottom: 0;
+    text-align: center;
   }
   .back-to-IP {
     position: absolute;
@@ -187,7 +188,7 @@ main.container {
       font-style: normal;
       line-height: normal;
       font-weight: 300;
-      text-transform: capitalize;
+      // text-transform: capitalize;
       width: auto;
       height: 32px;
       padding: 0 8px;
@@ -290,6 +291,8 @@ main.container {
     grid-column-gap: 16px;
     grid-row-gap: 16px;
     margin-bottom: 2rem;
+    grid-template-columns: repeat(2, 1fr);
+    // grid-template-rows: repeat(3, 1fr);
 
     .outline-container {
       display: flex;
@@ -724,24 +727,6 @@ footer {
     padding-top: 3rem;
     scroll-margin-top: 50px;
   }
-  .main-title {
-    h1 {
-      font-size: 48px;
-    }
-    .back-to-IP {
-      top: unset;
-    }
-    .logo {
-      position: absolute;
-      right: 0;
-      top: unset;
-
-      img {
-        height: 65px;
-        width: 65px;
-      }
-    }
-  }
   .tab-content {
     #pills-bank {
       .tab-outlines {
@@ -800,7 +785,7 @@ footer {
       }
     }
     &.fix-style {
-      padding: 8px 0;
+      // padding: 8px 0;
       .nav {
         .nav-link {
           font-size: 16px;
@@ -812,6 +797,17 @@ footer {
     }
     .container {
       justify-content: center;
+    }
+  }
+  .main-title {
+
+    .back-to-IP {
+      top: unset;
+    }
+    .logo {
+      position: absolute;
+      right: 0;
+      top: unset;
     }
   }
   .tab-content {
