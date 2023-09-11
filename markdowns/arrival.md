@@ -4,8 +4,7 @@
 This chapter helps those who had obtained their visa and are planning to travel to the U.S. navigate the details of starting their journey.
 
 ```
-A message from your friends at Iranian Students of California: 
-We understand that the process of obtaining a visa and entrance to a the U.S. can be a confusing and frustrating process, specially for the students with Iranian citizenship pursuing their dreams. We are here for you. Providing a structured and reliable source of information is the least we can do. 
+**A message from your friends at Iranian Students of California:** We understand that the process of obtaining a visa and entrance to a the U.S. can be a confusing and frustrating process, specially for the students with Iranian citizenship pursuing their dreams. We are here for you. Providing a structured and reliable source of information is the least we can do. 
 ```
 
 In this section, we introduce different steps starting your departure to the U.S., and describe necessary information, including a basic introduction of the government agencies that you will face in this process.
@@ -25,8 +24,7 @@ Moreover, the U.S. has restricted customs regulations to control the flow of goo
 Finally, there are different official forms that are either required to be filled by you upon your arrival, or are provided to you after your arrival. You can find more information about each of these important documents in this section.
 
 ```
-Know Your Rights
-It is essential to know your rights if approached by immigration officials, whether at the border, an airport, or within the U.S. You have the right to be treated fairly, and in specific situations, you might have the right to legal representation or to decline answering certain questions without a lawyer present. We strongly suggest our international NewComers to read the corresponding section on our information portal. 
+**Know Your Rights:** It is essential to know your rights if approached by immigration officials, whether at the border, an airport, or within the U.S. You have the right to be treated fairly, and in specific situations, you might have the right to legal representation or to decline answering certain questions without a lawyer present. We strongly suggest our international NewComers to read the corresponding section on our information portal. 
 ```
 
 ## Department of Homeland Security (DHS)
@@ -162,9 +160,7 @@ Many travelers, especially international students, may wonder why there are so m
 All items you bring should be declared to the U.S. Customs and Border Protection (CBP) upon arrival. Each individual arriving into the United States must complete the Customs and Border Protection (CBP) Declaration Form 6059B. This form can now be filled out prior to or during your travel.
 
 ```
-
 It is always better to declare something if you're unsure. Failure to declare can result in penalties.
-
 ```
 
 ### Declaration Form 6059B

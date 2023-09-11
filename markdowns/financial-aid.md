@@ -334,7 +334,7 @@ The next section covers your education and your education plans. It asks what yo
 If you’re a high school student or continuing college student, you will not have completed a bachelor’s degree (four year degree) by the next school year so answer no to this question.
 
 ```
-Important Note: If you are a high school senior starting college next year, you will select "first year, never attended college" EVEN IF you did running start or another program where you earned college credit as a high school student.
+**Important Note:** If you are a high school senior starting college next year, you will select "first year, never attended college" EVEN IF you did running start or another program where you earned college credit as a high school student.
 ```
 
 Say “yes” to being considered for work study because you want to have all possible options available to you! You do NOT have to take a work study job if you say yes to this question.
@@ -390,7 +390,7 @@ This part of filling out the FAFSA starts with the name, city and state of your 
 Next, you’ll select the colleges you’d like to have your FAFSA sent to. You do not need to know their code, you can just enter the information in the boxes and it will bring up options for you to select (similar to what you did for your high school).
 
 ```
-Important Note: Send the FAFSA to every college you are considering applying to, including two year colleges and trade or technical schools. You can enter up to 10 schools. If you are applying to more than 10, after your FAFSA is processed and sent to colleges you can go back in and change some of them to get them all. DO NOT WAIT until you have applied or been accepted! 
+**Important Note:** Send the FAFSA to every college you are considering applying to, including two year colleges and trade or technical schools. You can enter up to 10 schools. If you are applying to more than 10, after your FAFSA is processed and sent to colleges you can go back in and change some of them to get them all. DO NOT WAIT until you have applied or been accepted! 
 ```
 
 For housing plans, I always recommend choosing that you plan to live on campus. This is because it makes you eligible for the most aid and it’s good to keep your options open! It’s much easier to later decide to live at home than it is to later decide to live on campus. If you are 100% sure that you are going to be living at home (and you can commute to all the colleges you are applying to) then it’s fine to say “with parents” or “off campus”. If there is any chance you might live on campus make sure to select that.
@@ -408,7 +408,7 @@ Only include information here for accounts that are in your name. Similar to par
 In the child support box, remember that this is for you the student. If your parent receives child support for you, they will enter that in the parent information. You would only enter it here if you, the student, are receiving child support for your own child that you are supporting.
 
 ```
-Household Information: Provide information about the size of your household and the number of family members attending college.
+**Household Information:** Provide information about the size of your household and the number of family members attending college.
 ```
 
 ### Sign and Submit
@@ -420,7 +420,7 @@ Now you’re ready to sign! You will sign along with one parent.
 You will electronically sign and then your parents will. If your parent is unable to get a PIN to sign, you can also print a signature page and mail it in. This takes longer to process, but works just fine. Parents who are undocumented or green card holders will have to print and mail the signature page. Make sure not to miss this step!
 
 ```
-Reminder: The deadline for FAFSA application is March 2nd (California). 
+**Reminder:** The deadline for FAFSA application is March 2nd (California). 
 ```
 
 ### Post Submission Steps
