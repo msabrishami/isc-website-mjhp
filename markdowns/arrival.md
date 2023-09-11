@@ -43,7 +43,7 @@ The creation and responsibilities of the Department of Homeland Security (DHS) p
 * **Disaster Relief and Preparedness**
 * **Counterterrorism**
 
-```text
+```
 While the Department of State has the authority to issue visas, the responsibility for admitting individuals into the United States falls under the DHS. Specifically, within DHS, CBP is the agency tasked with inspecting and admitting or denying entry to individuals at the border and ports of entry.
 
 ```
