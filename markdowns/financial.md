@@ -88,8 +88,8 @@ You can check the promotions for opening an account on the internet (They may ha
 For opening an account, you can set an appointment through the bank’s website. Some banks might not accept walk-in customers. To open a bank account in the U.S., you'll typically need the following:
 
 * **Identification:** A passport will usually suffice for international students. Please refer to Identification section.
-* **Proof of Address:** This can be a lease agreement or utility bill. &lt;REF-PROOF-ADDRESS>
-* **Initial Deposit:** Some banks require you to deposit a minimum amount to open an account. &lt;REF-DIRECT-DEPOSIT>
+* **Proof of Address:** This can be a lease agreement or utility bill.
+* **Initial Deposit:** Some banks require you to deposit a minimum amount to open an account.
 * Social Security Number (SSN) or Individual Taxpayer Identification Number (ITIN): Some banks may require this, but not all. As an international student, you can open a bank account without an SSN.  
 
 ## Direct Deposit
@@ -308,8 +308,7 @@ While both FICO Score and VantageScore serve the same purpose of assessing credi
 ```
 
 ```
-**Loan Specific Scoring Models:**
-Some specialized models assess creditworthiness based on factors relevant to each specific type of loan. For example, Experian's FICO Auto Score, which is used for car loans, and FICO Mortgage Score, which is used for mortgage loans.
+**Loan Specific Scoring Models:** Some specialized models assess creditworthiness based on factors relevant to each specific type of loan. For example, Experian's FICO Auto Score, which is used for car loans, and FICO Mortgage Score, which is used for mortgage loans.
 
 ```
 
@@ -474,7 +473,7 @@ Different financial institutions and credit issuers may have varying requirement
 ## FAQ
 
 * **International Student Credit Cards:** Some banks offer credit cards specifically designed for international students, making it easier to obtain without a credit history.
-* **What should I do if I don’t have an SSN?**
+<!-- * **What should I do if I don’t have an SSN?** -->
 
 # Credit Cards
 
@@ -598,7 +597,7 @@ You earn rewards based on your spending with the card. Different cards have diff
 The process for redeeming rewards varies by card. You might be able to apply cash back directly to your credit card balance, deposit it into a bank account, or use it to purchase gift cards. Points or miles can typically be redeemed through the credit card company's rewards portal.
 
 ```
-Understanding Terms and Conditions It's very important to understand the terms and conditions of your credit card rewards program. Some rewards cards have annual fees, and the rewards you earn might not justify the cost if you don't use the card regularly. Additionally, some cards require you to redeem your rewards within a certain timeframe or they may expire.
+**Understanding Terms and Conditions:** It is very important to understand the terms and conditions of your credit card rewards program. Some rewards cards have annual fees, and the rewards you earn might not justify the cost if you don't use the card regularly. Additionally, some cards require you to redeem your rewards within a certain timeframe or they may expire.
 ```
 
 ## Types of Credit Cards
