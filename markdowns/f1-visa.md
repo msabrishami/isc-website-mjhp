@@ -1,6 +1,6 @@
 # F-1 Visa Status
 
-The F-1 visa is a type of non-immigrant visa which is issued for international students that are studying in the United States. The F-1 visa enables students to enter the U.S. for the purpose of full-time study at accredited colleges, universities, seminaries, conservatories, high schools, and language training programs.
+The F-1 visa is a type of non-immigrant visa which is issued for international students who are studying in the United States. The F-1 visa enables students to enter the U.S. for the purpose of full-time study at accredited colleges, universities, seminaries, conservatories, high schools, and language training programs.
 
 F-1 visa provides a lot of flexibility for the students including the ability to work on campus, and, under certain conditions, engage in optional practical training (OPT) or curricular practical training (CPT). However, maintaining F-1 status also comes with responsibilities. Students must remain enrolled **Full Time** and maintain satisfactory academic progress.
 
@@ -14,11 +14,12 @@ Navigating the complexities of an F-1 visa can be overwhelming for international
 
 ### Full Time Status
 
-Universities and colleges have different requirements for what it means for a student to be considered **Full Time**. But generally, this means taking a number of courses during Fall and Spring semesters. For example, if you are enrolled in UC Berkeley, this typically means taking 12 units during the semester [[1](https://summeraid.berkeley.edu/how-aid-works/eligibility/#:~:text=Maintain%20satisfactory%20academic%20progress.,is%20considered%20full%2Dtime%20enrollment.)], or 6 course units for <a href="https://ois.usc.edu/students/maintainingstudentstatus/">USC</a> [[2] (please make sure to check your school’s requirement for the specific number of courses/units required). However, summer semester is excluded from this requirement and the students are not required to register for any courses then.
+Universities and colleges have different requirements for what it means for a student to be considered **Full Time**. But generally, this means taking a number of courses during the Fall and Spring semesters. For example, if you are enrolled in 
+<a href="https://summeraid.berkeley.edu/how-aid-works/eligibility/#:~:text=Maintain%20satisfactory%20academic%20progress.,is%20considered%20full%2Dtime%20enrollment">UC Berkeley</a>, this typically means taking 12 units during the semester, or 6-course units for <a href="https://ois.usc.edu/students/maintainingstudentstatus/">USC</a>. Please make sure to check your school’s requirements for the specific number of courses/units required. However, the summer semester is excluded from this requirement and the students are not required to register for any courses then.
 
-There are some exceptions to the above rule in some colleges. For example, if a PhD student passes the qualifying exam, then they may be able to take fewer courses to be considered a full time student. For the exact details, we recommend that you refer to your university’s international office website.
+There are some exceptions to the above rule in some colleges. For example, if a PhD student passes the qualifying exam, then they may be able to take fewer courses to be considered a full-time student. For the exact details, we recommend that you refer to your university’s international office website.
 
-International office of your university may also allow certain exceptions beyond the above. So in case you ran into issues and could not enroll in enough units, you may want to contact the international office and see if they could provide you with approval for enrolling in less units.
+The international office of your university may also allow certain exceptions beyond the above. So in case you ran into issues and could not enroll in enough units, you may want to contact the international office and see if they could provide you with approval for enrolling in fewer units.
 
 ### Reduced Course Load (RCL)
 
@@ -38,7 +39,7 @@ There are some limitations associated with an RCL:
 
 Failure to obtain the proper authorization for an RCL or failing to resume a full course load after the RCL period has ended can result in the student falling out of status, which can have serious consequences for their F-1 status.
 
-Please note that regulations and policies can change over time, so it is important for students to check with their DSO and keep up-to-date with any changes. For more details we recommend reaching out to your school’s international office and also study <a href="https://studyinthestates.dhs.gov/sevis-help-hub/student-records/manage-program-dates-registration-and-course-load/reduced-course">DHS guidelines</a>.
+Please note that regulations and policies can change over time, so it is important for students to check with their DSO and keep up-to-date with any changes. For more details, we recommend reaching out to your school’s international office and also studying <a href="https://studyinthestates.dhs.gov/sevis-help-hub/student-records/manage-program-dates-registration-and-course-load/reduced-course">DHS guidelines</a>.
 
 ### Valid Passport
 
@@ -58,7 +59,7 @@ As an international student with F-1 visa status, you need to strictly follow th
 
 ### On-campus Employment
 
-This type of employment typically does not require approval from the international office, but needs to be less than or equal to 20 hours per week. You are not allowed to work for more hours on campus, unless you have approval from the international office. The only exception to this is the summer session, during which you can be employed for more hours on campus.
+This type of employment typically does not require approval from the international office but needs to be less than or equal to 20 hours per week. You are not allowed to work for more hours on campus, unless you have approval from the international office. The only exception to this is the summer session, during which you can be employed for more hours on campus.
 
 ### Off Campus Employment
 
