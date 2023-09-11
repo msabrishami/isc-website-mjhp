@@ -31,11 +31,11 @@ def gen_paragraph(par, style):
     return res
 
 def gen_table(table):
+
     # print(table)
-    header = table.split("tr")[1][1:-2]
+    header = table.split("</tr>")[0].split("<tr>")[1]
     header = [x.replace("<td>", "") for x in header[:-5].split("</td>")]
 
-    
     html = '''
 <!-- ======= Table ======= -->
 <div class="table-responsive">
