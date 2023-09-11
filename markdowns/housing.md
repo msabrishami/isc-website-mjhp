@@ -128,7 +128,7 @@ It is crucial for applicants to be truthful and accurate while filling out housi
 
 ### Co-Signer / Co-Sponsor
 
-Landlords often require co-signers when tenants have limited credit history, unstable income, or other risk factors. A co-signer for a lease agreement is an individual who agrees to take on financial responsibility for the lease alongside the primary tenant. Typically, a co-signer is someone with a stronger credit history or financial stability than the primary tenant, and their presence provides an added layer of security for the landlord in case the tenant is unable to meet their lease obligations, such as paying rent on time. Co-signers are legally bound to fulfill the terms of the lease, including any rent payments or damages that may arise during the lease period. It's important for co-signers to fully understand their obligations and potential liabilities before agreeing to co-sign a lease agreement. If you're unable to secure a co-signer for your lease, there are a few alternatives you can consider:
+Landlords often require co-signers when tenants have limited credit history, unstable income, or other risk factors. A co-signer for a lease agreement is an individual who agrees to take on financial responsibility for the lease alongside the primary tenant. Typically, a co-signer is someone with a stronger credit history or financial stability than the primary tenant, and their presence provides an added layer of security for the landlord in case the tenant is unable to meet their lease obligations, such as paying rent on time. Co-signers are legally bound to fulfill the terms of the lease, including any rent payments or damages that may arise during the lease period. It is important for co-signers to fully understand their obligations and potential liabilities before agreeing to co-sign a lease agreement. If you're unable to secure a co-signer for your lease, there are a few alternatives you can consider:
 
 * **Offer a Larger Security Deposit:** Some landlords might be open to the idea of accepting a larger security deposit in lieu of a co-signer. This provides them with an extra layer of financial security in case you're unable to meet your lease obligations.
 * **Show Proof of Income:** If you have a steady and sufficient income, you can provide documentation to demonstrate your ability to pay rent on time. This might include pay stubs, employment verification, or tax returns.
@@ -174,7 +174,7 @@ Different landlords have different regulations for collecting rent. Some of them
 
 ## Housing Scams
 
-It's unfortunate but important to be aware of the scams that can occur when searching for housing, especially as an international student or newcomer. Here are some common scams and ways to avoid them:
+It is unfortunate but important to be aware of the scams that can occur when searching for housing, especially as an international student or newcomer. Here are some common scams and ways to avoid them:
 
 ### Advance Fee Fraud
 
@@ -198,7 +198,7 @@ The scammer overpays with a check or money order and asks you to wire the differ
 
 The scammer uses the leasing process to get your personal information for identity theft.
 
-**Prevention:** Be careful about the information you provide. Only give your Social Security number and other sensitive personal data when you're sure it's a legitimate lease application.
+**Prevention:** Be careful about the information you provide. Only give your Social Security number and other sensitive personal data when you're sure it is a legitimate lease application.
 
 ### Sublet Scams
 
@@ -213,14 +213,14 @@ Here are some general tips to protect yourself:
 * Always view the property in person before making any payments.
 * Be wary if the deal sounds too good to be true. If the rent is significantly below market rate, it could be a scam.
 * Do your homework: Look up the property and the owner's information online to verify its authenticity.
-* Trust your gut. If something feels off about a listing, the landlord, or the lease, it's safer to walk away.
+* Trust your gut. If something feels off about a listing, the landlord, or the lease, it is safer to walk away.
 * If possible, work with a reputable rental or real estate company.
 * Consult with local students, university housing offices, or other reliable sources about standard practices for renting in the area.
 * Consider getting legal advice before signing a lease if you're unsure about it. You can also ask other students who have an experience in case you have any questions.
 
 ## Tenants' Rights
 
-It's essential to understand your rights as a tenant to ensure you have a positive and secure living experience. When you rent a home in California, you have an "implied covenant of quiet enjoyment" which includes:
+It is essential to understand your rights as a tenant to ensure you have a positive and secure living experience. When you rent a home in California, you have an "implied covenant of quiet enjoyment" which includes:
 
 * **Peaceful Enjoyment:** Tenants have the right to live in their rental unit without excessive noise or disturbances that significantly interfere with their ability to peacefully occupy the premises.
 * **Non-Interference:** Landlords must refrain from actions that disrupt or disturb the tenant's quiet enjoyment of the property. This includes entering the premises without proper notice, shutting off essential utilities, or engaging in other behaviors that interfere with the tenant's rights.
@@ -241,9 +241,9 @@ While on-campus housing often includes utilities in the rent, students living of
 
 ## Utilities and Lease Contract
 
-Landlords may include some utilities in the monthly rent, while others come as an additional monthly fee. Some utilities might not be provided by the complex and you need to buy them from companies (Internet and electricity is the most common ones). It's crucial for tenants to clarify with their landlords which utilities are included in the rent and which are not. Some rental agreements may include all utilities in the monthly rent payment, while others may require the tenant to set up and pay for some or all of these services separately.
+Landlords may include some utilities in the monthly rent, while others come as an additional monthly fee. Some utilities might not be provided by the complex and you need to buy them from companies (Internet and electricity is the most common ones). It is crucial for tenants to clarify with their landlords which utilities are included in the rent and which are not. Some rental agreements may include all utilities in the monthly rent payment, while others may require the tenant to set up and pay for some or all of these services separately.
 
-The cost of utilities can significantly impact the total living expenses, so it's important to factor them into your budget when considering a rental property. For the ones that you need to get separately, check the companies that provide these services and compare their rates. Ask about other student’s experiences or advice.  
+The cost of utilities can significantly impact the total living expenses, so it is important to factor them into your budget when considering a rental property. For the ones that you need to get separately, check the companies that provide these services and compare their rates. Ask about other student’s experiences or advice.  
 
 ## Special Offers
 
@@ -273,7 +273,7 @@ Natural gas is a common energy source for cooking and heating in many California
 
 ## Trash and Recycling
 
-Waste management services are typically provided by the municipality or by private companies. It's essential to be aware of the local recycling regulations, as California is keen on promoting recycling and reducing landfill waste. Some areas might also offer composting services.
+Waste management services are typically provided by the municipality or by private companies. It is essential to be aware of the local recycling regulations, as California is keen on promoting recycling and reducing landfill waste. Some areas might also offer composting services.
 
 ## Internet and Cable TV
 

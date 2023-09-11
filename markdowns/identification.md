@@ -120,7 +120,6 @@ The DMV investigates consumer complaints related to various aspects of the motor
 
 This section is dedicated to the identification process and requirements for international students, specifically students on F-1 visa, for different purposes.
 
-
 ### Legal Status
 
 There are several situations where international students might need to prove their legal status in the U.S. Here are some common scenarios:
@@ -294,7 +293,7 @@ For those on a single entrance visa, the I-94 remains crucial. If one departs th
 
 The I-94 form, traditionally a paper document given to international travelers upon their arrival in the U.S., underwent a significant change in April 2013. U.S. Customs and Border Protection (CBP) began automating the I-94 in an effort to streamline the entry process. Today, the I-94 form is primarily electronic for air and sea travelers.
 
-You can receive a free and online copy of your I-94 by visiting the official [CBP I-94 website](https://i94.cbp.dhs.gov/I94/#/home).
+You can receive a free and online copy of your I-94 by visiting the <a href="https://i94.cbp.dhs.gov/I94/#/home">official CBP I-94 website</a>.
 
 ## Student Visa Stamp
 
@@ -332,7 +331,7 @@ However, for many situations, especially those involving legal status or authori
 
 A passport, whether U.S. or foreign, is also a valid form of identification to a level. For international students, a passport is usually the primary form of identification. However, a foreign passport is not a document validating one’s legal stay in the United States.
 
-While Iran does not have an embassy in the United States due to diplomatic relations being severed since 1980, Iranian nationals can still access essential consular services, including passport renewals. This is facilitated through the "[Interests Section of the Islamic Republic of Iran](https://daftar.org/)," located within the Embassy of Pakistan in Washington, D.C. This office handles matters related to Iranian passports and offers other consular services for Iranian citizens in the U.S.
+While Iran does not have an embassy in the United States due to diplomatic relations being severed since 1980, Iranian nationals can still access essential consular services, including passport renewals. This is facilitated through the "<a href="https://daftar.org/">Interests Section of the Islamic Republic of Iran</a>," located within the Embassy of Pakistan in Washington, D.C. This office handles matters related to Iranian passports and offers other consular services for Iranian citizens in the U.S.
 
 ## Permanent Resident Card (Green Card)
 
@@ -370,16 +369,13 @@ Once you establish residency in California (such as when you start school, rent 
 
 ```
 
-
-
-
 ## California ID Card
 
 For those who do not drive, California offers a State Identification Card through the Department of Motor Vehicles (DMV). It serves a similar function to a driver's license, minus the driving privileges.
 
 ### Application Process
 
-It is important to check the latest requirements and appointment schedule system through [DMV’s website](https://www.dmv.ca.gov/).
+It is important to check the latest requirements and appointment schedule system through <a href="https://www.dmv.ca.gov/">DMV’s website</a>.
 
 * Complete a Driver’s License (DL) or ID Card Application.
 * Visit a DMV Office: Schedule an appointment online for faster service.
@@ -390,7 +386,7 @@ It is important to check the latest requirements and appointment schedule system
 * Have your thumbprint scanned.
 * Have your photo taken.
 
-You will receive your new ID card via mail within three to four weeks. If you have not received your new ID card after 60 days, visit [Driver’s License & ID Card Status](https://www.dmv.ca.gov/portal/driver-licenses-identification-cards/drivers-license-id-card-status/).
+You will receive your new ID card via mail within three to four weeks. If you have not received your new ID card after 60 days, visit <a href="https://www.dmv.ca.gov/portal/driver-licenses-identification-cards/drivers-license-id-card-status/">Driver’s License & ID Card Status</a>.
 
 ## Real ID
 
@@ -499,7 +495,7 @@ An SSN marked "Not Valid for Employment" is issued for specific non-work purpose
 
 ### Privacy Concerns
 
-It's important to keep your SSN confidential. It should not be given out unless absolutely necessary, as it can be used in identity theft. More information can be found on the [Social Security Administration website](https://www.ssa.gov/scam/). Some examples are:
+It's important to keep your SSN confidential. It should not be given out unless absolutely necessary, as it can be used in identity theft. More information can be found on the <a href="https://www.ssa.gov/scam/">Social Security Administration website</a>. Some examples are:
 
 * Scammers pretend to be from an agency or organization you know to gain your trust.
 * Scammers say there is a problem or a prize.
@@ -554,7 +550,7 @@ ITINs are not intended for work authorization. They are solely for tax reporting
 
 ### Application Process
 
-To obtain an ITIN, individuals must complete Form W-7, Application for IRS Individual Taxpayer Identification Number, and submit it to the IRS. Along with the form, applicants must provide supporting documentation that verifies their identity and tax status. Schools usually assist students with their application. More information on applying for the ITIN can be found on the [IRS’s website](https://www.irs.gov/individuals/how-do-i-apply-for-an-itin).
+To obtain an ITIN, individuals must complete Form W-7, Application for IRS Individual Taxpayer Identification Number, and submit it to the IRS. Along with the form, applicants must provide supporting documentation that verifies their identity and tax status. Schools usually assist students with their application. More information on applying for the ITIN can be found on the <a href="https://www.irs.gov/individuals/how-do-i-apply-for-an-itin">IRS’s website</a>.
 
 ### Credit Report/Card with ITIN
 

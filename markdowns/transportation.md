@@ -156,7 +156,7 @@ Here are the steps you need to follow to obtain your Driver’s license:
 
 ### Online application (optional)
 
-* By filling out [this online application](https://www.dmv.ca.gov/portal/driver-licenses-identification-cards/dl-id-online-app-edl-44/), you will save time in the DMV office. You can skip this step now and do it in person in the DMV office.
+* By filling out <a href="https://www.dmv.ca.gov/portal/driver-licenses-identification-cards/dl-id-online-app-edl-44/">this online application</a>, you will save time in the DMV office. You can skip this step now and do it in person in the DMV office.
 
 ```
 
@@ -199,4 +199,3 @@ Taking your driver's license test is a significant step toward becoming a licens
 * **Vehicle Preparation:** Ensure your vehicle is in good working condition. The examiner will inspect essential components, such as brakes, lights, signals, horns, and tires.
 * **What to Expect During the Test:** The test typically lasts about 20 minutes. Basic driving actions are evaluated, including turns, stops, lane changes, and more. Some tests may include driving on freeways. Expect to be treated with respect, fairness, and courtesy by the examiner.
 * **Confidence and Practice:** Practicing regularly with a licensed adult and reviewing driving resources will boost your confidence and help you perform well during the test.
-
