@@ -1,4 +1,4 @@
-# U.S. Healthcare System
+# US Healthcare System
 
 As a new student, it's important to familiarize yourself with the American healthcare system. The American healthcare system is characterized by a combination of public and private healthcare providers and insurance options. Unlike some other countries with government-funded universal healthcare, the U.S. system relies on a mix of employer-sponsored insurance, government programs, and individual market plans to ensure access to medical services. Understanding how health insurance works, finding suitable healthcare providers, and being aware of the costs associated with medical care are crucial aspects of navigating the American healthcare landscape. In this guide, we will provide you with an overview of the key components of the American healthcare system to help you make informed decisions about your health and well-being during your stay in the U.S.
 
