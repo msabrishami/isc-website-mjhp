@@ -102,27 +102,27 @@ It's unfortunate but important to be aware of the scams that can occur when sear
 
 ### Advance Fee Fraud
 
-The scammer asks for a deposit, rent payment, or administrative fee before you've met them or seen the property.  \
+The scammer asks for a deposit, rent payment, or administrative fee before you've met them or seen the property. 
 **Prevention:** Never pay money before you see the property and sign a contract. Use secure payment methods, not wire transfers or direct deposit to an unknown account.
 
 ### Rental Scam
 
-The scammer advertises a property (which may not exist or be already occupied) and tries to collect a deposit or first month's rent. \
+The scammer advertises a property (which may not exist or be already occupied) and tries to collect a deposit or first month's rent.
 **Prevention:** Always visit the property in person before agreeing to rent. Check that the person showing you the property is indeed the owner or property manager.
 
 ### Overpayment Scam
 
-The scammer overpays with a check or money order and asks you to wire the difference back. The original payment is fake and will bounce. \
+The scammer overpays with a check or money order and asks you to wire the difference back. The original payment is fake and will bounce.
 **Prevention:** Never accept overpayments, and avoid dealing with landlords who propose such schemes.
 
 ### Identity Theft
 
-The scammer uses the leasing process to get your personal information for identity theft.  \
+The scammer uses the leasing process to get your personal information for identity theft. 
 **Prevention:** Be careful about the information you provide. Only give your Social Security number and other sensitive personal data when you're sure it's a legitimate lease application.
 
 ### Sublet Scams
 
-A scammer rents a property so they can show it to you, then sublets it to multiple people and disappears with the deposits and first months' rent. \
+A scammer rents a property so they can show it to you, then sublets it to multiple people and disappears with the deposits and first months' rent.
 **Prevention:** Ask to see proof of their right to lease the property to you, such as a copy of their lease agreement with their landlord's contact information.
 
 # Identity Theft
