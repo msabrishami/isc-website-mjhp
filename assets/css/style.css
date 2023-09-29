@@ -626,15 +626,59 @@ footer .sponsor a {
 }
 .feedback .feedback-form {
   position: fixed;
-  width: 300px;
-  height: auto;
-  bottom: 100px;
-  padding: 1rem;
-  background-color: #fff;
-  display: none;
+  width: 100vw;
+  bottom: 0;
+  z-index: 99999;
+  visibility: hidden;
+  margin-left: auto;
+  margin-right: auto;
+  opacity: 0;
+  top: 100px;
+  transition: all 0.4s ease-in-out;
 }
 .feedback .feedback-form.show {
-  display: block;
+  transition: all 0.4s ease-in-out;
+  top: 0;
+  opacity: 1;
+  visibility: visible;
+}
+.feedback .feedback-form .container-fluid {
+  background-color: rgba(53, 142, 193, 0.062);
+  -webkit-backdrop-filter: blur(30px);
+          backdrop-filter: blur(30px);
+  overflow-y: hidden;
+  border-radius: 5px;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  height: 100%;
+  overflow-y: hidden;
+}
+.feedback .feedback-form .container-fluid iframe {
+  width: 100%;
+  height: 100%;
+  padding-bottom: 2rem;
+}
+.feedback #hideFormButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  border: 1px solid #061b1e;
+  border-radius: 5px;
+  padding: 4px;
+  margin-bottom: 8px;
+  transition: all 0.2s ease-in-out;
+}
+.feedback #hideFormButton div {
+  display: flex;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  padding: 0.25rem 0.5rem;
+}
+.feedback #hideFormButton:hover, .feedback #hideFormButton:active, .feedback #hideFormButton:focus {
+  color: rgb(220, 0, 0);
+  border-color: rgb(220, 0, 0);
+  background-color: rgba(255, 255, 255, 0.2);
 }
 
 /*--------------------------------------------------------------
